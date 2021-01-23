@@ -12,6 +12,9 @@ Ich möchte Euch im Rahmen der Vorlesungsreihe Entwicklung mobiler Applikationen
 ## Bewertungskriterien
 Welche Beiträge hat jeder einzelne von Euch erbracht? Welchen Content (welche Karteikarten hat er / sie beigetragen) und welche strukturellen Optimierungen an der mobilen Applikation Fancy Flashcards hat er / sie entwickelt. Die allgemeinen Bewertungskriterien für Arbeiten an den bisherigen mobilien Applikation gelten einfach auch weiterhin (Separation of Concerns, High Cohesion, Loose Coupling...).
 
+**Bewertungsexperiment**
+Sofern es für Euch spannend ist können wir auch den Ansatz einer Community basierten Bewertung ausprobieren. Ich würde Euch einen möglichen Ablauf am Anfang des Semesters vorstellen. Voraussetzung dafür wäre, dass sich jeder von Euch ein Browserwallet einrichtet (z.B. via brave.com browser bereits integriert oder per metamask.io). 
+
 ## Hintergrund
 Ihr könnt die Zeit mit mir dadurch aus meiner Sicht ideal nutzen und ich kann Euch wie gewohnt sowohl bei inhaltlichen als auch bei strukturellen Fragen beiseite stehen.
 
