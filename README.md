@@ -7,7 +7,9 @@ Ich möchte Euch im Rahmen der Vorlesungsreihe Entwicklung mobiler Applikationen
 ## Der Plan
 1. Wir forken und optimieren das Fancy Flashcards Projekt https://github.com/fancy-flashcard/ffc/blob/master/README.md
 2. Wir nutzen einen Teil der Zeit um wertvolle Wirtschaftsinformatiker Fancy Flashcards zu erstellen 
-3. Diejenigen von Euch, die im Rahmen meiner Vorlesungsreihe weiter an ihren bisherigen mobilen Applikationen arbeiten möchten, können das natürlich gerne tun. Ihr könnt dann einfach die von den anderen erstellten Fancy Flashcards für die Klausurvorbereitungen und für die Prüfungsvorbereitungen nutzen.
+3. Diejenigen von Euch, die im Rahmen meiner Vorlesungsreihe weiter an ihren bisherigen mobilen Applikationen arbeiten möchten, können das natürlich gerne tun. Ihr könnt dann einfach die von den anderen erstellten Fancy Flashcards für die Klausurvorbereitungen und für die Prüfungsvorbereitungen nutzen.  
+4. Reinforcement Learning based DeFi Trading Bot --> publish here: https://klopapier.exchange/ --> training reference: https://www.tradingview.com/ technische analyse automatisieren + sentiment analysis. 1.0 wäre auch möglich obwohl wir am Ende des Semesters noch nicht alle von uns Millionäre sind. 
+5. ... 
 
 ## Bewertungskriterien
 Welche Beiträge hat jeder einzelne von Euch erbracht? Welchen Content (welche Karteikarten hat er / sie beigetragen) und welche strukturellen Optimierungen an der mobilen Applikation Fancy Flashcards hat er / sie entwickelt. Die allgemeinen Bewertungskriterien für Arbeiten an den bisherigen mobilien Applikation gelten einfach auch weiterhin (Separation of Concerns, High Cohesion, Loose Coupling...).
