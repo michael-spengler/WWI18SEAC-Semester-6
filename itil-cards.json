@@ -1,0 +1,1542 @@
+{
+    "meta": {
+      "author": "Dennis Neumann",
+      "version": "1.0",
+      "uuid": "4d304914-2cb2-4bb2-aab9-ed99391f35d0"
+    },
+    "decks": {
+      "itil": {
+        "meta": {
+          "deck_name": "Educational ITIL v4 CardDeck",
+          "next_card_id": 2,
+          "description": "This is a deck for educational purposes. It uses components from Prof. Dr. Dorrhauer`s script."
+        },
+        "cards": {
+          "0": {
+            "q": "Wie lautet eine der möglichen Definitionen für Information Management?",
+            "a": "Management von Informationen und der sie verarbeitenden Informationstechnik in Unternehmen."
+          },
+          "1": {
+            "q": "Um welche Aufgaben geht es beim Information Management?",
+            "a": "Es geht um Management-Aufgaben der innerbetrieblichen IT und somit um ein Kerngebiet der Wirtschaftsinformatik."
+          },
+          "2": {
+            "q": "Was versteht man unter IT Governance?",
+            "a": "Darunter versteht man die Festlegung der Entscheidungsrechte und der Rechenschaftspflicht, um wünschenswertes Verhalten bei der Nutzung von IT zu fördern (vgl. Weill, P. & Ross J. W.)."
+          },
+          "3": {
+            "q": "Welche ist die Hauptaufgabe von IT Governance?",
+            "a": "Festlegung der Zuständigkeiten und Verantwortlichkeiten im Information Management. Dazu gehört die grundlegende Entscheidung über zentrale oder dezentrale IT-Organisationen."
+          },
+          "4": {
+            "q": "Wie lautet das Konzept für die problemorientierten Ansätze des Information Management nach Krcmar?",
+            "a": "Problemorientierte Ansätze: Ausgehend von Problemen, mit denen sich der Informationsmanager beschäftigen muss."
+          },
+          "5": {
+            "q": "Wie lautet das Konzept für den aufgabenorientierten Ansatz des Information Management nach Krcmar?",
+            "a": "Aufgabenorientierter Ansatz: Ausgehend von den Aufgaben des Informationsmanagers."
+          },
+          "6": {
+            "q": "Wie lautet das Konzept für den prozessorientierten Ansatz des Information Management nach Krcmar?",
+            "a": "Prozessorientierter Ansatz: Definition funktionierender, anpassbarer Prozesse für eine IT-Organisation. Bsp.: COBIT, ITIL"
+          },
+          "7": {
+            "q": "Wie lautet das Konzept von Architekturmodellen im Information Management nach Krcmar?",
+            "a": "Architekturmodelle: Entwurf von Strukturen für Unternehmen und Informationssystemen. Bsp.: Aris"
+          },
+          "8": {
+            "q": "Was ist COBIT?",
+            "a": "COBIT ist ein international anerkanntes Framework zur IT Governance."
+          },
+          "9": {
+            "q": "Gibt es noch Geschäftsprozesse ohne IT-Unterstützung?",
+            "a": "Nein. Ändert sich die Marktsituation, so muss ein Unternehmen seine Unternehmensstrategie, seine Organisationsstruktur und seine Geschäftsprozesse anpassen, um wettbewerbsfähig zu bleiben. Anschließend sind Änderungen der Anwendungssysteme notwendig (Software, Hardware, Datenbanken, Telekommunikation). Das Unternehmen steht mit seinen Anwendungssystemen in einer wechselseitigen Abhängigkeit."
+          },
+          "10": {
+            "q": "Aus welchen vier Teilbereichen besteht die IT-Organisation eines Unternehmens?",
+            "a": "Informationssystem, Technik, Management, Organisation"
+          },
+          "11": {
+            "q": "Was sind mögliche wirtschaftliche Herausforderungen für Unternehmen?",
+            "a": "Wachsende Ansprüche der Kunden an die Geschäftsprozesse, Betrachtung horizontaler Geschäftsprozesse, IT als kritischer Erfolgsfaktor, die IT-Abteilung muss sich zum internen Dienstleister entwickeln."
+          },
+          "12": {
+            "q": "Was sind mögliche technische Herausforderungen für Unternehmen?",
+            "a": "Immer kürzere Innovationszyklen, neben den Anforderungen ändern sich auch die technischen Möglichkeiten immer schneller, IT-Organisation muss flexibel reagieren können."
+          },
+          "13": {
+            "q": "Wie war die frühere Sichtweise auf IT-Organisationen?",
+            "a": "Technikorientiert, die IT-Abteilung hatte es zur Aufgabe, Hardware und Software einzuführen und zu betreiben."
+          },
+          "14": {
+            "q": "Wie lautet die neue Sichtweise auf IT-Organisationen?",
+            "a": "Kundenorientiert, serviceorientiert und prozessorientiert."
+          },
+          "15": {
+            "q": "Welche Eigenschaften definieren die kundenorientierte Sichtweise auf IT-Organisationen?",
+            "a": "Die IT-Abteilung soll die Geschäftsprozesse ihrer Kunden bestmöglich mit Hilfe von Hardware und Software unterstützen."
+          },
+          "16": {
+            "q": "Welche Eigenschaften definieren die serviceorientierte Sichtweise auf IT-Organisationen?",
+            "a": "Fachabteilungen (wie bspw. Einkauf, Vertrieb, Produktion) nehmen zur Unterstützung ihrer Geschäftsprozesse die Services der internen IT-Abteilung oder die Services externer Dienstleister in Anspruch. Diese werden in sog. SLAs festgehalten."
+          },
+          "17": {
+            "q": "Welche Eigenschaften definieren die prozessorientierte Sichtweise auf IT-Organisationen?",
+            "a": "Die IT-Organisation übernimmt die Konzepte des BPM und wendet sie auf ihre eigenen IT-Prozesse an."
+          },
+          "18": {
+            "q": "Wie werden die IT-Serviceprozesse gestaltet?",
+            "a": "Sie werden im Hinblick auf den Kunden der IT-Organisation, also auf die Fachabteilungen gestaltet."
+          },
+          "19": {
+            "q": "Aus welchen Schichten besteht die prozessorientierte Sicht?",
+            "a": "Incident Mgmt. | Problem Mgmt. | Configuration Mgmt. | Change Mgmt. | Availability Mgmt. | Capacity Mgmt."
+          },
+          "20": {
+            "q": "Warum IT Service Management?",
+            "a": "ITSM sorgt für die möglichst reibungslose Unterstützung der Geschäftsprozesse durch die IT. Es überwacht die Leistungen der IT (Einhaltung der Serviceversprechen) und deren Kosten."
+          },
+          "21": {
+            "q": "Wie lauten die Ziele von ITSM?",
+            "a": "Verbesserte Qualität, erhöhte Produktivität, Ressourcenkontrolle, Vertrauen, höhere Kundenzufriedenheit, etc."
+          },
+          "22": {
+            "q": "Formulieren Sie die Ziele von ITSM in einem Satz!",
+            "a": "Kontrollierte und messbare, gleichzeitig hochwertige IT-Serviceleistungen als Beitrag für die Erfüllung der Unternehmensanforderungen und den Geschäftserfolg."
+          },
+          "23": {
+            "q": "Gibt es mehrere ITSM-Modelle? Wenn ja, welche?",
+            "a": "Ja. das am weitesten verbreitetste ist ITIL, eine Alternative dazu ist COBIT."
+          },
+          "24": {
+            "q": "Wofür steht die Abkürzung ITIL?",
+            "a": "Information Technology Infrastructure Library"
+          },
+          "25": {
+            "q": "Wofür steht die Abkürzung COBIT?",
+            "a": "Control Objectives for Information and Related Technology"
+          },
+          "26": {
+            "q": "Welche Schwerpunkte hat COBIT?",
+            "a": "Kontrolle, Steuerung, Überwachung."
+          },
+          "27": {
+            "q": "Was wird zur Einführung eines ITSM benötigt?",
+            "a": "Software, welche die jeweiligen IT-Prozesse unterstützt. Bsp.: Tool zur Aufnahme und Verfolgung von Störungsmeldungen"
+          },
+          "28": {
+            "q": "Wie viele Kernpublikationen hat ITIL v3 und was enthalten diese hauptsächlich?",
+            "a": "Fünf. Sie enthalten vor allem Beschreibungen von Prozessen und Funktionen. Außerdem beinhalten sie Aufgaben und Implementierungshinweise und beschreiben, welchen Nutzen eine Organisation aus den Prozessen ziehen kann und welche Schwierigkeiten bei der Einführung entstehen könnten."
+          },
+          "29": {
+            "q": "In welchem Jahr wurde ITIL v3 veröffentlicht?",
+            "a": "Im Jahr 2007."
+          },
+          "30": {
+            "q": "Was ist VeriSM?",
+            "a": "VeriSM ist eine organisationsübergreifende Methode für das Managen von Services, die nicht auf einzelne Fachbereiche (in der Organisation) ausgerichtet ist, sondern eine gesamtheitliche Sichtweise einnimmt. VeriSM steht für: Value-driven, Evolving, Responsive, Integrated, Service Management."
+          },
+          "31": {
+            "q": "Was ist SIAM?",
+            "a": "Neben einem Land in Südostasien ist SIAM eine Management-Methode, die in Situationen angewendet werden kann, in denen Services von unterschiedlichen Service-Providern bezogen werden. SIAM steht für: Service Integration and Management."
+          },
+          "32": {
+            "q": "Was ist FitSM?",
+            "a": "FitSM ist der Name einer Standardfamilie für leichtgewichtiges IT Service Management."
+          },
+          "33": {
+            "q": "In welchem Jahr wurde ITIL v4 veröffentlicht?",
+            "a": "Im Jahr 2019."
+          },
+          "34": {
+            "q": "Was ist ITIL?",
+            "a": "Eine Sammlung von Empfehlungen, welche auf sog. Best-Practices basieren."
+          },
+          "35": {
+            "q": "Was ist eine Best-Practice?",
+            "a": "Eine vorbildliche Vorgehensweise, die nachweislich in der Praxis erfolgreich war und für die keine bessere Alternative bekannt ist."
+          },
+          "36": {
+            "q": "Wie hilft ITIL dabei, Missverständnisse zu vermeiden?",
+            "a": "Durch eine einheitliche Terminologie (CAB, CI, etc.) für Mitarbeiter."
+          },
+          "37": {
+            "q": "Welche Eigenschaft zeichnet ITIL-Prozesse aus?",
+            "a": "Sie sind flexibel anpassbar."
+          },
+          "38": {
+            "q": "Werden ITIL-Praktiken dokumentiert?",
+            "a": "Ja, um transparent zu sein werden werden sie dokumentiert."
+          },
+          "39": {
+            "q": "Können IT-Organisationen eine ITIL-Zertifizierung erhalten?",
+            "a": "Nein, IT-Organisationen können sich aber nach ISO 20000 (ein Standard, der Anforderungen definiert) zertifizieren lassen. Diese ISO geht auf den britischen Standard BS 15000 zurück, welcher sich an ITIL orientiert."
+          },
+          "40": {
+            "q": "Können Personen eine ITIL-Zertifizierung erhalten?",
+            "a": "Ja, das ist möglich."
+          },
+          "41": {
+            "q": "Was ist IT-Service-Management (ITSM)?",
+            "a": "ITSM ist ein Bündel von spezialisierten organisatorischen Fähigkeiten, die (in Form von IT-Services) einen Wertbeitrag für den Kunden erbringen."
+          },
+          "42": {
+            "q": "Was ist unter Value Co-Creation zu verstehen?",
+            "a": "Mehrere Anbieter arbeiten mit dem Kunden aktiv zusammen, um einen Mehrwert zu generieren. Die Zusammenarbeit der Beteiligten muss so gestaltet werden, dass ein möglichst großer Wertbeitrag entsteht."
+          },
+          "43": {
+            "q": "Was ist ein IT-Service?",
+            "a": "Ein IT-Service ist das Ergebnis der Zusammenarbeit (Value Co-Creation) für den Kunden."
+          },
+          "44": {
+            "q": "Was ist ein Produkt?",
+            "a": "Ein Produkt ist eine Zusammenstellung (configuration) von Ressourcen, die einen Mehrwert für den Kunden bringen soll."
+          },
+          "45": {
+            "q": "Wie entstehen IT-Services?",
+            "a": "IT-Services entstehen im Zusammenspiel aus Prozessen, Technik und Menschen."
+          },
+          "46": {
+            "q": "Was ist eine Ressource?",
+            "a": "Zu den Ressourcen des ITSP gehören z.B. Menschen, Daten, Technologie, Prozesse und Zulieferer."
+          },
+          "47": {
+            "q": "Was ist ein Service Offering?",
+            "a": "Ein Serviceangebot ist ein formal beschriebenes Angebot für eine bestimmte Zielgruppe, bestehend aus Gütern, Dienstleistungen und Zugang zu Ressourcen."
+          },
+          "48": {
+            "q": "Was ist nach ITIL v3 ein Service Provider?",
+            "a": "Die IT-Abteilung, welche als Service Provider dafür zuständig und verantwortlich ist, mit IT-Systemen IT-Services zu erbringen."
+          },
+          "49": {
+            "q": "Wie viele Arten von Service Provider gibt es nach ITIL v3?",
+            "a": "Drei. Sie werden Typ I, Typ II und Typ III genannt."
+          },
+          "50": {
+            "q": "Definieren Sie den Typ I Service Provider (nach ITIL v3)!",
+            "a": "Interner Service Provider: Interne IT-Abteilungen werden als Kostenstelle (Cost Center) geführt. Die Kosten werden verursachungsgerecht auf die Kunden umgelegt."
+          },
+          "51": {
+            "q": "Definieren Sie den Typ II Service Provider (nach ITIL v3)!",
+            "a": "Shared Service Provider: Eine zentrale Einheit in einem Konzern, die verschiedene interne Kunden bedient. Kosten werden verrechnet oder Marktpreise angesetzt."
+          },
+          "52": {
+            "q": "Definieren Sie den Typ III Service Provider (nach ITIL v3)!",
+            "a": "Externer Service Provider: Bietet Services zu Marktpreisen an. Tritt auch auf dem Markt für beliebige Kunden auf."
+          },
+          "53": {
+            "q": "Was verändert ITIL v4 an den 3 Typen von ITSP?",
+            "a": "Es kommen beliebige Modelle hinzu, bei denen beliebig viele ITSP zusammenarbeiten, um für interne Kunden oder am freien Markt einen Mehrwert zu generieren. Vorab muss lediglich definiert werden, wer wann wem unter wessen Mitwirkung welche Ergebnisse schuldet."
+          },
+          "54": {
+            "q": "Was ist ein Service Consumer?",
+            "a": "Ein Service Consumer nimmt Dienstleistungen entgegen. In der Organisation eines Service Consumers werden drei Rollen unterschieden: Customer, User, Sponsor."
+          },
+          "55": {
+            "q": "Auf was muss bei der Erstellung von Services zudem geachtet werden?",
+            "a": "Bedürfnisse und Anforderungen anderer Stakeholder, wie bspw. Ämter, Partner oder eigene Mitarbeiter."
+          },
+          "56": {
+            "q": "Grenzen Sie folgende Begriffe voneinander ab: Kunde, Nutzer, Sponsor.",
+            "a": "Der Kunde (Customer) definiert die Anforderungen an einen Service (Ergebnis: Vertrag). Der Kunde ist üblicherweise der Vorgesetzte der Nutzer (User). Der Sponsor bewilligt das Budget für einen Service."
+          },
+          "57": {
+            "q": "Wie zeichnet sich ein Wertschöpfungsbeitrag aus?",
+            "a": "Durch die Unterstützung der Kunden, die Senkung von Kosten und die Mitigation von Risiken."
+          },
+          "58": {
+            "q": "Durch welche Eigenschaften wird der Wert eines IT-Service bestimmt?",
+            "a": "Durch Utility (Zweckmäßigkeit) und Warranty (Gebrauchstauglichkeit)."
+          },
+          "59": {
+            "q": "Wo spiegelt sich der Lebenszyklus eines Services wider?",
+            "a": "In den ITIL v3 Kernpublikationen: Service Design, Service Transition, Service Operation, Continual Service Improvement und Service Strategy. Hinweis: Die Orientierung aller Prozesse und Publikationen am Service Lifecycle wird mit ITIL v4 aufgegeben."
+          },
+          "60": {
+            "q": "Woraus besteht eine IT-Infrastruktur?",
+            "a": "Sie besteht aus allen Komponenten (Hardware, Software, Dokumente), die zur Erstellung eines IT-Service benutzt werden."
+          },
+          "61": {
+            "q": "Wie wird eine Komponente im ITIL-Kontext noch genannt?",
+            "a": "Configuration Item (CI)"
+          },
+          "62": {
+            "q": "Werden Services auch als CI geführt?",
+            "a": "Seit ITIL v4 können auch Services als CI geführt werden."
+          },
+          "63": {
+            "q": "Werden Aufgaben Personen oder Rollen zugeordnet?",
+            "a": "Sie werden nicht den Personen, sondern den Rollen zugeordnet."
+          },
+          "64": {
+            "q": "Wie kann die Zuordnung Mitarbeiter-Rolle beschrieben werden?",
+            "a": "Diese Zuordnung ist eine m:n-Beziehung."
+          },
+          "65": {
+            "q": "Was ist ein Process Manager?",
+            "a": "Das ist die wichtigste Rolle für jeden Prozess und trägt operativ die Verantwortung für die Umsetzung des Prozesses."
+          },
+          "66": {
+            "q": "Was ist ein Process Owner?",
+            "a": "Dies ist eine weitere Rolle für jeden Prozess. Er gestaltet den Prozess, implementiert ihn und legt Kriterien zur Erfolgsmessung fest."
+          },
+          "67": {
+            "q": "Was ist ein Service Owner?",
+            "a": "Ein Service Owner ist für einen Service verantwortlich. Er verhandelt seinen Umfang mit dem Kunden."
+          },
+          "68": {
+            "q": "Was ist ein Value Stream?",
+            "a": "Eine Folge von Schritten, die der ITSP unternimmt, um für den Kunden Produkte und Services zu liefern."
+          },
+          "69": {
+            "q": "Was ist eine Value Chain?",
+            "a": "Die Service Value Chain ist die Wertschöpfungskette des ITSP. Die Value Streams sind spezifische Wege durch die Wertschöpfungskette in bestimmten Fällen."
+          },
+          "70": {
+            "q": "Ein Anwender ruft an, weil sein Drucker nicht funktioniert. Dies fällt in die Zuständigkeit eines ...",
+            "a": "Process Manager"
+          },
+          "71": {
+            "q": "Man erwägt, den Erfolg der Störungsbearbeitung zukünftig durch regelmäßige Befragungen der Anwender zu ihrer Zufriedenheit zu messen. Dies fällt in die Zuständigkeit eines ...",
+            "a": "Process Owner"
+          },
+          "72": {
+            "q": "Ein Kunde möchte die Supportzeiten für die Anwender eines SAP-Moduls auf den Samstag ausdehnen, weil seine Mitarbeiter häufig am Wochenende Überstunden machen. Dies fällt in die Zuständigkeit eines ...",
+            "a": "Service Owner"
+          },
+          "73": {
+            "q": "Ein Anwender hat Kaffee über seine Tastatur geschüttet und will zu Lasten seiner Kostenstelle eine neue bestellen. Dies fällt in die Zuständigkeit eines ...",
+            "a": "Process Manager"
+          },
+          "74": {
+            "q": "Sein Chef möchte, dass die Bestellung einer neuen Tastatur in Zukunft nicht mehr eine Woche dauert, sondern innerhalb eines halben Tages erledigt wird. Dies fällt in die Zuständigkeit eines ...",
+            "a": "Process Owner"
+          },
+          "75": {
+            "q": "Der Chef möchte außerdem, dass in Zukunft alle PC-Arbeitsplätze optional gegen Aufpreis mit wasserfesten Tastaturen angeboten werden. Dies fällt in die Zuständigkeit eines ...",
+            "a": "Service Owner"
+          },
+          "76": {
+            "q": "Aus Sicht von ITIL handelt es sich bei der IT-Abteilung einer Unternehmung um einen ...",
+            "a": "IT-Service Provider"
+          },
+          "77": {
+            "q": "Die umfangreiche Expertise der IT-Mitarbeiter ist aus Sicht von ITIL eine ...",
+            "a": "Ressource"
+          },
+          "78": {
+            "q": "Ein Server ist aus Sicht von ITIL ein ...",
+            "a": "Configuration Item (CI)"
+          },
+          "79": {
+            "q": "Ein Content Management System (CMS) ist aus Sicht von ITIL ein ...",
+            "a": "Configuration Item (CI)"
+          },
+          "80": {
+            "q": "Der CMS-Zugriff für Autoren inklusive aller Supportleistungen ist aus Sicht von ITIL ein ...",
+            "a": "Service Offering"
+          },
+          "81": {
+            "q": "Die Vertriebsmitarbeiter einer Unternehmung sind aus Sicht von ITIL (1)... und ihr Chef ist (2)...",
+            "a": "(1)User | (2)Customer"
+          },
+          "82": {
+            "q": "Was muss bei der Einführung von ITIL beachtet werden?",
+            "a": "Eine ITIL-Einführung ist ein umfassendes IT-Projekt mit längerer Dauer. Viele ITIL-Prozesse benötigen entsprechende Software, es müssen jedoch nicht alle Prozesse implementiert werden. Die ITIL-Prozesse hängen alle miteinander zusammen. Der Projekterfolg hängt vom Commitment der Unternehmensleitung ab und vor der Einführung sollte man sich ein Gesamtkonzept überlegen."
+          },
+          "83": {
+            "q": "Wie lauten die vier Dimensionen des Service Managements, welche zusammen einen Wert in Form von Produkten und Services erzeugen?",
+            "a": "Organizations and People, Information and Technology, Partners and Suppliers, Value Streams and Processes. Jede Dimension wird von verschiedenen Faktoren beeinflusst."
+          },
+          "84": {
+            "q": "Nennen Sie die sieben Leitprinzipien des Service Managements!",
+            "a": "Focus on Value, Start where you are, Progress iteratively with Feedback, Collaborate and promote Visibility, Think and work holistically, Keep it simple and practical, Optimize and Automate"
+          },
+          "85": {
+            "q": "Was ist bei der IT Governance nach ITIL v4 zu beachten?",
+            "a": "Formale Richtlinien und informelle Praktiken müssen in Einklang mit der Ausrichtung durch die Unternehmensführung stehen. Dazu muss ein Berichtssystem existieren, das einen Steuerkreis ermöglicht."
+          },
+          "86": {
+            "q": "Wie sieht eine Service Value Chain aus?",
+            "a": "Demand -> Plan -> Engage -> Obtain and build, design and transition, deliver and support -> Products and Services -> Improve -> Value (-> Demand etc.)"
+          },
+          "87": {
+            "q": "Was verstehen Sie unter Continual Improvement?",
+            "a": "Eine kontinuierliche Verbesserung des Services durch die Anwendung von Methoden des Qualitätsmanagements."
+          },
+          "88": {
+            "q": "Was erhält der Kunde immer durch einen Service?",
+            "a": "Mehrwert"
+          },
+          "89": {
+            "q": "Wie lautet die BESTE Definition für Service Management?",
+            "a": "Zusammenwirken von Menschen, Organisationen und Technik, die zur Generierung eines Mehrwerts für den Service Consumer in Form von Services verfügbar sind."
+          },
+          "90": {
+            "q": "Ein IT-Service Provider nach ITIL arbeitet ...",
+            "a": "Prozessorientiert, serviceorientiert und kundenorientiert."
+          },
+          "91": {
+            "q": "Nennen Sie zwei verbreitete Beispiele für ITSM-Modelle!",
+            "a": "ITIL und COBIT."
+          },
+          "92": {
+            "q": "Wie heißt nach ITIL der Oberbegriff für alle Komponenten?",
+            "a": "Ressource, untergeordnet CI"
+          },
+          "93": {
+            "q": "Wie ist nach ITIL die Aufgabenverteilung zwischen Process Manager und Process Owner?",
+            "a": "Process Manager: Planung und Koordination aller operativen prozessbezogenen Aktivitäten. Process Owner: Prozessverantwortlicher, ist für das Funktionieren des Prozesses verantwortlich."
+          },
+          "94": {
+            "q": "Sie müssen den Preis für einen IT-Service erhöhen. An welche Rolle wenden Sie sich damit?",
+            "a": "An den Sponsor, i.d.R. ist dies der Kunde."
+          },
+          "95": {
+            "q": "Was bedeutet Business Integration?",
+            "a": "Unter Berücksichtigung der Geschäftsprozesse des Kunden wird versucht, einen möglichst großen Nutzen für ihn zu erzielen. Die Geschäftsprozesse bedingen die angebotenen Services. Das Potential der IT beeinflusst wiederum die Definition der Geschäftsprozesse."
+          },
+          "96": {
+            "q": "Gleicht die Wahrnehmung eines Service seitens des Kunden immer dessen wirtschaftlichen Nutzen?",
+            "a": "Nein, die Wahrnehmung eines Service seitens des Kunden stimmt nicht unbedingt mit seinem wirtschaftlichen Nutzen überein."
+          },
+          "97": {
+            "q": "Wann nimmt der Kunde den Service nicht wahr?",
+            "a": "Wenn der Service nur der Basisnutzen erbringt."
+          },
+          "98": {
+            "q": "Wann nimmt der Kunde einen Service positiv wahr?",
+            "a": "Wenn der Service einen zusätzlichen Nutzwert erbringt."
+          },
+          "99": {
+            "q": "Wann nimmt der Kunde einen Service negativ wahr?",
+            "a": "Wenn der Service durch gewisse Einschränkungen begrenzt wird, welche den Nutzwert vermindern."
+          },
+          "100": {
+            "q": "Wie setzt sich der Netto Gesamtnutzen zusammen?",
+            "a": "Aus dem Basisnutzen + dem Netto Zusatznutzen."
+          },
+          "101": {
+            "q": "Wie viele Practices gibt es in ITIL v4 und in welche Kategorien werden diese eingeteilt?",
+            "a": "Es gibt 34 Practices in den drei Kategorien General, Service und Technical."
+          },
+          "102": {
+            "q": "Wurden die 34 Practices aus ITIL v4 schon immer als solche deklariert?",
+            "a": "Nein, die meisten Practices waren bis ITIL v3 Prozesse. Teilweise kamen neue Practices hinzu, teilweise wurden die Prozesse lediglich umbenannt oder behielten ihren Namen."
+          },
+          "103": {
+            "q": "Was macht das Architecture Management?",
+            "a": "Es entwickelt den Aufbau der Organisation."
+          },
+          "104": {
+            "q": "Was beschreibt eine Architektur?",
+            "a": "Die Architektur beschreibt Prinzipien, Standards und Werkzeuge, um den Anforderungen an die Organisation zu genügen, ihre Ziele zu erreichen und flexibel auf Änderungen reagieren zu können."
+          },
+          "105": {
+            "q": "Welche Architekturtypen unterscheidet ITIL?",
+            "a": "Business Architecture, Service Architecture, Information Systems Architecture, Technology Architecture, Environmental Architecture"
+          },
+          "106": {
+            "q": "Auf was bezieht sich Continual Improvement?",
+            "a": "Auf alle Kernaktivitäten der Service Value Chain und alle Dimensionen des Service Management."
+          },
+          "107": {
+            "q": "Wo werden Verbesserungsvorhaben aufgezeichnet und verfolgt?",
+            "a": "In einem Continual Improvement Register."
+          },
+          "108": {
+            "q": "Was macht Continual Improvement?",
+            "a": "Es stellt die Ressourcen bereit und ermöglicht damit die zweite Service Value Chain-Kernaktivität Improve auf allen Ebenen und über alle Bereiche des ITSM."
+          },
+          "109": {
+            "q": "Aus welchen vier Bestandteilen besteht das Deming-Rad zur kontinuierlichen Verbesserung?",
+            "a": "(1)Plan | (2)Do | (3)Check | (4)Act"
+          },
+          "110": {
+            "q": "Was ist das Ziel von Information Security Management (ISM)?",
+            "a": "Vertraulichkeit und Integrität der Informationen."
+          },
+          "111": {
+            "q": "Welchen Zweck verfolgt ISM?",
+            "a": "Sicherstellung eines IT-Grundschutzes, Gewährleistung von Datenschutz und Informationssicherheit."
+          },
+          "112": {
+            "q": "Nennen Sie einige wichtige Aktivitäten des Information Security Management!",
+            "a": "Definieren eines Sicherheitskonzeptes, Vorgeben von Sicherheitsrichtlinien, Durchführen von Kontrollen, Reagieren auf Sicherheitsverletzungen."
+          },
+          "113": {
+            "q": "Nennen Sie Methoden oder Tools, welche bei ISM eingesetzt werden können.",
+            "a": "Verschlüsselung, Passwortvergaben, Virenschutz, physische Zugangskontrollsysteme."
+          },
+          "114": {
+            "q": "Was ist der Output von ISM?",
+            "a": "Ein IT-Sicherheitskonzept."
+          },
+          "115": {
+            "q": "Wer legt fest, welche Informationen in welchem Umfang schutzbedürftig sind?",
+            "a": "Dies wird im Rahmen des SLM mit dem Kunden festgelegt. Neben der Verfügbarkeit gilt auch für die Sicherheit, dass 100% unerreichbar sind. Bei Annäherung an die 100% steigen die Kosten exponentiell an und die Bequemlichkeit sinkt mit steigender Sicherheit (Bsp.: 2FA)."
+          },
+          "116": {
+            "q": "Nennen Sie einige Fragen, welche im Rahmen des SLM in Bezug auf Sicherheit mit dem Kunden geklärt werden müssen!",
+            "a": "Wie hoch sind die Sicherheitsanforderungen? Wie umfangreich müssen die Sicherheitsmaßnahmen sein? Welche Unbequemlichkeiten und Kosten nimmt man dafür in Kauf?"
+          },
+          "117": {
+            "q": "Fassen Sie kurz zusammen, was ISM genau macht.",
+            "a": "Das ISM erarbeitet die IT-Sicherheitsrichtlinien (Information Security Policies), die für die Organisation verbindlich sind. Im laufenden Betrieb überprüft das ISM die Einhaltung dieser Richtlinien."
+          },
+          "118": {
+            "q": "Nennen Sie einige Aspekte, die im Rahmen des ISM festgelegt werden.",
+            "a": "Regelungen des Zugriffs auf Service Assets (insbesondere Netzwerke und Server), Passwort-Regeln, Nutzungsbedingungen für den Internetzugriff sowie E-Mail und andere Internetdienste, Anforderungen an den Virenschutz, Klassifikation von Informationen nach Vertraulichkeit."
+          },
+          "119": {
+            "q": "Welches Schutz-Risiko darf nicht vernachlässigt werden?",
+            "a": "Angriffe von eigenen Mitarbeitern."
+          },
+          "120": {
+            "q": "Nennen Sie eine mögliche Maßnahme des ISM für Prozesse!",
+            "a": "Erteilung von Genehmigungen für den Zugriff auf sensible Daten."
+          },
+          "121": {
+            "q": "Nennen Sie eine mögliche physische Maßnahme des ISM!",
+            "a": "Vereinzelung beim Zugang zum Rechenzentrum."
+          },
+          "122": {
+            "q": "Nennen Sie eine mögliche technische Maßnahme des ISM!",
+            "a": "Intrusion Detection System, Firewall, Virenschutz."
+          },
+          "123": {
+            "q": "Nennen Sie weitere mögliche Maßnahmen des ISM.",
+            "a": "Bspw. Schulungen der Mitarbeiter zur IT-Sicherheit."
+          },
+          "124": {
+            "q": "Nennen Sie mögliche Schnittstellen des ISM!",
+            "a": "Klassifizierung von CIs nach ihrer Sicherheitsrelevanz, der Security Manager wird zum Change-Advisory-Board (CAB) eingeladen, um Entscheidungen über sicherheitsrelevante RfCs zu treffen, Sicherheitsanforderungen in SLAs, Zusammenarbeit des Availability Management mit dem ISM bezüglich der Gefahr sicherheitsbedingter Ausfälle, etc."
+          },
+          "125": {
+            "q": "Nennen Sie mögliche Key-Performance-Indicators (KPIs) zur Prozesssteuerung bezüglich des ISM!",
+            "a": "Anzahl entdeckter Verletzungen der Sicherheitsrichtlinien, Anzahl sicherheitsrelevanter Störungen, Kennzahlen für die Auswirkungen sicherheitsrelevanter Störungen, Umfang der Sicherheitsanforderungen in den SLAs."
+          },
+          "126": {
+            "q": "Was macht das Access Management?",
+            "a": "Dieser Prozess vergibt die Identitäten und Zugriffsrechte der Benutzer. Er pflegt die Berechtigungsprofile bei Änderungen (bspw. Versetzung, Kündigung) und kontrolliert die technische Umsetzung, z.B. durch Auswertung der Logs mit gescheiterten Zugriffsversuchen."
+          },
+          "127": {
+            "q": "Welche ist die technische Voraussetzung, um die Identitäten und Zugriffsrechte der Benutzer im Access Management zu vergeben?",
+            "a": "Bei jedem Zugriffsversuch muss die Identität geprüft und die Legitimation sichergestellt werden, indem die hinterlegten Benutzerrechte mit den angeforderten Daten abgeglichen werden."
+          },
+          "128": {
+            "q": "Nennen Sie mögliche Key-Performance-Indicators (KPIs) zur Prozesssteuerung bezüglich des Access Management!",
+            "a": "Anzahl der Störungen wegen fehlender Rechte, Anzahl der sicherheitsrelevanten Zwischenfälle, die auf falsche Identifikation oder Legitimierung zurückzuführen sind."
+          },
+          "129": {
+            "q": "Nennen Sie mögliche Schnittstellen des Access Management!",
+            "a": "Das SLM vereinbart die Zugriffsrechte mit dem Kunden, das Security Management gibt darauf aufbauend die Richtlinien vor, die das AM umsetzt."
+          },
+          "130": {
+            "q": "Welche Aufgabe hat das Knowledge Management?",
+            "a": "Das Knowledge Management hat die Aufgabe, das Wissen, das in der Organisation verfügbar ist, möglichst zeit-, ort- und personenunabhängig demjenigen bereitzustellen, der es gerade für unternehmenszwecke benötigt."
+          },
+          "131": {
+            "q": "Was macht das Knowledge Management?",
+            "a": "Es vergleicht Informationsanforderungen und -angebote und gleicht Differenzen aus. Es verwaltet außerdem das Service Knowledge Management System (SKMS), führt z.B. Trainings durch und erstellt interne Newsletter."
+          },
+          "132": {
+            "q": "Was versteht man unter Measurement and Reporting und wie lautet dessen Bezeichnung in ITIL v4?",
+            "a": "Die Bewertung der Prozesse, Services, SVC-Aktivitäten, Funktionen (Abteilungen), Lieferanten, etc. Ab ITIL v4 werden die Erfassung von Daten und Ermittlung von Kennzahlen unter der Practice Measurement and Reporting zusammengefasst."
+          },
+          "133": {
+            "q": "Definieren Sie folgenden Begriff: Critical Success Factors (CSF)",
+            "a": "Wenn diese Kriterien nicht erfüllt sind, schlägt der Service fehl."
+          },
+          "134": {
+            "q": "Definieren Sie folgenden Begriff: Key Performance Indicator (KPI)",
+            "a": "Hierbei handelt es sich um messbare Schwellwerte, auf die sich der CSF auswirken kann."
+          },
+          "135": {
+            "q": "Wie lautet die Definition von Change Management aus der BWL, aus dem Management und aus der Unternehmensführung?",
+            "a": "Organisatorische Veränderungen durchführen und insbesondere die beteiligten Menschen davon überzeugen."
+          },
+          "136": {
+            "q": "Wie lautet die Definition von Change Management aus dem Projektmanagement und aus der Softwareentwicklung?",
+            "a": "Nachträgliche Änderungen der Spezifikation (einer Software) dokumentieren, bewerten und überwachen."
+          },
+          "137": {
+            "q": "Wie lautet die Definition von Change Management aus dem ITSM?",
+            "a": "Änderungen an den CIs genehmigen oder ablehnen und durchführen. Der Prozess heißt bis ITIL v3 Change Management, ab ITIL v4 heißt die entsprechende Practice Change Control."
+          },
+          "138": {
+            "q": "Was macht der Prozess Portfolio Management nach ITIL v3?",
+            "a": "Er sorgt periodisch (z.B. jährlich) dafür, dass die Menge der angebotenen Services überprüft und angepasst wird."
+          },
+          "139": {
+            "q": "Was macht der Prozess Portfolio Management nach ITIL v4?",
+            "a": "Der Prozess aus ITIL v3 wird um Projekt-Portfolios erweitert. Als Grundlage dafür dienen Kunden-Portfolios, die vom Relationship Management stammen. ITIL v4 schlägt ein agiles Portfolio Management vor (kürzere Zyklen, kleinere Veränderungen)."
+          },
+          "140": {
+            "q": "Woran werden bestehende und potentielle IT-Services bewertet?",
+            "a": "Sie werden anhand ihrer Komplexität und Marktreife beurteilt."
+          },
+          "141": {
+            "q": "Welche vier Bereiche umfasst das Service Portfolio?",
+            "a": "Konzepte werden durch eine (1)Pipeline in Services umgewandelt. Die Gesamtheit aller Services werden im (2)Servicekatalog gepflegt und unter strategischen Gesichtspunkten bewertet. Wird ein Service nicht länger benötigt, wird er eingestellt und gehört zu den (3)eingestellten Services. Die (4)Ressourcen stehen in Verbindung zu den bereits benannten Bereichen, da sie entweder von Services verwendet werden oder durch die Einstellung eines Services freigesetzt werden."
+          },
+          "142": {
+            "q": "Welche sechs Entscheidungsmöglichkeiten gibt es für jeden Service?",
+            "a": "Retain (beibehalten), Replace (ersetzen durch einen anderen Service, der sich mit diesem überschneidet), Rationalize (effizienter machen, ohne den Service selbst aus Kundensicht zu verändern), Refactor (verbessern, den Nutzen für den Kunden erhöhen), Renew (technisch erneuern, auf eine andere Plattform portieren), Retire (stilllegen)"
+          },
+          "143": {
+            "q": "Ist ITIL eine Projektmanagement-Methode?",
+            "a": "Nein, dafür gibt es PRINCE2, das aus dem gleichen Haus wie ITIL stammt."
+          },
+          "144": {
+            "q": "Was beschreibt der ITIL v3 Prozess namens Transition Planning and Support, der in ITIL v4 als Practice namens Project Management geführt wird?",
+            "a": "Hier werden projektübergreifende Aufgaben beschrieben, wie bspw. die Koordination, die Standardisierung und die Synchronisation von Projekten."
+          },
+          "145": {
+            "q": "Was ist unter Relationship Management zu verstehen?",
+            "a": "Ein Prozess, der die Kundenbeziehungen pflegt. Ab ITIL v4 wird dies verallgemeinert: Pflege von Stakeholder-Beziehungen, wobei der wichtigste Stakeholder der Service Consumer bleibt. Es muss einen definierten Ansprechpartner für den Beschwerde- und Eskalationsfall geben und der Relationship Manager muss die Bedürfnisse und treibende Kräfte (needs and drivers) seiner Kunden kennen."
+          },
+          "146": {
+            "q": "Was geschieht, wenn Risk Management betrieben wird?",
+            "a": "Risiken werden identifiziert, Eintrittswahrscheinlichkeiten und mögliche Auswirkungen werden beurteilt und Gegenmaßnahmen werden eingeleitet."
+          },
+          "147": {
+            "q": "Welche Aktivitäten betrifft das Risikomanagement?",
+            "a": "Es soll alle Aktivitäten betreffen und das Risikobewusstsein sollte Teil der Unternehmenskultur sein."
+          },
+          "148": {
+            "q": "Wie lauten die Hauptaufgaben des Financial Managements nach ITIL v4?",
+            "a": "Kosten der IT ermitteln und möglichst verursachungsgerecht auf die Services umlegen (Charging), Kostenprognose und Verhandlungszyklus zur Festlegung von Budgets (Budgeting) und Effizienzkontrolle innerhalb der IT-Organisation (Accounting)."
+          },
+          "149": {
+            "q": "Welche weiteren Aufgaben hat das Financial Management?",
+            "a": "Nachfragesteuerung und Wertpotential der Services ermitteln (dies wird aber eher selten verwirklicht)."
+          },
+          "150": {
+            "q": "Wie bekommt das Financial Management seine Zahlenwerte?",
+            "a": "Durch zahlreiche Schnittstellen zu anderen ITIL-Prozessen."
+          },
+          "151": {
+            "q": "Was sind direkte Kosten?",
+            "a": "Direkte Kosten oder auch Einzelkosten lassen sich eindeutig auf einen Service zurechnen."
+          },
+          "152": {
+            "q": "Was sind indirekte Kosten?",
+            "a": "Indirekte Kosten oder auch Gemeinkosten lassen sich nicht direkt auf einen Service zurechnen."
+          },
+          "153": {
+            "q": "Welche Möglichkeiten hat das Financial Management zur Preisbildung?",
+            "a": "Verrechnung als Fallpauschale / Zeitpauschale, Verrechnung nach Inanspruchnahme / Aufwand / Warenwert, Verrechnung pro Nutzer / Arbeitsplatz, Verrechnung eines Festpreises, Verrechnung durch Gemeinkostenumlage."
+          },
+          "154": {
+            "q": "Was ist ein Profit Center?",
+            "a": "Ein Profit Center ist keine rechtlich selbstständige Einheit wie ein Typ III Service Provider, führt aber dennoch eine GuV und darf Preise für seine IT-Services festlegen."
+          },
+          "155": {
+            "q": "Was sind die Ziele eines Profit Centers?",
+            "a": "Kostentransparenz, Kostenbewusstsein, Leistungsanreize, unternehmerisches Handeln, Gewinnmaximierung."
+          },
+          "156": {
+            "q": "Was ist ein Cost Center?",
+            "a": "Ein Cost Center verrechnet seine Kosten über die Kostenstellenrechnung auf die Stellen, die Services in Anspruch nehmen."
+          },
+          "157": {
+            "q": "Was sind die Ziele eines Cost Centers?",
+            "a": "Zentrale Budgetsteuerung, Weisungsgebundenheit, Kostenminimierung."
+          },
+          "158": {
+            "q": "Welches Problem besteht oftmals bei der Zuordnung von IT-Kosten?",
+            "a": "Diese liegen meist nur als Gemeinkosten vor und nicht als Einzelkosten, welche dem IT-Service direkt zugeordnet werden könnten. Somit benötigt es für eine zuverlässige Kalkulation ein Modell der IT-internen Leistungsbeziehungen."
+          },
+          "159": {
+            "q": "Nennen Sie Methoden zur Beurteilung von IT-Investitionen.",
+            "a": "Net Present Value (NVP), Return on Investment (RoI), Internal Rate of Return (IRR), Profitability Index (PI), Total Cost of Ownership (TCO)"
+          },
+          "160": {
+            "q": "Beschreiben Sie den NVP (Net Present Value)!",
+            "a": "Der Kapitalwert oder auch Barwert bezieht die Ein- und Auszahlungen auf den gleichen Zeitpunkt (heute). Ist der Barwert positiv, so ist die Investition vorteilhaft."
+          },
+          "161": {
+            "q": "Beschreiben Sie den RoI (Return on Investment)!",
+            "a": "Mit dem RoI wird die effektive Verzinsung des eingesetzten Kapitals bzw. des Investitionsvolumens ermittelt. Hierbei wird der Gewinn mit der Kostenersparnis ins Verhältnis gesetzt."
+          },
+          "162": {
+            "q": "Beschreiben Sie den IRR (Internal Rate of Return)!",
+            "a": "Der interne Zinssatz ist ein Kalkulationszinssatz, bei dem der Barwert 0 (null) wird. Das Projekt ist dann vorteilhaft, wenn der IRR größer ist als die Alternativrendite (IRR > Alternativrendite)."
+          },
+          "163": {
+            "q": "Beschreiben Sie den PI (Profitability Index)!",
+            "a": "Der PI dient zur Beurteilung der Wirtschaftlichkeit eines Projektes. Das Projekt ist dann vorteilhaft, wenn der berechnete PI größer als 1,0 ist (PI > 1,0). Je höher der PI ist, desto vorteilhafter ist das Projekt."
+          },
+          "164": {
+            "q": "Beschreiben Sie den TCO (Total Cost of Ownership)!",
+            "a": "Bei der Ermittlung des TCO stellt sich die Frage, welche Kosten über den gesamten Lebenszyklus für eine Technologie anfallen."
+          },
+          "165": {
+            "q": "Wie lässt sich der TCO berechnen?",
+            "a": "Anschaffung + Wartung + Betrieb + Schulung + Switching Costs (Kosten für den Wechsel von / zu einer anderen Technologie)"
+          },
+          "166": {
+            "q": "Was ist die Grundlage von IT-Services?",
+            "a": "Das Strategy Management bzw. die IT-Strategie, welche idealerweise eng auf die Strategie des Kunden abgestimmt sein sollte."
+          },
+          "167": {
+            "q": "Erstellen Service Provider ihre Services alle selbst?",
+            "a": "Nein, sie prüfen, welche Services extern günstiger erworben als selbst erstellt werden können. Somit kann sich der Service Provider auf sein Kerngeschäft fokussieren. In Verträgen mit den Zulieferern müssen Leistungsumfang und Preise ausführlich beschrieben werden."
+          },
+          "168": {
+            "q": "Welche möglichen Gründe für Kostenvorteile gibt es bei externem Zukauf von Services?",
+            "a": "Synergien, Variabilisierung von Fixkosten und Auslastungsrisiko."
+          },
+          "169": {
+            "q": "Welche Gefahren bestehen beim externen Zukauf von Services?",
+            "a": "Abhängigkeitsverhältnis, Verlust von Wissen, Informationsvorsprung des Lieferanten."
+          },
+          "170": {
+            "q": "Was macht das Supplier Management?",
+            "a": "Das Supplier Management wählt für alle Beschaffungen Lieferanten nach verschiedenen Kriterien aus, wie bspw. Bedeutung, Risiko und Kosten. Zudem verhandelt es Verträge und misst die Einhaltung der Service Levels durch die Lieferanten. Es bindet die Lieferanten in die Prozesse des Service Operations ein (= Service Integration)."
+          },
+          "171": {
+            "q": "Nennen Sie Vorteile und Nachteile von ausführlichen Vertragswerken!",
+            "a": "(+)Vorteile: Sie schützen vor Schaden durch Nichteinhaltung der Service Levels. | (-)Nachteile: Sie verursachen Kosten und sind unflexibel."
+          },
+          "172": {
+            "q": "Nennen Sie einige Aktivitäten des Supplier Management!",
+            "a": "Lieferantenauswahl, Identifizierung der Bedürfnisse und Anforderungen an zuzukaufende Services, Verhandlung und Vertragsabschluss, Kategorisierung, Priorisierung, Aufbau und Pflege einer Vertragsdatenbank (Supplier and Contract Database, SCD), etc."
+          },
+          "173": {
+            "q": "Bleibt der Umfang der Tätigkeiten des Supplier Management bei jedem Lieferanten gleich?",
+            "a": "Nein, je wichtiger der Lieferant, desto umfangreicher sind die Tätigkeiten des Supplier Managements."
+          },
+          "174": {
+            "q": "Nach welchen Kriterien können Lieferanten priorisiert werden?",
+            "a": "Beschaffungsvolumen, Dauer der Beziehung, Lieferung von Services für geschäftskritische Funktionen (VBF), deren Verfügbarkeit kritisch für die eigene SLA-Einhaltung des Service Providers ist."
+          },
+          "175": {
+            "q": "Welche Eigenschaften und Tätigkeiten spiegeln einen hoch priorisierten Lieferanten wider?",
+            "a": "Abstimmung der operativen Prozesse, langfristiges Vertrauensverhältnis, gemeinsame Verantwortung für Endergebnisse, Abstimmung der Systemlandschaften."
+          },
+          "176": {
+            "q": "Nennen Sie mögliche Key-Performance-Indicators (KPIs) zur Prozesssteuerung bezüglich des Supplier Management!",
+            "a": "Anzahl und Anteil der Verletzungen von SLAs und der Lieferanten, die davon betroffen sind. Anzahl der durchgeführten Service Review Meetings, Anzahl der Störungen und Kundenbeschwerden, die auf Lieferantenfehler zurückgehen."
+          },
+          "177": {
+            "q": "Womit befasst sich das Workforce and Talent Management?",
+            "a": "Es befasst sich mit HR-Funktionen in der IT und ist neu in ITIL v4. Dazu gehören Aufgaben wie bspw. das Recruitment sowie Personal Development."
+          },
+          "178": {
+            "q": "Gehört das Service Knowledge Management System (SKMS) zum Service Portfolio?",
+            "a": "Nein, tut es nicht. Zum Service Portfolio gehören: Service Pipeline, Servicekatalog und Retired Services."
+          },
+          "179": {
+            "q": "Wodurch wird primär Mehrwert für den Kunden erzeugt?",
+            "a": "Utility und Warranty."
+          },
+          "180": {
+            "q": "Was liefert den Input für das Service Portfolio Management?",
+            "a": "Das Financial Management."
+          },
+          "181": {
+            "q": "Gehört Resistance Management zu den Aktivitäten des Organizational Change Management?",
+            "a": "Ja, tut es."
+          },
+          "182": {
+            "q": "Wie viele General Management Practices nennt ITIL v4?",
+            "a": "Insgesamt 14 Stück."
+          },
+          "183": {
+            "q": "Was ist die Aufgabe des Demand Management?",
+            "a": "Den Kunden dabei beraten, die günstigsten IT-Services zur Unterstützung seiner Geschäftsprozesse zu finden (nicht jene, die den schnellsten oder größten Deckungsbeitrag bringen)."
+          },
+          "184": {
+            "q": "Was ist das Ziel des Demand Management und wie ist dessen Vorgehensweise?",
+            "a": "Ziel ist ein langfristig zufriedener Kunde. Erst werden die Serviceanforderungen der Kunden ermittelt, dann bewertet und anschließend werden dem Kunden Alternativen aufgezeigt."
+          },
+          "185": {
+            "q": "Gibt es den Prozess Demand Management in ITIL v4 noch?",
+            "a": "Dieser wurde in ITIL v4 aufgegeben, da er mehr ein Prinzip als einen Prozess darstellt."
+          },
+          "186": {
+            "q": "Wofür ist das Availability Management zuständig?",
+            "a": "Es stellt die notwendige Verfügbarkeit der IT-Services sicher. Eine 100%ige Verfügbarkeit ist jedoch unrealistisch und somit nicht erreichbar."
+          },
+          "187": {
+            "q": "Grenzen Sie die proaktiven Maßnahmen von den reaktiven Maßnahmen des Availability Management ab!",
+            "a": "Proaktive Maßnahmen verringern die Ausfallwahrscheinlichkeit von Komponenten und Services. Reaktive Maßnahmen messen die Effekte des Ausfalls von Komponenten und Services."
+          },
+          "188": {
+            "q": "Was genau stellt das Availability Management bereit?",
+            "a": "Metriken zur Messung der Verfügbarkeit."
+          },
+          "189": {
+            "q": "Wie wird die Verfügbarkeit in Prozent berechnet?",
+            "a": "((Servicezeit - Ausfallzeit) / Servicezeit) * 100"
+          },
+          "190": {
+            "q": "Welche beiden Metriken werden zur Messung der Zuverlässigkeit eines Service verwendet?",
+            "a": "Mean Time between Service Incidents (MTBSI) und Mean Time between Failures (MTBF)."
+          },
+          "191": {
+            "q": "Welche Metrik wird zur Messung der Wartbarkeit eines Service verwendet?",
+            "a": "Mean Time to Restore Service (MTRS)."
+          },
+          "192": {
+            "q": "Welche Konsequenzen entstehen beim Kunden durch einen Serviceausfall?",
+            "a": "Ausfall-Nutzerminuten (Ausfallzeit * betroffene User) und für transaktionsbasierte Services wie bspw. ERP: Anzahl verhinderter Transaktionen."
+          },
+          "193": {
+            "q": "Was geschieht bei der Serviceentwicklung, bei dem das Availability Management dem Service Level Management zuarbeitet?",
+            "a": "Es wird definiert, wann ein Service als verfügbar gilt (Funktionsumfang, Antwortzeiten, betroffene Standorte / User). Zudem werden die Funktionen identifiziert, die für die Kerngeschäftsprozesse unentbehrlich sind (Vital Business Functions, VBF) und es wird sich auf diese konzentriert."
+          },
+          "194": {
+            "q": "Was wird bei der Serviceentwicklung gemeinsam mit dem Kunden erarbeitet?",
+            "a": "Nötige Verfügbarkeitsanforderungen, indem Kosten möglicher Systemausfälle und Kosten der Verfügbarkeit gegeneinander abgewogen werden. Die Kosten steigen exponentiell mit der Verfügbarkeit."
+          },
+          "195": {
+            "q": "Was ist Design for Availability?",
+            "a": "Ein Service wird so gestaltet, dass Ausfälle unwahrscheinlich sind."
+          },
+          "196": {
+            "q": "Was ist Design for Recovery?",
+            "a": "Es werden Maßnahmen vorbereitet, um den Service im Fall einer Störung schnell wieder herzustellen."
+          },
+          "197": {
+            "q": "Was wird unter der Verfügbarkeit serieller Systeme verstanden?",
+            "a": "Ein Service ist dann verfügbar, wenn alle Systeme verfügbar sind."
+          },
+          "198": {
+            "q": "Wie kann die Verfügbarkeit eines Services erhöht werden?",
+            "a": "Indem mehrere gleichartige Komponenten parallel betrieben werden. Fällt eine davon aus, kann die andere den Betrieb aufrechterhalten."
+          },
+          "199": {
+            "q": "Wie wird eine Komponente genannt, deren alleiniger Ausfall zu einem Serviceausfall führen kann?",
+            "a": "Single Point of Failure (SPoF)."
+          },
+          "200": {
+            "q": "Nennen Sie mögliche Schnittstellen des Availability Management!",
+            "a": "Informationen über Störungen und Probleme werden vom Incident Management und Problem Management bezogen. Das SLM nutzt die Reporting-Daten des Availability Management. Dieses arbeitet bezüglich der Verfügbarkeiten an den SLAs mit. Das Financial Management liefert Daten zu den kosten verschiedener Verfügbarkeitsstufen."
+          },
+          "201": {
+            "q": "Nennen Sie mögliche Key-Performance-Indicators (KPIs) zur Prozesssteuerung bezüglich des Availability Management!",
+            "a": "Die Entwicklung der Verfügbarkeit im Zeitablauf sowie die Entwicklung von MTBF / MTBSI / MTRS im Zeitablauf."
+          },
+          "202": {
+            "q": "Was beschreibt der Begriff Business Analytics, welcher neu in ITIL v4 dazugekommen ist?",
+            "a": "Die Analyse von Prozessen, Projekten, Techniken etc. Diese werden anhand der Anforderungen beurteilt, die an sie gestellt werden. Sie werden unterteilt, um die Teile zu erkennen, die verbesserungsbedürftig sind. Darauf aufbauend werden Lösungen vorgeschlagen."
+          },
+          "203": {
+            "q": "Wofür ist das Capacity and Performance Management zuständig?",
+            "a": "Es sorgt dafür, dass ausreichend Kapazitäten verfügbar sind, dass eine Sicherheitsreserve besteht und dass keine unwirtschaftlichen Überkapazitäten mitgetragen werden. Dazu muss der Prozess das Kapazitätsangebot und -nachfrage zur Deckung bringen."
+          },
+          "204": {
+            "q": "Was ist das Ziel des Capacity and Performance Management?",
+            "a": "Vermeidung von kostenintensiven Nachfragespitzen und Überkapazitäten."
+          },
+          "205": {
+            "q": "Nennen Sie Instrumente des Capacity and Performance Management!",
+            "a": "Pricing Incentives, z.B. zeitabhängige Tarife, Volumentarife oder abgestufte Service Levels."
+          },
+          "206": {
+            "q": "Wozu dient die Analyse im Capacity and Performance Management?",
+            "a": "Zur Überwachung von Leistung und Kapazität von CIs, die im Hinblick auf die Kundenprozesse besonders wichtig sind."
+          },
+          "207": {
+            "q": "Wozu dient die Planung im Capacity and Performance Management?",
+            "a": "Die Kapazität muss bei Bedarf ausgeweitet werden, bevor Störungen entstehen."
+          },
+          "208": {
+            "q": "Wer ist für das Capacity and Performance Management verantwortlich?",
+            "a": "Der Capacity Manager."
+          },
+          "209": {
+            "q": "Welche drei Teilprozesse gibt es beim Capacity and Performance Management?",
+            "a": "(1)Business Capacity Management, (2)Service Capacity Management und (3)Component Capacity Management."
+          },
+          "210": {
+            "q": "Woraus besteht das Business Capacity Management und womit beschäftigt es sich?",
+            "a": "Es besteht aus dem Demand Management und beschäftigt sich mit Trends, Voraussagen und Geschäftsanforderungen."
+          },
+          "211": {
+            "q": "Woraus besteht das Service Capacity Management und womit beschäftigt es sich?",
+            "a": "Es besteht aus dem Workload Management und beschäftigt sich mit dem Monitor-, Analyse- und Berichtswesen."
+          },
+          "212": {
+            "q": "Woraus besteht das Component Capacity Management und womit beschäftigt es sich?",
+            "a": "Es besteht aus dem Ressource Management und dem Performance Management und beschäftigt sich mit Tuning und Workload-Balancing."
+          },
+          "213": {
+            "q": "Was macht das Business Capacity Management?",
+            "a": "Es analysiert das Transaktionsvolumen aus Kundensicht (bspw. Anzahl der Buchungen / Stunde im ERP), dokumentiert die Geschäftsanforderungen an die Kapazität und erstellt Bedarfsprognosen."
+          },
+          "214": {
+            "q": "Was macht das Service Capacity Management?",
+            "a": "Es vergleicht die Geschäftsanforderungen mit den bestehenden Kapazitäten und überwacht die Kapazitäten des Service für den Kunden (wie bspw. Reaktionszeiten des ERP oder Laufzeit von E-Mails)."
+          },
+          "215": {
+            "q": "Was macht das Component Capacity Management?",
+            "a": "Es überwacht (bzw. automatisiert) die Auslastung einzelner CIs (wie z.B. die Auslastung des Hauptspeichers, der Prozessorkerne), es entscheidet über Aufrüstung und Zukauf von Komponenten aus Kapazitätsgründen und führt gemeinsam mit dem Availability Management die Component Failure Impact Analysis (CFIA) durch."
+          },
+          "216": {
+            "q": "Ist es immer wirtschaftlich, das Angebot vollständig an die Nachfrage anzupassen?",
+            "a": "Nein. Es kann unwirtschaftlich sein, dies zu tun."
+          },
+          "217": {
+            "q": "Mit wem muss eine kurz- oder langfristige Anpassung der Nachfrage an das Angebot abgesprochen werden?",
+            "a": "Mit dem Kunden. In ITIL v3 arbeiten deshalb Capacity Management und Demand Management eng zusammen."
+          },
+          "218": {
+            "q": "Was versteht man unter Application Sizing?",
+            "a": "Die Analyse der Anforderungen an die Komponentenkapazitäten, die sich aus der Einführung oder Änderung von Applikationen ergeben."
+          },
+          "219": {
+            "q": "Wann muss Application Sizing durchgeführt werden?",
+            "a": "Im Rahmen der Entwicklungsprojekte, bevor eine Applikation produktiv geschaltet wird."
+          },
+          "220": {
+            "q": "Was muss Application Sizing berücksichtigen?",
+            "a": "Die in den SLAs vereinbarten Benutzerzahlen und Antwortzeiten."
+          },
+          "221": {
+            "q": "Was versteht man unter Modelling?",
+            "a": "Die Analyse der Auswirkungen alternativer Nachfrageszenarien auf die Kapazitätsanforderungen."
+          },
+          "222": {
+            "q": "Nennen Sie eine mögliche Methode für Modelling!",
+            "a": "Experimente mit vielen durch Testwerkzeuge simulierten Benutzern oder Hochrechnungen."
+          },
+          "223": {
+            "q": "Nennen Sie mögliche Schnittstellen für das Capacity and Performance Management!",
+            "a": "Störungen oder Probleme durch unzureichende Ressourcen, verhandelte Service Level mit Auswirkungen auf die Kapazitäten, Änderungen von Kapazitäten bei CIs durch das Change Management und enge Zusammenarbeit des Capacity Management und Availability Management, da Kapazitätsprobleme auch die Verfügbarkeit betreffen."
+          },
+          "224": {
+            "q": "Was ist ein Change?",
+            "a": "Ein Change ist eine Änderung eines IT-Service, eines CI (Software, Hardware, Dokument) oder eines Prozesses."
+          },
+          "225": {
+            "q": "Für was ist der Prozess Change Control verantwortlich?",
+            "a": "Er ist für alle Changes verantwortlich. Nur freigegebene Changes dürfen implementiert werden, da jede Änderung an einem System eine potentielle Störungsursache ist. Der Prozess entspricht dem ITIL v3 Prozess namens Change Management."
+          },
+          "226": {
+            "q": "Welche Ziele verfolgt der Prozess Change Control?",
+            "a": "Kostengünstige Implementierung von Änderungen mit minimiertem Risiko."
+          },
+          "227": {
+            "q": "Was zeichnet einen Standard Change aus?",
+            "a": "Ein solcher Change ist vorautorisiert, es besteht nur ein geringes Risiko und er wird automatisch genehmigt."
+          },
+          "228": {
+            "q": "Was zeichnet einen normalen Change aus?",
+            "a": "Es gibt einfache Fälle mit geringem Risiko, bei denen eine zuständige Rolle (bei ITIL v3 der Change Manager) alleine entscheidet. Ist das Risiko höher, findet die Entscheidung über das Change Advisory Board (CAB) statt."
+          },
+          "229": {
+            "q": "Was zeichnet Emergency Changes aus?",
+            "a": "Solche Changes erhalten ein beschleunigtes Test- und Genehmigungsverfahren. Die vollständige Dokumentation kann nachgeholt werden. Genehmigt werden sie z.B. durch ein Emergency Committee (i.d.R. eine Teilmenge des CAB)."
+          },
+          "230": {
+            "q": "Wer ist in einem Change Advisory Board (CAB) vertreten?",
+            "a": "Der Change Manager als Vorsitzender, der Betreiber (des Rechenzentrums), Entwickler, Change Initiators und im Einzelfall Spezialisten bzw. Experten."
+          },
+          "231": {
+            "q": "Was muss erstellt werden, um eine Änderung zu beantragen?",
+            "a": "Ein Request for Change (RfC) - bei Standard Changes vorab allgemein, sonst für jeden Einzelfall. Jeder RfC wird nach einheitlichen Regeln geprüft und freigegeben oder abgelehnt. Dabei werden Nutzen und Risiken des Changes geprüft."
+          },
+          "232": {
+            "q": "Wie läuft die Erstellung eines RfCs ab?",
+            "a": "Der Change Initiator füllt ein RfC-Formular aus und das Change Management stellt die Vollständigkeit der Informationen sicher."
+          },
+          "233": {
+            "q": "Welche möglichen Inhalte kann ein RfC haben?",
+            "a": "Change ID, Initiator, Grund / Zweck / Ziel des Changes, genaue Beschreibung der Änderung, Back-out-Plan, betroffene CIs, Beginn und geplante Dauer der Installation, Installationsverantwortlicher, Priorisierung, Genehmigung, Risikoabschätzung und Nutzen-Risiko-Bewertung."
+          },
+          "234": {
+            "q": "Auf was wird ein RfC geprüft?",
+            "a": "Das Change Management prüft den RfC auf Vollständigkeit und Realisierbarkeit und beurteilt ihn nach Risiko und Priorität."
+          },
+          "235": {
+            "q": "Was muss bei der Implementierung eines Changes beachtet werden?",
+            "a": "Seine Koordination und Dokumentation. Zusammen mit dem Kunden wird entschieden, welche geplanten Ausfallzeiten für den Change in Kauf genommen werden."
+          },
+          "236": {
+            "q": "Von wem werden Changes durchgeführt?",
+            "a": "Von den zuständigen Entwicklern und Administratoren. Das Change Management überwacht den Vorgang und sicher die Qualität."
+          },
+          "237": {
+            "q": "Was stellt das Change Management neben der Qualität bei einem RfC noch sicher?",
+            "a": "Das Vorliegen von Back-out-Plänen, Einhaltung der Zeitpläne, Durchführung hinreichender Tests nach der Installation sowie die Dokumentation der Änderungen in der Konfigurationsdatenbank."
+          },
+          "238": {
+            "q": "Wo werden die Ergebnisse des RfC nach dessen Installation festgehalten?",
+            "a": "In einem Post Implementation Review (PIR)."
+          },
+          "239": {
+            "q": "Was beinhaltet ein Post Implementation Review (PIR)?",
+            "a": "Technische und organisatorische Aspekte. Bei Service Changes, die für den Kunden sichtbare Ergebnisse haben, wird auch deren Zustimmung eingeholt."
+          },
+          "240": {
+            "q": "Was sind mögliche Schnittstellen von Change Control?",
+            "a": "Erstellung von RfCs zur Behebung von Störungen, Dokumentation von Veränderungen an Komponenten, Änderungen von Service Levels oder Veränderungen bezüglich Kapazität, Verfügbarkeit und Sicherheit."
+          },
+          "241": {
+            "q": "Nennen Sie mögliche Key-Performance-Indicators (KPIs) zur Prozesssteuerung bezüglich des Change Control!",
+            "a": "Anzahl und Prozentsatz der erfolgreichen / unautorisierten  / gescheiterten Changes, Anzahl der abgelehnten RfCs, durchschnittliche Dauer eines Changes (sowie davon Wartezeit auf Entscheidungen des Change Management)."
+          },
+          "242": {
+            "q": "Was ist eine Störung (bzw. ein Incident)?",
+            "a": "Ein ungeplanter Ausfall oder Beeinträchtigung eines IT-Services oder eines CI."
+          },
+          "243": {
+            "q": "Was sind die Aufgaben des Incident Management?",
+            "a": "Störungen und Anfragen aufnehmen und dokumentieren, Weiterverfolgung der Störung, schnellstmögliche Beseitigung der Störung und Minimierung ihrer Auswirkungen, Wiederaufnahme des Betriebs, Statistiken über die Störungshäufigkeit anfertigen."
+          },
+          "244": {
+            "q": "Wie ist der Service Desk zu erreichen und welche Aufgabe hat er?",
+            "a": "Der Service Desk als SPOC ist die wichtigste Rolle im Incident Management und ist über eine zentrale Telefonnummer und E-Mail Adresse zu erreichen. Er übernimmt die operative Verfolgung der Störung."
+          },
+          "245": {
+            "q": "Welche Fälle löst der Service Desk selbst als 1st Level Support?",
+            "a": "Einfache Fälle."
+          },
+          "246": {
+            "q": "Wohin werden schwierige Fälle vom Service Desk weitergegeben?",
+            "a": "An Spezialisten (2nd Level Support). Dieser besteht aus mehreren Teams (bspw. für Hardware, Software, Netzwerk), daher muss der Service Desk die Störungen richtig kategorisieren können."
+          },
+          "247": {
+            "q": "Was bezeichnet die alternative Organisationsform des Incident Managements namens Swarming?",
+            "a": "Mitarbeiter aus verschiedenen Teams arbeiten solange zusammen, bis klar ist, in wessen Zuständigkeit der Incident fällt."
+          },
+          "248": {
+            "q": "Was passiert, wenn der 2nd Level Support den Incident nicht lösen kann?",
+            "a": "Dann wird der 3rd Level Support hinzugezogen, welcher oft von externen Dienstleistern erbracht wird (bspw. vom Datenbankhersteller für Datenbankstörungen)."
+          },
+          "249": {
+            "q": "Beschreiben Sie den Ablauf des Incident Management!",
+            "a": "Erfassung der Störungsmeldung, Priorisierung, mögliche Lösung in Known-Error-DB nachschauen -> wenn keine Lösung vorhanden ist: Eskalation an 2nd und 3rd Level Support, evtl. zusätzliche hierarchische Eskalationen, falls vereinbarte SLA-Zeiten in Verzug geraten könnten, Dokumentation der Aktivitäten der Bearbeiter im Ticketdatensatz (Incident Record), Informieren des Users über den aktuellen Status, Problem anlegen wenn noch nicht vorhanden, Kontakt mit dem Kunden aufnehmen falls Serviceausfälle drohen, Ticket erst schließen, wenn der User dies dem Service Desk bestätigt hat."
+          },
+          "250": {
+            "q": "Nennen Sie mögliche Schnittstellen des Incident Management!",
+            "a": "Eröffnung eines Problems bei unbekannter Störungsursache, Erstellung eines RfC zur Behebung einer Störung, Datenerhebung und Anfertigung von Statistiken vom Incident Management, welche bspw. dem Availability Management zur Messung der Verfügbarkeit dienen."
+          },
+          "251": {
+            "q": "Nennen Sie mögliche Key-Performance-Indicators (KPIs) zur Prozesssteuerung bezüglich des Incident Management!",
+            "a": "Anzahl der Störungen nach Support Levels, Anzahl und Prozentsatz der SLA-Verletzungen bei der Wiederherstellungszeit, Anteil falsch kategorisierter Störungen, Erstlösungsquote des Service Desk."
+          },
+          "252": {
+            "q": "Was ist ein Asset?",
+            "a": "Eine finanziell wertvolle Komponente, die zu einem IT Produkt oder Service beiträgt."
+          },
+          "253": {
+            "q": "Was ist die Aufgabe des IT Asset Management?",
+            "a": "Den Lebenszyklus der Assets planen und steuern. Dazu gehören bspw. Entscheidungen über Beschaffung, Aufrüstung oder Aussonderung."
+          },
+          "254": {
+            "q": "Wie wird IT Asset Management nach ITIL v3 genannt?",
+            "a": "Nach ITIL v3 wird der Prozess Service Asset and Configuration Management genannt."
+          },
+          "255": {
+            "q": "Welches Ziel verfolgt Monitoring and Event Management (bis ITIL v3: Event Management)?",
+            "a": "Zwischenfälle bei IT-Komponenten so früh wie möglich erkennen, im Idealfall bevor daraus eine Störung eines IT-Service resultiert. Kritische Komponenten werden dazu fortwährend überwacht."
+          },
+          "256": {
+            "q": "Wie läuft das Monitoring and Event Management ab?",
+            "a": "Identifizierung der Komponente, Filterung, Beurteilung  der Ursachen, erforderliche Maßnahmen klären"
+          },
+          "257": {
+            "q": "Wie lauten die Grundsätze des Monitoring and Event Management?",
+            "a": "Überwacht werden vor allem Komponenten, die für VBFs kritisch sind. Die Eventmeldungen müssen aussagekräftig sein. Sie können aus den zu überwachenden Systemen selbst oder aus zusätzlicher Monitoring-Software stammen. Schwellenwerte beziehen sich auf technische Größen (z.B. Speicherauslastung) oder auf die Anzahl der Meldungen (z.B. fehlgeschlagene Logins). Je nach Event wird ggf. eine Störung, ein Problem oder ein RfC eröffnet."
+          },
+          "258": {
+            "q": "Nennen Sie mögliche Schnittstellen des Monitoring and Event Management!",
+            "a": "Prozesse des Service Design geben Hinweise auf sinnvolle Schwellenwerte, Aufkommen bedeutender Events."
+          },
+          "259": {
+            "q": "Nennen Sie mögliche Key-Performance-Indicators (KPIs) zur Prozesssteuerung bezüglich des Monitoring and Event Management!",
+            "a": "Anzahl der Events nach Kategorien, Anzahl und Prozentsatz der Events, die zu Störungen geführt haben."
+          },
+          "260": {
+            "q": "Was ist ein Problem?",
+            "a": "Eine unbekannte Ursache einer oder mehrerer Störungen."
+          },
+          "261": {
+            "q": "Was ist das Ziel des Problem Managements?",
+            "a": "Probleme zu finden, zu beseitigen und so künftige Störungen dauerhaft zu vermeiden. Außerdem ist das Ziel die damit verbundene Ursachenforschung."
+          },
+          "262": {
+            "q": "Wodurch kennzeichnet sich ein gutes Problem Management?",
+            "a": "Durch die Reduzierung des Störungsvolumens und die Erhöhung der Verfügbarkeit."
+          },
+          "263": {
+            "q": "Wie werden Probleme identifiziert?",
+            "a": "Das Incident Management hat eine Störung identifiziert, kann aber ihre Ursache nicht finden. Hinweise auf bekannte Schwächen / Bugs / etc. einer Komponente. Problem Management untersucht selbst Incidents systematisch auf Probleme. Das Event Management hat ein Event, welches auf ein Problem hindeutet."
+          },
+          "264": {
+            "q": "Was muss bei der Identifikation von Problemen beachtet werden?",
+            "a": "Alle Informationen zum Problem müssen festgehalten werden. Zudem ist eine Kategorisierung und eine Priorisierung erforderlich."
+          },
+          "265": {
+            "q": "Was ist eine Pain Value Analysis?",
+            "a": "Diese Analyse betrachtet die Ausfallzeit, die Anzahl der betroffenen User sowie die Auswirkungen auf deren Arbeit und entstehende Kosten."
+          },
+          "266": {
+            "q": "Welche Ursachen kann ein Problem haben?",
+            "a": "Die Ursache kann in Hardware, Software, Dokumentation, menschlichem versagen oder einem Prozessfehler liegen."
+          },
+          "267": {
+            "q": "Was ist ein Known Error?",
+            "a": "Dies ist ein Problem, das analysiert, aber noch nicht endgültig gelöst worden ist. Zu den Known Errors wird falls möglich ein Workaround dokumentiert und dem Service Desk oder den Anwendern selbst zur Verfügung gestellt."
+          },
+          "268": {
+            "q": "Wie erfolgt die Beseitigung der Ursache eines Problems?",
+            "a": "Das Problem Management erarbeitet eine Lösung und setzt sie um. Meist ist dazu ein RfC erforderlich. Erst nach erfolgreichem PIR wird das Problem geschlossen."
+          },
+          "269": {
+            "q": "Wer ist für den Problem Management Prozess verantwortlich?",
+            "a": "Der Problem Manager."
+          },
+          "270": {
+            "q": "Warum gibt es sowohl einen Incident Manager als auch einen Problem Manager?",
+            "a": "Weil dadurch Problem Management und Incident Management parallel arbeiten können."
+          },
+          "271": {
+            "q": "Nennen Sie mögliche Schnittstellen des Problem Management!",
+            "a": "Incident Management, Change Management, Configuration Management"
+          },
+          "272": {
+            "q": "Nennen Sie mögliche Key-Performance-Indicators (KPIs) zur Prozesssteuerung bezüglich des Problem Management!",
+            "a": "Anzahl und Entwicklung der Known Errors und Workarounds, durchschnittliche Bearbeitungsdauer eines Problems, durchschnittliche Kosten eines Problems."
+          },
+          "273": {
+            "q": "Was ist ein Release?",
+            "a": "Veränderungen der Infrastruktur und der IT-Services betreffen oft mehrere CIs und Changes, sie werden zu einem Release zusammengefasst."
+          },
+          "274": {
+            "q": "Was ist das Ziel des Release Management (offizieller Name nach ITIL v3: Release and Deployment Management)?",
+            "a": "Die reibungslose Durchführung von Änderungen an der Infrastruktur und IT-Services."
+          },
+          "275": {
+            "q": "Was macht das Release Management?",
+            "a": "Es gibt Richtlinien und Werkzeuge vor, bspw. für die Verteilung einer Client-Software auf alle betroffenen PCs."
+          },
+          "276": {
+            "q": "Wozu dient eine Staging-Umgebung?",
+            "a": "Zum Testen. Sie ist der Produktivumgebung so ähnlich wie nur möglich, auf ihr wird nicht entwickelt sondern ausschließlich getestet. Sie unterliegt wie die Produktivumgebung der Change Control und dem Service Configuration Management."
+          },
+          "277": {
+            "q": "Zwischen welchen Bereichen ist das Release Management die Schnittstelle?",
+            "a": "Zwischen dem IT-Betrieb und den Entwicklungsprojekten bei Individualsoftware bzw. dem Einkauf bei Standardsoftware und Hardware."
+          },
+          "278": {
+            "q": "Was ist ein Blue-Green-Deployment?",
+            "a": "Es gibt zwei Produktivumgebungen, von denen jeweils eine genutzt wird. Auf der anderen kann ein neues Release durchgeführt werden. Dann wird zu einem Zeitpunkt umgestellt (bspw. über DNS)."
+          },
+          "279": {
+            "q": "Was sind Feature Flags?",
+            "a": "Neue Releases können auf einzelne Nutzer oder Gruppen beschränkt werden. Diese werden planmäßig nacheinander auf das neue Release gebracht."
+          },
+          "280": {
+            "q": "Wie viele Arten des Release Management gibt es und wie heißen diese?",
+            "a": "Es gibt drei Arten, den Full Release, den Delta Release und den Package Release."
+          },
+          "281": {
+            "q": "Was ist ein Full Release?",
+            "a": "Vollständig zusammengestellte neue Version eines Systems, welche gemeinsam getestet wurde."
+          },
+          "282": {
+            "q": "Was ist ein Delta Release?",
+            "a": "Ein solcher Release enthält nur die Dateien, die sich seit dem letzten Release geändert haben. Vorteil: Schnelles und einfaches Deployment. Nachteil: Releases werden bald unübersichtlich, was eine mögliche Fehlerquelle darstellt."
+          },
+          "283": {
+            "q": "Was ist ein Package Release?",
+            "a": "Mehrere Releases, die eigentlich unabhängig voneinander entwickelt wurden, werden zu einem Paket zusammengefasst. Vorteil: Das Komplettsystem muss nur einmal getestet werden. Nachteil: Ein Fehler in einem der Bestandteile führt zum Backout des ganzen Packages."
+          },
+          "284": {
+            "q": "Warum kontrolliert das Release Management die Versionierung?",
+            "a": "Die Hardware, Software und alle Konfigurationseinstellungen einer getesteten Version müssen exakt dokumentiert sein, um Fehler rekonstruieren zu können."
+          },
+          "285": {
+            "q": "Was muss das Release Management bei einer Einführungsphase eines Releases beachten?",
+            "a": "Anstieg der Supportanfragen in dieser Phase, Servicekapazität muss temporär aufgebaut werden (Early-Life-Support, ELS). Vorher kann im Rahmen eines Pilot-Tests das neue System einer kleinen Gruppe von Anwendern produktiv geschaltet werden."
+          },
+          "286": {
+            "q": "Nennen Sie mögliche Schnittstellen des Release Management!",
+            "a": "Erstellung eines Releases und operative Umsetzung eines Changes, Zurückgreifen auf Informationen im SACM."
+          },
+          "287": {
+            "q": "Nennen Sie mögliche Key-Performance-Indicators (KPIs) zur Prozesssteuerung bezüglich des Release Management!",
+            "a": "Anzahl der Releases, die in Time bzw. in Budget produktiv werden, Anzahl der Releases insgesamt."
+          },
+          "288": {
+            "q": "Was wird im Service Catalogue gelistet?",
+            "a": "Alle IT-Services, die der Service Provider aktuell anbietet."
+          },
+          "289": {
+            "q": "Nach welcher Art Kriterien werden die IT-Services im Service Catalogue geordnet?",
+            "a": "Nicht nach technischen, sondern nach Kundenkriterien."
+          },
+          "290": {
+            "q": "Was macht das Service Catalogue Management (SCM)?",
+            "a": "Es legt den Aufbau und das Format des Service Catalogue fest und gewährleistet dessen Aktualität und Vollständigkeit. Dazu benötigt es Informationen über Änderungen bestehender und Inbetriebnahme neuer IT-Services."
+          },
+          "291": {
+            "q": "Wer betreibt die Plattform des Service Catalogue und wie wird diese realisiert?",
+            "a": "Das Service Catalogue Management betreibt die Plattform. Im einfachsten Fall besteht der Service Catalogue aus einem Spreadsheet, komfortabler ist der Betrieb eines Web-Portals im Intranet."
+          },
+          "292": {
+            "q": "Nennen Sie mögliche Key-Performance-Indicators (KPIs) zur Prozesssteuerung bezüglich des Service Catalogue Management!",
+            "a": "Prozentsatz der fehlenden sowie mit falschen Informationen versehenden Services im Katalog."
+          },
+          "293": {
+            "q": "Welche sind die Aufgaben des Service Configuration Management (SCM)?",
+            "a": "Verwaltung von Informationen über alle Service Assets und Konfigurationen (also alle CIs und deren Attribute, Beziehungen und  Versionen), Pflege der Configuration Management Database(s) (CMDB) als Bestandteil des Configuration Management Systems (CMS), Sicherstellung von Vollständigkeit und Korrektheit der Informationen."
+          },
+          "294": {
+            "q": "Was macht das Configuration Management System (CMS)?",
+            "a": "Es stellt zielgruppenspezifische Sichten auf den Datenbestand bereit."
+          },
+          "295": {
+            "q": "Was ist ein Configuration Item (CI)?",
+            "a": "Dies ist ein Software- oder Hardwaresystem oder ein wichtiges Dokument."
+          },
+          "296": {
+            "q": "Was ist eine Baseline?",
+            "a": "Dies ist die Menge aufeinander abgestimmter CIs, wie bspw. ein Server im Auslieferungszustand."
+          },
+          "297": {
+            "q": "Welcher Prozess ist die Grundlage aller anderen ITIL Prozesse und wird daher meist als einer der ersten implementiert?",
+            "a": "Das Service Configuration Management (SCM)."
+          },
+          "298": {
+            "q": "Wie lauten die Ziele des Service Configuration Management?",
+            "a": "Verfügbarkeit aktueller Informationen über Konfigurationen schaffen."
+          },
+          "299": {
+            "q": "Grenzen Sie das IT Asset Management vom Service Configuration Management ab!",
+            "a": "Das IT Asset Management verwaltet die kaufmännischen Attribute der IT Service Assets, das Service Configuration Management verwaltet die technischen Attribute und die Beziehungen der Hardware- und Softwaresysteme untereinander."
+          },
+          "300": {
+            "q": "Nennen Sie mögliche Beziehungsbezeichnungen für Hardware- und Softwaresysteme!",
+            "a": "Enthält (Bsp.: Server enthält Festplatte), ist Instanz von (Bsp.: die Word-Installation auf PC 4711 ist Instanz von MS Word 2003 v11.32), verwendet (Bsp.: Datenbankinstanz XY verwendet Server YZ)."
+          },
+          "301": {
+            "q": "Warum gibt es keine herrenlose (keinem Verantwortlichen zugeordnete) Soft- oder Hardware?",
+            "a": "Weil alle Systeme als CI geführt werden."
+          },
+          "302": {
+            "q": "Was soll das Service Configuration Management verhindern?",
+            "a": "Das SCM soll unautorisierte physische Veränderungen der CIs verhindern. Es stellt deshalb sicher, dass das CMS vollständig und aktuell ist."
+          },
+          "303": {
+            "q": "Wie kann sichergestellt werden, dass das Configuration Management System (CMS) vollständig und aktuell ist?",
+            "a": "Zum Beispiel durch regelmäßige Audits, Software-Scantools oder Anweisungen an die Servicetechniker, bei jedem besuch die Daten zu prüfen."
+          },
+          "304": {
+            "q": "Wozu dient die Definitive Media Library (DML)?",
+            "a": "Sie dient als sicheres Repository für endgültige, autorisierte Versionen von Softwaremedien eines Unternehmens. Sie beinhaltet sowohl digitale Daten als auch physikalische Datenträger."
+          },
+          "305": {
+            "q": "Nennen Sie mögliche Schnittstellen des Service Configuration Management!",
+            "a": "Zugriff auf Daten, die vom SCM gepflegt werden. Dies geschieht i.d.R. von allen Practices aus."
+          },
+          "306": {
+            "q": "Nennen Sie mögliche Key-Performance-Indicators (KPIs) zur Prozesssteuerung bezüglich des Service Configuration Management!",
+            "a": "Anzahl fehlender oder falsch erfasster CIs und CI-Attribute, Anzahl ungenutzter CIs (bspw. bezahlte Softwarelizenzen), Anzahl nicht registrierter CIs (bspw. nicht-lizenzierte Softwareinstallationen), Anzahl fehlerhafter Changes aufgrund falscher CI-Daten."
+          },
+          "307": {
+            "q": "Wozu dient das Service Continuity Management (SCM)?",
+            "a": "Das SCM dient der Vorbereitung auf den Katastrophenfall."
+          },
+          "308": {
+            "q": "Warum muss eine Katastrophe explizit ausgerufen werden?",
+            "a": "Weil der Übergang einer normalen Störung zur Katastrophe fließend sein kann unternehmensspezifisch ist. Im Nicht-Katastrophenfall kümmert sich das Availability Management um die Verhütung, das Incident Management um die Beseitigung von Störungen."
+          },
+          "309": {
+            "q": "Nennen Sie mögliche Katastrophenfälle!",
+            "a": "Langfristige Stromausfälle, Naturkatastrophen, terroristische Anschläge, Sabotage, Virenattacken, etc."
+          },
+          "310": {
+            "q": "Nennen Sie mögliche Auswirkungen von Katastrophen!",
+            "a": "Gefährdung von Personen, Umsatzausfälle, Imageverlust, Wettbewerbsnachteile, Datenverluste, Marktanteilsverluste, zusätzliche Kosten, Verletzung von gesetzlichen Auflagen, Verletzung von Gesundheits- und Sicherheitsbestimmungen, etc."
+          },
+          "311": {
+            "q": "Was sind die Ziele des Service Configuration Management?",
+            "a": "Risikoreduktion (Wahrscheinlichkeit eines Katastrophenfalls minimieren) und Vorbereitung der Wiederherstellung (Auswirkungen im Falle einer Katastrophe minimieren)."
+          },
+          "312": {
+            "q": "Aus welchen beiden Analysen besteht eine Service Configuration Management Strategie?",
+            "a": "Aus einer Risikoanalyse und einer Auswirkungsanalyse."
+          },
+          "313": {
+            "q": "Welche Fragen sollten im ersten Schritt bei einer Business Impact Analysis aus Sicht des Business gestellt werden?",
+            "a": "Welche Geschäftsprozesse sind im Notfall für das Unternehmen unverzichtbar (VBF)? In welchem Umfang müssen sie wiederhergestellt werden?"
+          },
+          "314": {
+            "q": "Welche Frage sollte im zweiten Schritt bei einer Business Impact Analysis aus Sicht der IT gestellt werden?",
+            "a": "Welche Bestandteile der IT unterstützen diese Prozesse?"
+          },
+          "315": {
+            "q": "Welche Faktoren bestimmen das Risiko im Risk Assessment?",
+            "a": "Eintrittswahrscheinlichkeit und Auswirkungen."
+          },
+          "316": {
+            "q": "Nennen Sie eine manuelle Umgehungslösung des Service Continuity Management!",
+            "a": "Die Aufträge mit der größten Auftragssumme werden soweit wie möglich ohne ERP von Hand bearbeitet."
+          },
+          "317": {
+            "q": "Was ist ein Cold Standby im Service Continuity Management?",
+            "a": "Räume und Anschlüsse werden vorgehalten."
+          },
+          "318": {
+            "q": "Was ist ein Warm Standby im Service Continuity Management?",
+            "a": "Zusätzlich zu Räumen und Anschlüssen werden Hardware und Software vorgehalten."
+          },
+          "319": {
+            "q": "Was ist ein Hot Standby im Service Continuity Management?",
+            "a": "Ersatzsysteme sind ständig bereit und können ohne größere Unterbrechung und Datenverluste den Service übernehmen."
+          },
+          "320": {
+            "q": "Was ist ein Immediate Recovery im Service Continuity Management?",
+            "a": "Duplizierte Produktivumgebung zur unterbrechungsfreien Übernahme des Betriebs."
+          },
+          "321": {
+            "q": "Wie kann zusätzlich sichergestellt werden, dass die Wiederherstellung des Betriebs schnellstmöglich geschehen kann?",
+            "a": "Durch eine wechselseitige Absicherung."
+          },
+          "322": {
+            "q": "Wer verantwortet die Erstellung und Pläne der Präventivmaßnahmen und der ITSCM-Pläne?",
+            "a": "Der ITSC-Manager."
+          },
+          "323": {
+            "q": "Welche Informationen enthalten ITSCM-Pläne?",
+            "a": "Wer ruft den Katastrophenfall aus? Wer hat im Katastrophenfall welche Zuständigkeiten? Wer ist im Katastrophenfall wann von wem worüber zu informieren? Wo befinden sich wichtige Sicherheitsmedien, Ersatzhardware, etc.?"
+          },
+          "324": {
+            "q": "Was definiert das Recovery Time Objective (RTO)?",
+            "a": "Es definiert, wie lange nach einer Unterbrechung die Wiederherstellung dauern darf."
+          },
+          "325": {
+            "q": "Was definiert das Recovery Point Objective (RPO)?",
+            "a": "Es definiert, was bis zum RTO wiederhergestellt sein muss."
+          },
+          "326": {
+            "q": "Wer ist für die Abarbeitung eines SCM-Plans zuständig?",
+            "a": "Ein Manager-on-Duty. Das Verhalten im Notfall muss regelmäßig von allen Beteiligten geübt werden. Der ITSCM-Plan unterliegt dem Change Management."
+          },
+          "327": {
+            "q": "Nennen Sie mögliche Schnittstellen des Service Continuity Management (SCM)!",
+            "a": "Zusammenarbeit mit dem Availability Management zur Ausarbeitung von Präventivmaßnahmen, Dokumentation der Anforderungen des SCM für einen IT-Service in den SLAs, SCM benötigt Informationen aus dem Change und Configuration Management."
+          },
+          "328": {
+            "q": "Nennen Sie mögliche Key-Performance-Indicators (KPIs) zur Prozesssteuerung bezüglich des Service Continuity Management!",
+            "a": "Häufigkeit von Continuity-Schulungen, Planaktualisierungen, Notfallübungen und SLAs mit Bezug auf Continuity."
+          },
+          "329": {
+            "q": "Was macht das Service Design?",
+            "a": "Das Service Design entwirft Produkte und Services für konkrete Kunden oder den anonymen Markt. Es geht darum, die Aktivitäten der Practices für Security, Availabilty, Capacity, etc. aufeinander abzustimmen. Der Fokus liegt dabei auf Customer Experience (CX) und User Experience (UX)."
+          },
+          "330": {
+            "q": "Nennen Sie Medien, die Anwender zur Kontaktaufnahme mit dem Service Desk bei Störungen (Incidents) und Anfragen (Service Requests) nutzen können!",
+            "a": "Telefon, E-Mail, Service-Portale und Service-Apps, Live Chat, Chatbot, Walk-in-Service-Desks, Textnachrichten und Social Media Nachrichten bei größeren Störungen, Diskussionsforen."
+          },
+          "331": {
+            "q": "Wie viele Single Points of Contact (SPOC) gibt es und welche Funktion agiert als SPOC?",
+            "a": "Es gibt genau einen SPOC, und zwar den Service Desk."
+          },
+          "332": {
+            "q": "Was benötigt der Service Desk zum Erfassen der Störungen, Probleme, Services, Systeme, etc.?",
+            "a": "Er benötigt geeignete Software."
+          },
+          "333": {
+            "q": "Nennen Sie mögliche Anforderungen an einen Mitarbeiter des Service Desk!",
+            "a": "Technische Qualifikation, damit sie Störungen nicht nur entgegen nehmen, sondern auch 1st Level Support leisten können. Interpersonelle Qualifikation, weil sie der Kontaktkanal zu den Anwendern und damit das Aushängeschild der IT-Organisation sind."
+          },
+          "334": {
+            "q": "Nennen Sie mögliche Aufgaben des Service Desk!",
+            "a": "Dokumentation der Vorfälle, 1st Level Support des Incident Management (Anfragen werden qualifiziert und dokumentiert, einfache Fälle werden selbst bearbeitet), Weiterleitung schwieriger Fälle an den 2nd Level Support und Nachverfolgung dieser Fälle, Schließen von Fällen nach Bestätigung der Anwender, Informieren der Anwender über den aktuellen Status des Falls."
+          },
+          "335": {
+            "q": "Nennen Sie Vor- und Nachteile der lokalen (pro Standort, pro Bereich, pro Kontinent) Service Desk Struktur!",
+            "a": "Vorteil: Nähe zum Anwender (vorteilhaft bei Sprachvarietät, Nutzung verschiedener Systeme und Zeitzonen). Nachteil: Viele Prozesse müssen mehrfach aufgebaut werden, Expertise muss mehrfach vorgehalten werden und auch vertieftes technisches Wissen für den 2nd Level Support muss vorgehalten werden."
+          },
+          "336": {
+            "q": "Nennen Sie Vor- und Nachteile der zentralen (weltweiten) Service Desk Struktur!",
+            "a": "Vorteil: Einheitlich, kostengünstig, gleichmäßig ausgelastet. Nachteil: Administrativer, organisatorischer Aufwand."
+          },
+          "337": {
+            "q": "Nennen Sie Vor- und Nachteile der virtuellen (zentrale Datenhaltung, dezentrale Mitarbeiter) Service Desk Struktur!",
+            "a": "Vorteil: Einheitlich, kostengünstig, kundennah. Nachteil: Schwierig zu organisieren."
+          },
+          "338": {
+            "q": "Was versteht man unter der Service Desk Struktur namens Follow the Sun?",
+            "a": "Je nach dem, an welchem Standort es gerade Tag ist, wechselt die Zuständigkeit des Service Desk von Stadt zu Stadt (bzw. auch Land zu Land)."
+          },
+          "339": {
+            "q": "Was ist ein Service Level?",
+            "a": "Dies ist ein Service Qualitätsniveau, festgelegt anhand von Metriken."
+          },
+          "340": {
+            "q": "Wer verhandelt mit dem Kunden die Service Level Agreements (SLAs)?",
+            "a": "Der Service Level Manager."
+          },
+          "341": {
+            "q": "Was macht das Service Level Management (SLM)?",
+            "a": "Es definiert Kenngrößen zur Überwachung des Serviceniveaus. SLM weist damit die Einhaltung der SLAs nach und stößt im Falle einer Nichteinhaltung Verbesserungen an. Bei Typ III Service Providern werden die SLAs zusammen mit Rahmenvereinbarungen zu einem Vertrag im juristischen Sinn."
+          },
+          "342": {
+            "q": "Was sind Service Packages?",
+            "a": "Diese sind eine Zusammenstellung aus Core-Services, die der Kunde direkt nutzt und aus unterstützenden Services (z.B. Backup, Directory). Service Packages werden mit Service Level Packages je nach Unterstützungsbedarf kombiniert."
+          },
+          "343": {
+            "q": "Welche Inhalte umfasst ein Service Level Agreement (SLA)?",
+            "a": "Name, Beschreibung, Preis, Verrechnungsart, Zahlungsvereinbarungen, Umfang (zu erbringende Ergebnisse, Leistungsausschlüsse, Mitwirkungspflichten), Service Levels (abgestufte Ausprägung des Service), Messgrößen, Servicezeiten, Verfügbarkeit, Prozesse für Kommunikation / Beschwerdemanagement / Eskalation / Änderungen des SLA, Inhalte und Frequenz des Reporting und Monitoring, Vereinbarungsdauer, Rücktrittsrechte, Künsigungsfristen."
+          },
+          "344": {
+            "q": "Unter welchen Voraussetzungen sind kundenspezifische SLAs sinnvoll?",
+            "a": "Genau dann, wenn sich die Kundenanforderungen stark unterscheiden. Redundanzen sollten jedoch vermieden werden."
+          },
+          "345": {
+            "q": "Welche drei SLA-Typen umfasst das Service Level Framework und wodurch unterscheiden sich diese?",
+            "a": "(1)Service Level SLA: Spezielle Bedingungen des Service. | (2)Customer Level SLA: Bedingungen, die für alle Services dieses Kunden gelten. | (3)Corporate Level SLA: Allgemeine Bedingungen, die für alle Kunden gelten."
+          },
+          "346": {
+            "q": "Was ist bei der Aufnahme von Service Level Requirements für ein SLA zu beachten?",
+            "a": "Die Kundenanforderungen (= Service Level Requirements) werden mit dem Kunden aufgenommen. Der Service Level Manager darf Leistungen erst zusagen, nachdem er sich bei den erstellenden Einheiten abgesichert hat. Er ermittelt Kosten verschiedener Alternativen. Die für den Kunden passenden SLR werden in mehreren Iterationen dokumentiert."
+          },
+          "347": {
+            "q": "Wie werden die Leistungen eines SLA gemessen?",
+            "a": "Durch messbare Leistungsindikatoren (bspw. Zielgrößen, Messmethoden), die die Beurteilung der Leistungserbringung ermöglichen."
+          },
+          "348": {
+            "q": "Was geschieht im Rahmen des SLA Monitoring (SLAM)?",
+            "a": "Die Erhebung von Zielgrößen und Messmethoden. Die gemessene Leistung soll der vom Benutzer wahrgenommenen möglichst genau entsprechen."
+          },
+          "349": {
+            "q": "Wodurch wird die Kundenzufriedenheit eines Service bestimmt?",
+            "a": "Durch die vom Kunden wahrgenommene Leistung und Kundenerwartungen. Zudem kann die Kundenzufriedenheit mit Fragebögen gemessen und Beschwerden können analysiert werden."
+          },
+          "350": {
+            "q": "Worauf sollte ein Service Level Manager hinsichtlich der Kundenerwartungen gegenüber einer Leistung achten?",
+            "a": "Dass die Erwartungen nicht über der vereinbarten Leistung liegen. I.d.R. übersteigen die Erwartungen die vereinbarte Leistung nicht, wenn unterschiedlich bepreiste Service Levels angeboten werden."
+          },
+          "351": {
+            "q": "Was ist der Watermelon Effect?",
+            "a": "Wenn die im SLA vereinbarten Metriken nur unzureichend die Kundenbedürfnisse widerspiegeln, ist der Service nur scheinbar erfolgreich."
+          },
+          "352": {
+            "q": "Was ist unter nachgelagerten Servicevereinbarungen zu verstehen?",
+            "a": "Aus dem technischen Servicekatalog werden die Services gewählt, die notwendig sind, um einen vereinbarten Service für den Kunden zu erbringen."
+          },
+          "353": {
+            "q": "Wie heißen die mit internen Einheiten abgeschlossene nachgelagerte Servicevereinbarungen?",
+            "a": "Operation Level Agreement (OLA)."
+          },
+          "354": {
+            "q": "Wie heißen die mit externen Lieferanten abgeschlossene nachgelagerte Servicevereinbarungen?",
+            "a": "Underpinning Contract (UC)."
+          },
+          "355": {
+            "q": "Welche Ergebnisse des Monitoring werden in Verantwortung des SLM dokumentiert?",
+            "a": "Qualität des Service für den Kunden (SLA-Einhaltung) und die Qualität interner Leistungen (OLA- und UC-Einhaltung)."
+          },
+          "356": {
+            "q": "Wo werden dem Kunden die Service Reports präsentiert?",
+            "a": "In Service Level Review Meetings."
+          },
+          "357": {
+            "q": "Für was ist das SLM zuständig, falls Vereinbarungen des SLA nicht eingehalten werden?",
+            "a": "Für die Ausarbeitung und Durchführung von Verbesserungsmaßnahmen (Service Improvement Program)."
+          },
+          "358": {
+            "q": "Wovon hängt der Erfolg des Service Level Management (SLM) unter anderem ab?",
+            "a": "Von der Mitwirkung der Kunden. Ein Erfolgsfaktor liegt somit außerhalb des Service Providers."
+          },
+          "359": {
+            "q": "Nennen Sie mögliche Key-Performance-Indicators (KPIs) zur Prozesssteuerung bezüglich des Service Level Management!",
+            "a": "Prozentsatz der Services, für die die SLA aktuell sind, die mit UCs und OLAs vollständig abgedeckt sind."
+          },
+          "360": {
+            "q": "Was ist ein Service Request (SR)?",
+            "a": "Dies ist ein Abruf eines IT-Services, der im Servicekatalog standardisiert ist."
+          },
+          "361": {
+            "q": "Welche sind die Aufgaben des Service Request Management?",
+            "a": "Es entspricht dem ITIL v3 Prozess namens Request Fulfillment, der SR entgegennimmt. Zudem: Beratung, Information, Entgegennahme des Auftrags, Auskunft über den Liefertermin, Einholung der Zustimmung des Kostenstellenverantwortlichen, termingerechte Bereitstellung des bestellten IT-Service, Einholung der Nutzerzustimmung vor Schließen des SR."
+          },
+          "362": {
+            "q": "Wofür ist das Service Request Management zuständig?",
+            "a": "Für die Entgegennahme von Service Requests und Störungen der Service Desks als SPOC."
+          },
+          "363": {
+            "q": "Nennen Sie mögliche Schnittstellen des Service Request Management!",
+            "a": "Beratung eines Kunden im Rahmen des Request Fulfillment. Ein übersichtlicher und verständlicher Servicekatalog erleichtert die Beratung entsprechend."
+          },
+          "364": {
+            "q": "Nennen Sie mögliche Key-Performance-Indicators (KPIs) zur Prozesssteuerung bezüglich des Service Request Management!",
+            "a": "Anzahl unerledigter SR, Anteil nicht termingerecht erfüllter SR, Kosten pro SR, Kunden- und Anwenderfeedback."
+          },
+          "365": {
+            "q": "Welche Rolle ist am stärksten beteiligt am Management von Underpinning Contracts (UC)?",
+            "a": "Der Supplier Manager."
+          },
+          "366": {
+            "q": "Wofür ist der Service Catalogue Manager verantwortlich und welche Aufgabe gehört dazu?",
+            "a": "Er ist für die Bereitstellung und Pflege des Service Katalogs verantwortlich. Dazu gehört auch sicherzustellen, dass die Inhalte des Service Katalogs angemessen geschützt und gesichert werden."
+          },
+          "367": {
+            "q": "Wozu dient Service Validation and Testing?",
+            "a": "Es sorgt dafür, dass neu oder verändert ausgelieferte Services und Produkte den Qualitätsansprüchen genügen. Service Validation legt Abnahmekriterien auf Grundlage der SLAs fest. Testing vergleicht den Ist-Zustand mit diesen Anforderungen an den Service (Utility-Based: Funktionale Tests | Warranty-Based: Nicht-Funktionale Tests)."
+          },
+          "368": {
+            "q": "Zwischen welchen Zielkonfliktgrößen muss der IT-Betrieb in den Technical Management Practices Abwägungen treffen?",
+            "a": "(1)interne (technische) vs. externe (kundenorientierte) Sicht | (2)Stabilität vs. Responsiveness | (3)Reaktiv vs. Proaktiv | (4)Qualität vs. Kosten"
+          },
+          "369": {
+            "q": "In welchem Verhältnis stehen die Kosten der Qualität eines Service gegenüber?",
+            "a": "Mit steigendem Qualitätsgrad erhöhen sich die Kosten exponentiell."
+          },
+          "370": {
+            "q": "Nennen Sie mögliche Aufgaben des Systembetriebs!",
+            "a": "Backup and Restore, Einspielen und Verteilen von Softwarepatches, Netzwerkinstallation, Betrieb von NAS und SAN, Datenbankadministration, Betrieb von Verzeichnisdiensten, Internetservern und Content-Management-Systemen, Support für Desktop- und Laptop-Computer, Betrieb des Rechenzentrums inklusive Zutrittskontrolle, Klimatisierung, USV, etc."
+          },
+          "371": {
+            "q": "Was ist unter Deployment Management zu verstehen?",
+            "a": "Die Auslieferung von neuer oder geänderter Software, Hardware, Dokumenten in eine Produktiv- oder auch Stagingumgebung. Das Deployment Management arbeitet eng mit Change Control und Release Management zusammen."
+          },
+          "372": {
+            "q": "Was ist Phased Deployment?",
+            "a": "Pilot z.B. in einer Niederlassung, dann Ausrollen auf die anderen."
+          },
+          "373": {
+            "q": "Was ist Big Bang Deployment?",
+            "a": "Notwendig z.B. bei grundlegenden Änderungen der Datenstruktur."
+          },
+          "374": {
+            "q": "Was ist Continuous Delivery?",
+            "a": "Fortlaufendes Integrieren, Testen und Ausliefern von einzelnen Komponenten, nur sinnvoll bei Verwendung agiler Methoden in der Softwareentwicklung."
+          },
+          "375": {
+            "q": "Was ist Pull Deployment?",
+            "a": "Vom User angestoßen, üblich bei Mobilapplikationen."
+          },
+          "376": {
+            "q": "Was ist eine Definitive Media Library (DML)?",
+            "a": "Diese enthält Kopien aller verwendeten Softwaresysteme in den verschiedenen Versionen (Individual- und Standardsoftware) und wird im Rahmen des Configuration Management gepflegt. Bei Bedarf kann aus der DML eine bestimmte Software jederzeit zu einem gewünschten Stand wiederhergestellt werden."
+          },
+          "377": {
+            "q": "Wie heißt das Pendant der DML für Hardware?",
+            "a": "Definitive Hardware Store oder Spare. Aus naheliegenden Gründen sind die Kosten der Lagerhaltung von Ersatzteilen der Hardware viel höher als bei Software, deshalb ist er im Gegensatz zur DML nie vollständig."
+          },
+          "378": {
+            "q": "Worum kümmert sich das Infrastructure and Platform Management?",
+            "a": "Um die Auswahl, Planung und Dokumentation der physischen und virtuellen (Cloud-)Plattformen, die eine Organisation nutzt."
+          },
+          "379": {
+            "q": "Auf welche Methoden verweist das Software Development and Management?",
+            "a": "Auf klassische und agile Methoden des Software Engineering (Ideation -> Design -> Develop -> Test -> Deploy -> Operate -> Retire -> Ideation -> ...)."
+          },
+          "380": {
+            "q": "Von wem stammt das Vorlesungsskript, an dessen Informationen sich dieses Kartendeck bedient?",
+            "a": "Von Prof. Dr. Carsten Dorrhauer. Vielen Dank!"
+          }
+        }
+      }
+    }
+  }
