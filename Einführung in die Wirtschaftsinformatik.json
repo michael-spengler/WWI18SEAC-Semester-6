@@ -1,0 +1,882 @@
+{
+  "meta": {
+    "author": "Tobias Lorenz",
+    "version": "1.1.1",
+    "uuid": "fe5fdc35-a35b-4845-a01d-620a3afabde5"
+  },
+  "decks": {
+    "d1": {
+      "meta": {
+        "deck_name": "Einführung in die Wirtschaftsinformatik",
+        "next_card_id": 1,
+        "description": "Kartendeck für das Fach Einführung in die Wirtschaftsinformatik angelehnt an das Skriptum von Dipl. Ing. Gerd Urban"
+      },
+      "cards": {
+        "0": {
+          "q": "Was ist unter der Wirtschaftsinformatik zu verstehen?",
+          "a": "interdisziplinäre Wissenschaft zwischen der BWL und der Informatik; Beschreibung, Erklärung, Prognose & Gestaltung rechnergestützter Informationssysteme und deren Einsatz in Wirtschaft, Verwaltung und dem unmittelbaren privaten Lebensumfeld"
+        },
+        "1": {
+          "q": "Was sind typische Jobrollen in der Wirtschaftsinformatik??",
+          "a": "Help Desk Support; Systementwickler; IT Projekt Manager und Projektleiter; Security Engineer; IT Berater und IT Consultant"
+        },
+        "2": {
+          "q": "Was sind typische Einsatzgebiete der Wirtschaftsinformatik?",
+          "a": "IT-Abteilung; Fachabteilung mit IT-Bezug; Entrepreneur"
+        },
+        "3": {
+          "q": "Wie wird Standardsoftware im Bereich der WI definiert?",
+          "a": "Programme bzw. Programmpakete mit Festpreis für die Grundversion; Abdecken eines eindeutig definierten betrieblichen Anwendungsgebiets; Abdecken folgender Eigenschaften (Fakturierung, Aunlagenbuchhaltung, Kostenrechnung, Auftrags- und Bestellabwicklung, Vertriebsaktivitäten) "
+        },
+        "4": {
+          "q": "Was sind Merkmale integrierter Standardsoftware?",
+          "a": "Genau definierter Funktionsumfang; Unterstützung  eines bestimmten Anwendungsbereichs; Unterstützung in unterschiedlichen, zahlreichen Organisationen; Implementierung und Betrieb mit vglw. geringem zeitlichen & finanziellen Aufwand"
+        },
+        "5": {
+          "q": "Was ist Individualsoftware?",
+          "a": "Eine speziell auf bestimmte Aufgaben- oder Problemstellungen einer einzelnen Organisation entwickelte und auf deren Hard- und Softwareumgebung zugeschnittene Software"
+        },
+        "6": {
+          "q": "Was sind Unterschiede von Individualsoftware und Standardsoftware?",
+          "a": "Kauf von Standardsoftware i.d.R. kostengünstiger; kürzere Einführungsdauer und Erforderung geringeres Know-How sowie geringere Risiken bei Einführung von Standardsoftware (sofortige Verfügbarkeit); meist höhere Qualität bei Standardsoftware von Beginn an; genaue Anpassung an Anforderungen und Ablauforganisation der Unternehmung durch Individualsoftware"
+        },
+        "7": {
+          "q": "Was sind E-Commerce Lösungen?",
+          "a": "Das Angebot von Produkten und Dienstleistungen über das Internet, z.B. B2B, B2C, C2C, E-Government"
+        },
+        "8": {
+          "q": "Was ist B2B?",
+          "a": "Eine Untermenge von E-Commerce, bei der alle Teilnehmer Organisation sind"
+        },
+        "9": {
+          "q": "Was ist B2C?",
+          "a": "Eine Form des elektronischen Handels, bei dem Kunden direkt mit einer Organisation handeln und Zwischenhändler vermeiden."
+        },
+        "10": {
+          "q": "Was ist E-Government?",
+          "a": "Nutzung von Informations- und Kommunikationstechnologie zur Vereinfachung des Teilens von Informationen, zur Beschleunigung papierloser Prozesse und zur Verbesserung der Beziehungen der Bürger mit der Kommune"
+        },
+        "11": {
+          "q": "Welche Ausprägungen gibt es beim E-Government?",
+          "a": "Government-to-Consumer (G2C); Government-to-Business (G2B); Government-to-Government (G2G) "
+        },
+        "12": {
+          "q": "Was sind Unterscheidungsfaktoren von B2B, B2C und C2C",
+          "a": "Auftragsvolumen; Länge des Verkaufsprozesses; Anzahl der Entscheidungen; Konstanz des Angebots; Komplexität des Einkaufsprozesses; Motivation des Verkaufs"
+        },
+        "13": {
+          "q": "Inwiefern unterscheiden sich B2B, B2C und C2C in Bezug auf das Auftragsvolumen?",
+          "a": "B2B: Tausende oder Millionen von Euro > B2C: Bis zu mehrere hundert Euros > C2C: Im Zehner Euro Bereich"
+        },
+        "14": {
+          "q": "Inwiefern unterscheiden sich B2B, B2C und C2C in Bezug auf die Länge des Verkaufsprozesses?",
+          "a": "B2B: Tage bis Monate > B2C: Tage bis Wochen > C2C: Stunden bis Tage"
+        },
+        "15": {
+          "q": "Inwiefern unterscheiden sich B2B, B2C und C2C in Bezug auf die Anzahl der Entscheidungen?",
+          "a": "B2B: Mehrere Menschen und Hierarchien > B2C & C2C: Ein oder Zwei"
+        },
+        "16": {
+          "q": "Inwiefern unterscheiden sich B2B, B2C und C2C in Bezug auf die Konstanz des Angebots?",
+          "a": "B2B: i.d.R. konstantes Produktportfolio > B2C: mehr kundenindividuelle Produkte > C2C: individuelle Produkte"
+        },
+        "17": {
+          "q": "Inwiefern unterscheiden sich B2B, B2C und C2C in Bezug auf die Komplexität des Einkaufsprozesses?",
+          "a": "B2B: sehr komplex (viel Verhandlungsraum) > B2C: relativ einfach (weniger Verhandlungsraum bei Preis und Bezahlung) > C2C: sehr einfach (wenig Diskussionen zu Preis und Lieferkonditionen)"
+        },
+        "18": {
+          "q": "Inwiefern unterscheiden sich B2B, B2C und C2C in Bezug auf die Motivation des Verkaufs?",
+          "a": "B2B: Getrieben von Geschäftsentscheidungen; B2C & C2C: Getrieben von Kundenwünschen oder Emotionen"
+        },
+        "19": {
+          "q": "Beschreiben Sie das mehrstufige Modell für E-Commerce!",
+          "a": "Ausgangspunkt Buyer; Phasen: 1. Search and identification -> 2. Selection and negotiation -> 3. Purchasing -> 4. Product and service delivery (Electronic Distribution) -> 5. After-sales service "
+        },
+        "20": {
+          "q": "Aus welchen Komponenten besteht das E-Commerce 3 Komponenten Modell?",
+          "a": "Content (Industry news, Economy news, stock prices); Commerce (Consumers and businesses buying and selling); Community (Message boards, chat rooms)"
+        },
+        "21": {
+          "q": "Was ist in Bezug auf das E-Commerce technisch betrachtet wichtig?",
+          "a": "Verbindung zum Back End System, d.h. E-Commerce Web Server (Unterstützung der webbasierten Bestellabwicklung) und das Intranet (Bereitstellung Zugang zu internen Daten)"
+        },
+        "22": {
+          "q": "Was macht ein Data Warehouse?",
+          "a": "Aufbereitung von Datenbeständen zum Zwecke der strategischen Entscheidungsfindung"
+        },
+        "23": {
+          "q": "Was sind Daten?",
+          "a": "Rohe Fakten aus operativen Systemen (relationalen Datenbanken, nichtrelationale Datenbanken, externe Datenquellen)"
+        },
+        "24": {
+          "q": "Was sind beispielhafte Daten?",
+          "a": "Personalnummern von Mitarbeitern; Teilenummern etc."
+        },
+        "25": {
+          "q": "Was sind Informationen?",
+          "a": "Sammlung von Fakten so organisiert, dass sie einen Mehrwert erzeugen"
+        },
+        "26": {
+          "q": "Was ist Wissen?",
+          "a": "von Entscheidern interpretierte Informationen -> Ziel: Erzielen Wettbewerbsvorteile der Entscheider"
+        },
+        "27": {
+          "q": "Nennen Sie verschiedene Datentypen und deren Darstellungsart!",
+          "a": "Alphanumerische Daten (Zahlen, Buchstaben und andere Zeichen); Bilddaten (Bilder); Audiodaten (Musik); Video (Bewegte Bilder)"
+        },
+        "28": {
+          "q": "Welche Ebenen bestehen in Bezug auf die Gesamtarchitektur eines Data Warehouse Systems?",
+          "a": "Ebene der operativen Systeme; Datenerfassungsebene; Datenhaltungsebene; Datenaufbereitungsebene; Präsentationsebene"
+        },
+        "29": {
+          "q": "Welcher Prozess ist bzgl. der Gesamtarchitektur eines Data Warehouse Systems von großer Bedeutung?",
+          "a": "Extraktion (E) -> Transformation (T) -> Laden (L) => ETL"
+        },
+        "30": {
+          "q": "Welche Analysemöglichkeiten bestehen für ein Data Warehouse System?",
+          "a": "Pivot Tabellen; Rechenschiebermodelle; Operationen in OLAP"
+        },
+        "31": {
+          "q": "Was versteht man unter Data Mining?",
+          "a": "Entwicklung und Anwendung von Methoden, um neue Informationen mit Hilfe von Mustern und Regeln aus vorhandenen Datenbeständen zu gewinnen"
+        },
+        "32": {
+          "q": "Nennen Sie die Zielsetzungen von Data Mining und die entsprechenden Data Mining Methoden!",
+          "a": "Klassifikation (Entscheidungsbaumverfahren; Neuronale Netze; Nearest Neighbor); Schätzung (Regressionsanalyse; Neuronale Netze); Clustering (Diverse Clustering Algorithmen); Assoziationsverfahren (Rule Induction bzw. Market Basket Analysis)"
+        },
+        "33": {
+          "q": "Nennen Sie Erweiterungen von ERP Standardsoftware?",
+          "a": "CRM Systeme; SCM Systeme; Archivierungssysteme"
+        },
+        "34": {
+          "q": "Was ist das Ziel von CRM Systemen bzw. vom Customer Relationship Management?",
+          "a": "Unterstützung und Optimierung kundenbezogener Prozesse"
+        },
+        "35": {
+          "q": "Was ist das Supply Chain Management?",
+          "a": "Alle Geschäftsprozesse einer Lieferkette, die zur Erstellung und Lieferung von Produkten und Dienstleistungen erforderlich sind"
+        },
+        "36": {
+          "q": "Erklären Sie den Wert von Informationen!",
+          "a": "Bei unvollständigen oder ungenauen Informationen einer Organsiation -> Treffen von falschen Entscheidungen für Manager möglich, die Tausende oder Miollen von Euros kosten"
+        },
+        "37": {
+          "q": "Welche Charakteristiken kennzeichnen den WErt von Informationen?",
+          "a": "Verfügbar; Genau; Vollständig; Wirtschaftlich; Flexibel; Relevant; Zuverlässig; Sicher; Einfach; Zeitbezogen; Überprüfbar"
+        },
+        "38": {
+          "q": "Was versteht man unter einem System?",
+          "a": "Eine Gruppe von Komponenten, die zusammenarbeiten, um ein Ziel zu erreichen"
+        },
+        "39": {
+          "q": "Was sind Komponenten eines Systems?",
+          "a": "Eingabe; Prozessmachenismus; Ausgabe; Feedback"
+        },
+        "40": {
+          "q": "Wo werden Informationssysteme eingesetzt?",
+          "a": "In nahezu allen denkbaren Berufszweigen: Vertriebsbeauftragte (Bekanntmachen der Produkte und Kundenkommunikation); Rechtsanwälte (Vertragserstellung)"
+        },
+        "41": {
+          "q": "Aus was bestehen Informationssysteme?",
+          "a": "Aus einer Gruppe von zusammenhängenden Komponenten, welche Daten und Informationen sammeln, bearbeiten und verteilen"
+        },
+        "42": {
+          "q": "Was ist der Sinn und Zweck von Informationssystemen?",
+          "a": "Liefern von Feedback zum Einhalten von Vorgaben"
+        },
+        "43": {
+          "q": "Warum sind Kenntnisse über Informationssysteme für praktisch alle Mitarbeiter eines Unternehmens relevant??",
+          "a": "profitables und effizientes Arbeiten möglich"
+        },
+        "44": {
+          "q": "Was sind die sich wandelnden geschäftlichen Rahmenbedingungen?",
+          "a": "Globalisierung; Zunehmende Bedeutung der Informationswirtschaft; Wandel der Organisationsstrukturen; Entstehung des vernetzten Unternehmens"
+        },
+        "45": {
+          "q": "Was sind Charakteristiken des vernetzten Unternehmens?",
+          "a": "Rasches Erkennen und Reagieren auf Änderungen im betrieblichen Umfeld; Elektronische Verwaltung wichtiger Vermögensgegenstände des Unternehmens; Abwicklung wichtiger Geschäftsprozesse über elektronische Netzwerke; Geschützte Bezeihung zu Kunden, Lieferanten und Mitarbeitern durch elektronische Kommunikationsmittel"
+        },
+        "46": {
+          "q": "Was sind Charakteristiken der Globalisierung?",
+          "a": "Management und Kontrolle in einem globalen Markt; Wettbewerb in Weltmärkten; Globale Arbeitsgruppen; Globale Liefersysteme"
+        },
+        "47": {
+          "q": "Was sind Charakteristiken der zunehmenden Bedeutung der Informationswirtschaft?",
+          "a": "Wissens- und informationsbasierte Marktwirtschaften; Wissensintensive Produkte und Dienstleistungen; Wissen = zentrale produktive und strategische Ressource; Informationsintensives Variantenmanagement von Produkten; Hoher Qualifizierungsbedarf von Mitarbeitern"
+        },
+        "48": {
+          "q": "Was sind Charakteristiken vom Wandel der Organisationsstruktur?",
+          "a": "Weniger Hierarchie/ flachere Organsiationsstrukturen; Dezentralisierung; Größere Flexibilität; Standortunabhängigkeit; Geringe Transaktions- und Koordinationskosten; Verantwortungsübertragung an Ausführende; Unternehmensübergreifende Kooperation und Teamarbeit"
+        },
+        "49": {
+          "q": "Inwiefern verändert sich die Erwerbstätigenstruktur je nach Wirtschaftssektoren?",
+          "a": "Weniger Erwerbstätige im primären Sektor (Land- und Forstwirtschaft) sowie im sekundären Sektor (Produzierendes Gewerbe), jedoch Zunahme der Erwerbstätigen im tertiären Sektor (Dienstleistungen)"
+        },
+        "50": {
+          "q": "Was müssen neue Informationssysteme erfüllen, damit sie eine Verbesserung für ein Unternehmen darstellen?",
+          "a": "Kosten reduzieren; Gewinne erhöhen; Service verbessern; wirtschaftlichen Vorteil bringen"
+        },
+        "51": {
+          "q": "Was ist ein Synonym für ein rechnergestütztes Informationssystem?",
+          "a": "CBIS = Computer Based Information System"
+        },
+        "52": {
+          "q": "Was ist ein Rechner gestütztes Informationssystem?",
+          "a": "System, bei dem die Erfassung, Speicherung, Übertragung und/ oder Transformation von Informationen teilweise automatisiert ist"
+        },
+        "53": {
+          "q": "Was beinhaltet ein Rechner gestütztes Informationssystem?",
+          "a": "Hardware, Software, Datenbanken, Telekommunikation, Menschen und Prozeduren, die konfiguriert werden, um Daten zu sammeln, speichern und zu Informationen verarbeiten"
+        },
+        "54": {
+          "q": "Nennen Sie Beispiele für Business Information Systems!",
+          "a": "Knowledge management and special-purpose business information systems; Management information and decision support systems; Enterprise systems E- and M-commerce"
+        },
+        "55": {
+          "q": "Was wird unter E-Business verstanden?",
+          "a": "Über das E-Commerce hinausgehend; Beinhaltet Informationssysteme und das Internet, um alle geschäftsrelevanten Aufgaben (z.B. Rechnungswesen, Finanzbereich, Marketing, HR) durchzuführen"
+        },
+        "56": {
+          "q": "Was sind 2 Teilbereiche des E-Business?",
+          "a": "E-Commerce und E-Procurement"
+        },
+        "57": {
+          "q": "Was ist unter einem Transaction Processing System (TPS) zu verstehen?",
+          "a": "Organisierte Sammlung von Menschen, Ablaufbeschreibungen, Software, Datenbanken und Geräten, um komplette Geschäftstransaktionen durchzuführen"
+        },
+        "58": {
+          "q": "Was ist unter einem Management Information System (MIS) zu verstehen?",
+          "a": "Organisierte Sammlung von Menschen, Ablaufbeschreibungen, Software, Datenbanken und Geräten, welche Routineinformationen für Manager und Entscheider bereit stellt"
+        },
+        "59": {
+          "q": "Was ist unter einem Decision Support System (DIS) zu verstehen?",
+          "a": "Organisierte Sammlung von Menschen, Ablaufbeschreibungen, Software, Datenbanken und Geräten, welche problemspezifische Entscheidungen unterstützt"
+        },
+        "60": {
+          "q": "Nennen Sie exemplarische Specialized Business Information Systems!",
+          "a": "Knowledge Management; Artificial Intelligence; Expert Systems; Virtual Reality"
+        },
+        "61": {
+          "q": "Was sind Technologien im Kontext der Künstlichen Intelligenz?",
+          "a": "Robotics; Vision Systems; Natural Language Processing; Learning Systems; Neural Networks; Expert Systems"
+        },
+        "62": {
+          "q": "Was ist die Vorgehensweise bei der Systementwicklung??",
+          "a": "Systems Investigation (Understand problem) -> Systems Analysis (Understand solutions) -> Systems Design (Select and plan best solution) -> Systems Implementation (Place solution into effect) -> Systems Maintenance and Review (Evaluate results of solution)"
+        },
+        "63": {
+          "q": "Was sind globale Herausforderungen an Informationssysteme?",
+          "a": "Kulturelle; Sprachbarrieren; Zeit und Entfernung; Infratsruktur; Währung; Produkte und Services; Technologietransfer; Gesetze; Handelsvereinbarungen"
+        },
+        "64": {
+          "q": "Wieviele Globalisierungsepochen gibt es und welcher Zeit sind diese Epochen zuzuordnen?",
+          "a": "3 Epochen: Globalisierung 1.0 (1400-1800); Globalisierung 2.0 (1800-2000); Globalisierung 3.0 (2000-heute)"
+        },
+        "65": {
+          "q": "Was charakterisiert die Epoche Globalisierung 1.0?",
+          "a": "Länder mit der Macht, die Welt zu entdecken und zu beeinflussen"
+        },
+        "66": {
+          "q": "Was charakterisiert die Epoche Globalisierung 2.0?",
+          "a": "Multinationale Firmen, die Produktionsstätten, Lager und Büros in der ganzen Welt haben"
+        },
+        "67": {
+          "q": "Was charakterisiert die Epoche Globalisierung 3.0?",
+          "a": "Persönlichkeiten aus der ganzen Welt, welche durch das Internet gegen ganze Organisationen antreten und bestehen können"
+        },
+        "68": {
+          "q": "Was ist unter einer Organisation zu verstehen?",
+          "a": "Eine Gruppe von Menschen und anderen Ressourcen, die zusammen eine Reihe von Zielen erreichen wollen; = ein System mit Inputs, Outputs, Ablaufmechanismen und Outputs; = offene Systeme (Beeinflussung des Umfelds vs. Beeinflussung durch das Umfeld)"
+        },
+        "69": {
+          "q": "Was sind Inputs im Kontext einer Organisation?",
+          "a": "Capitel; Equipment; Facilities; Materials; Supplies; Labor; Knowledge"
+        },
+        "70": {
+          "q": "Was ist der Transformation Process im Kontext einer Organisation?",
+          "a": "Manufacture; Alteration; Transportation; Storage"
+        },
+        "71": {
+          "q": "Was sind Outputs im Kontext einer Organisation?",
+          "a": "Goods; Services; Feedback"
+        },
+        "72": {
+          "q": "Was ist die Umwelt im Kontext einer Organisation?",
+          "a": "Customer; Supplier; Technology; Competition; Economy"
+        },
+        "73": {
+          "q": "Beschreiben Sie das Zusammenspiel von Organisationen und Informationssystemen entlang der Wertschöpfungskette!",
+          "a": "Raw Materials -> Inbound Logistics (Inbound tracking systems) -> Warehouse and storage (Raw material inventory control systems) -> Production (Process control systems) -> Customer service (Customer service tracking and control systems) -> Marketing and sales (Promotion planning systems) -> Outbound logistics (Distribution planning systems) -> Finished product storage (Automated storage and retrieval systems)"
+        },
+        "74": {
+          "q": "Was ist unter einer Wertschöpfungskette zu verstehen?",
+          "a": "Reihe von Aktivitäten zur Leistungserbringung von der Entwicklung über Beschaffung und Produktion über Vertrieb bis zu Inkasso und nachlaufenden Serviceleistungen"
+        },
+        "75": {
+          "q": "Was versteht man unter dem Upstream management?",
+          "a": "Management of raw materials, inbound logistics, and warehouse and storage facilities"
+        },
+        "76": {
+          "q": "Was versteht man unter dem Downstream management?",
+          "a": "Management of finished product storage, outbound logistics, marketing and sales, and customer service"
+        },
+        "77": {
+          "q": "Was ist unter einer Organisationsstruktur zu verstehen?",
+          "a": "Zusammenspiel unterschiedlicher Bereiche im Unternehmen und wie Unterorganisationen in die gesamte Struktur passen"
+        },
+        "78": {
+          "q": "Was sind mögliche Arten von Organisationsstrukturen?",
+          "a": "Klassisch (Hierarchisch); Projekt (Matrix); Team; Virtuell"
+        },
+        "79": {
+          "q": "Was kennzeichnet eine klassische Organisationsstruktur?",
+          "a": "Hierarchischer Aufbau (Berichten der Abteilungsleiter an den Unternehmensleiter; Symbolisierung der Hierachie durch Pyramide)"
+        },
+        "80": {
+          "q": "Beschreiben Sie die Pyramide bei der klassischen Organisationsstruktur!",
+          "a": "von unten nach höhere Entscheidungsautorität, einigartigere Probleme, höherere Auswirkungen auf die Unternehmensziele; Nonmanagement employees < Operational management < Tactical management < Strategic management in allen Funktionsbereichen"
+        },
+        "81": {
+          "q": "Was kennzeichnet die Projektbezogene Struktur?",
+          "a": "Produkte, Projekte und Serviceleistungen im Mittelpunkt; Teams nur temporär zusammengestellt und ein Organismus, der sich entwickeln muss"
+        },
+        "82": {
+          "q": "Was kennzeichnet die Teambezogene Struktur?",
+          "a": "Arbeitsgruppen im Mittelpunkt; Zeitliche Begrenzung oder dauerhafter Einsatz von Teams je nach Aufgabe; z.B. Produktionsfirma, die Kindernahrung herstellt -> mehrere Produkte in unterschiedlichen Produktionseinheiten"
+        },
+        "83": {
+          "q": "Was kennzeichnet die virtuelle Organisationsstruktur?",
+          "a": "Beschäftigung der Arbeitnehmer von Unternehmen an verschiedenen Orten; möglich, dass sich Arbeitnehmer nie face-to-face sehen; Ermöglichung kooperativer Zusammenarbeit"
+        },
+        "84": {
+          "q": "Was ist bei virtuellen Teams zu beachten?",
+          "a": "Auswahl virtueller Teammitglieder, die sich kennen oder zumindest Einsatz von Technologien, die allen bekannt sind, um sich schneller kennen zu lernen; Auswahl Teammitglieder, die bereits gut mit anderen Mitarbeitern der Firma bekannt sind; Virtuelle Projekte am besten so unabhängig wie möglich von anderen Projekten und herausfordernd, interessant und bedeutsam"
+        },
+        "85": {
+          "q": "Was sind Stärken der hierarchischen Organisationsform?",
+          "a": "Formale Berichtswege = Klar definiert"
+        },
+        "86": {
+          "q": "Was sind Schwächen der hierarchischen Organisationsform?",
+          "a": "WEnig Kontakt über die Abteilung hinaus"
+        },
+        "87": {
+          "q": "Was sind Stärken der Matrixorganisation?",
+          "a": "Mitarbeiter haben die Möglichkeit, ein breiteres Wissen aufzubauen"
+        },
+        "88": {
+          "q": "Was sind Schwächen der Matrixorganisation?",
+          "a": "Eventuell Konflikte bzgl. Prioritäten"
+        },
+        "89": {
+          "q": "Was sind Stärken des Projekts als Organisationsform?",
+          "a": "Fördert Teamentscheidungen; Gute Kommunikation zwischen den Teams"
+        },
+        "90": {
+          "q": "Was sind Schwächen des Projekts als Organisationsform?",
+          "a": "Mitarbeiter mit wenig Kontakt zu anderen Teammitgliedern"
+        },
+        "91": {
+          "q": "Was sind Stärken der virtuellen Organisationsform?",
+          "a": "Sicherstellung, dass die besten verfügbaren Mitarbeiter an den Problemen arbeiten"
+        },
+        "92": {
+          "q": "Was sind Schwächen der virtuellen Organisationsform?",
+          "a": "Mitarbeiter haben kaum Gelegenheit, sich Face-to-Face zu sehen"
+        },
+        "93": {
+          "q": "Was ist unter der Organisationskultur zu verstehen?",
+          "a": "Entstehung, Entwicklung und Einfluss kultureller Aspekte innerhalb von Organisationen; Einfluss auf das Informationssystem"
+        },
+        "94": {
+          "q": "Was ist unter Organizational change zu verstehen?",
+          "a": "Wie planen Unternehmen Veränderungen, integrieren diese bzw. gehen mit diesen um? (z.B. Zusammenschluss von Firmen)"
+        },
+        "95": {
+          "q": "Wovon hängt der Projekterfolg in erster Linie ab?",
+          "a": "In erster Linie von Menschen und nicht von Technologie"
+        },
+        "96": {
+          "q": "Welche 4 Faktoren helfen dabei, die größten Herausforderungen bei den Projekten zu meistern?",
+          "a": "Klares Bewusstsein, konkrete Maßnahmen (Bewusstsein über bevorstehende Herausforderungen); Standardisierte Methoden, solide Ergebnisse (Verwendung ergebnisorientierter Ansatz für Veränderungen); Konzentrierte Fähigkeit, erfolgreiche Veränderungen (gezielter Ressourceneinsatz); Gezielte Investitionen, positive Wirkung (Budgetplanung für Change-Management)"
+        },
+        "97": {
+          "q": "Was sind ausschlaggebende Faktoren für erfolgreiche Veränderungen?",
+          "a": "Unterstützung durch das Top-Management; Einbindung der Mitarbeiter; Ehrliche und rechtzeitige Kommunikation; Motivierende und veränderungsfreundliche Unternehmenskultur; Change-Agents; Unterstützung Veränderung durch die Unternehmenskultur; Effiziente Schulungsprogramme; Neuausrichtung der Leistungsbewertung etc."
+        },
+        "98": {
+          "q": "Was versteht man unter Umstrukturierung?",
+          "a": "Umgestaltung der Abläufe; Radikale Umgestaltung der Geschäftsprozesse, der Organisationsstruktur, des Informationssystems, um einen Durchbruch bei den Gesschäftsergebnissen zu erreichen"
+        },
+        "99": {
+          "q": "Auf welche Weise kann Umstrukturierung erfolgen?",
+          "a": "Sustaining Change oder Disruptive Change"
+        },
+        "100": {
+          "q": "Was bedeutet Sustaining Change?",
+          "a": "Kann helfen, die Lieferung von Rohmaterialien und den Produktionsprozess zu verbessern"
+        },
+        "101": {
+          "q": "Was bedeutet Disruptive Change?",
+          "a": "Schadet oft der Unternehmensperformance oder bringt das Unternehmen aus dem Geschäft"
+        },
+        "102": {
+          "q": "Was sind mögliche Probleme bei der Umstrukturierung und kontinuierlichen Verbesserung (v.a. bei schlechtem Change Management)?",
+          "a": "Stakeholder -> Lack of productivity (Quality and productivity decrease in the beginning); Lack of expectation (Unrealistic expectations); Lack of capability (Full potential not achieved)"
+        },
+        "103": {
+          "q": "Was ist unter Kontinuierlicher Verbesserung zu verstehen?",
+          "a": "Laufende Verbesserung, um konkurrenzfähig zu bleiben bzw. ständige Suche nach Wegen, um die Geschäftsprozesse zu verbessern"
+        },
+        "104": {
+          "q": "Was sind Geschäftsregeln der Kontinuierlichen Verbesserung?",
+          "a": "Erhöhte Kundentreue; Verringerung der Kundenzufriedenheit; Reduzierung der Möglichkeit des Eindringens in den Markt durch Wettbewerber"
+        },
+        "105": {
+          "q": "Nennen Sie beispielhaft Geschäftsregeln, die die Prozesse stark beeinflussen!",
+          "a": "Bestellunssammlung, bis LKW-Ladung zusammengestellt ist -> Reduzierung Lieferkosten; Kein Akzeptieren von Bestellungen bis Sicherstellung der Kreditwürdigkeit -> Reduzieren potenzieller nicht zahlungsfähiger Kunden"
+        },
+        "106": {
+          "q": "Was kennzeichent das Business Process Reengineering (BPR)?",
+          "a": "Radikale, größere Schritte; Top-Down Change; breiter Umfang abteilungsübergreifend; Durchführung i.d.R.  durch Externe; Ziel: großer Durchbruch"
+        },
+        "107": {
+          "q": "Was kennzeichnet  die Kontinuierliche Verbesserung?",
+          "a": "Langsame, kleinere Schritte; Bottom-Up Change; geringerer Umfang mit Fokus auf bestimmten Bereich; Durchführung i.d.R. durch dem Unternehmen nahestehende Personen; Ziel: kontinuierliche Verbesserungen"
+        },
+        "108": {
+          "q": "Was beschreibt das Technology Acceptance Model (TAM)?",
+          "a": "Faktoren, die zu einer höheren Akzeptanz und Gebrauch der Technologie führen"
+        },
+        "109": {
+          "q": "Was wird unter Technologiediffusion verstanden?",
+          "a": "Messung der Verbreitung von Technologie innerhalb des Unternehmens"
+        },
+        "110": {
+          "q": "Wie ist Technologieinfusion zu definieren?",
+          "a": "Bis zu welchem Ausmaß hat sich die Technologie innerhalb einer Abteilung durchgesetzt?"
+        },
+        "111": {
+          "q": "Was ist Qualität?",
+          "a": "Anforderungen an ein Produkt oder eine Prozessleistung, die durch Kunden gestellt werden -> unterschiedliche Kundensegmente i.d.R. mit unterschiedlichen Qualitätsanforderungen"
+        },
+        "112": {
+          "q": "Was sind Techniken zur Sicherung der Qualität?",
+          "a": "Six sigma; Total Quality Management (TQM)"
+        },
+        "113": {
+          "q": "Was kennzeichnet das Total Quality Management (TQM)?",
+          "a": "Entwickeln eines Bewusstseins für Kundenwünsche, Einführung einer Quality Vision für Mitarbeiter mit Belohnung für MA und Mgmt. für Hochqualitätsprodukte"
+        },
+        "114": {
+          "q": "Was ist Six sigma?",
+          "a": "Ein statistischer Weg, um zu messen, dass die Qualität von Produkten einen Standard von 99,9997% einhält"
+        },
+        "115": {
+          "q": "Was sind Strategien, um Kosten besser zu minimieren und kontrollieren?",
+          "a": "Outsourcing; Cloud Computing; On-demand computing; Downsizing"
+        },
+        "116": {
+          "q": "Was bedeutet Outsourcing?",
+          "a": "Abagbe von Unternehmensaufgaben und -strukturen an Drittunternehmen"
+        },
+        "117": {
+          "q": "Was bedeutet Cloud-Computing?",
+          "a": "aus Technologiesicht: Art Service mit dynamisch skalierbaren Ressourcen (CPU Zeit, Speicher, Bandbreite), der als Dienstleistung über das Internet gelifert wird"
+        },
+        "118": {
+          "q": "Was ist unter On-demand computing zu verstehen?",
+          "a": "Zur Verfügung Stellen von Computer Rechenzeit für ein Unternehmen variabel, je nach Bedarf des Unternehmens"
+        },
+        "119": {
+          "q": "Was bedeutet Downsizing?",
+          "a": "Reduzierung der Arbeitsplätze"
+        },
+        "120": {
+          "q": "Was ist unter Competitive Advantage (Wettbewerbsvorsprung) zu verstehen?",
+          "a": "Signifikanter Vorsprung eines Unternehmens ggü. seinen Konkurrenten im ökonomischen Wettbewerb; Sichern und Halten eines Wettbewerbsvorteils => unerlässlich für den Erfolg eines Unternehmens"
+        },
+        "121": {
+          "q": "Was sind die 5 Kräfte des Wettbewerbs nach dem Five Forces Modell nach Porter?",
+          "a": "Wettbewerbsrivalität; Verhandlungsstärke von Lieferanten; Verhandlungsstärke von Käufern; Bedrohung durch Substitute (Ersatzprodukte); Bedrohung durch neue Wettbewerber"
+        },
+        "122": {
+          "q": "Was sind mögliche Strategien zur Erzielung eines Wettbewerbsvorteils unter Berücksichtigung der 5 Markteinwirkungen von Porter?",
+          "a": "Beste Kosten für die Produkte (Aldi, Lidl); Differenzierung; Nischenstrategie (Rolex, Porsche, Ferrari); Ändern der Industriestruktur; Generierung neuer Produkte und Services; Verbessern existierender Produktlinien und Services"
+        },
+        "123": {
+          "q": "Was sind Werteversprechen eines Unternehmens, um im wettbewerb zu bestehen?",
+          "a": "Schnell; Geschickt; Flexibel; Produktiv; Ökonomisch; Kundenorientiert"
+        },
+        "124": {
+          "q": "Was bedeutet Produktivität?",
+          "a": "Verhältnis zwischen dem, was produziert wird (Output) und den dafür beim Produktionsprozess eingesetzten Mitteln; = (Output/ Input)*100"
+        },
+        "125": {
+          "q": "Was bedeutet eine hohe Produktivität?",
+          "a": "Output > Input"
+        },
+        "126": {
+          "q": "Was misst der Return on Investment (ROI)?",
+          "a": "den prozentualen Profit in Relation zum Investment für IT Technology"
+        },
+        "127": {
+          "q": "Wie wird der ROI berechnet?",
+          "a": "(Profit/Investment) * 100"
+        },
+        "128": {
+          "q": "Durch welche Kenngrößen wird die Rentabilität und der Wert von Informationssystemen bestimmt?",
+          "a": "Einkommenswachstum (meist im Vergleich zum Vorjahr); Marktanteil; Kundenbewusstsein und Zufriedenheit; Gesamtkosten über einen bestimmten Zeitraum (TCO)"
+        },
+        "129": {
+          "q": "Warum müssen Manager beim Entwerfen, Entwickeln und Einführen neuer Informationssysteme Risiken berücksichtigen?",
+          "a": "Informationssysteme ggf. fehlerhaft; Kosten für die Entwicklung und Einführung des Systems ggf. höher als die resultierenden Gewinne"
+        },
+        "130": {
+          "q": "Was sind Data Warehouses?",
+          "a": "Dispositive Datenhaltungssysteme -> Werden von operativen Datenhaltungssystemen separat betrachtet"
+        },
+        "131": {
+          "q": "Durch welche Charakteristiken unterscheiden sich operative Daten von dispositiven Daten?",
+          "a": "Ziel; Zustand; Modellierung; Zeitbezug; Ausrichtung"
+        },
+        "132": {
+          "q": "Was ist das Ziel von operativen Daten?",
+          "a": "Unterstützung des Tagesgeschäfts"
+        },
+        "133": {
+          "q": "Was ist der Zustand von operativen Daten?",
+          "a": "Häufig redundant und inkonsistent"
+        },
+        "134": {
+          "q": "Wie sind operative Daten modelliert?",
+          "a": "Funktions- und transaktionsorientiert"
+        },
+        "135": {
+          "q": "Was ist der Zeitbezug bei operativen Daten?",
+          "a": "Aktuell -> Zeitpunktbezogen"
+        },
+        "136": {
+          "q": "Was ist die Ausirchtung operativer Daten?",
+          "a": "Detaillierte, grnulare Geschäftsvorfallsdaten"
+        },
+        "137": {
+          "q": "Was ist das Ziel dispositiver Daten?",
+          "a": "Entscheidungsunterstützung"
+        },
+        "138": {
+          "q": "In welchem Zustand befinden sich dispositive Daten?",
+          "a": "Kontrollierte Redundanzen"
+        },
+        "139": {
+          "q": "Wie werden dispositive Daten modelliert?",
+          "a": "Sachgebiets- und Themenorientiert"
+        },
+        "140": {
+          "q": "Was ist der Zeitbezug bei dispositiven Daten?",
+          "a": "Historienbetrachtung -> Zeitverlauf"
+        },
+        "141": {
+          "q": "Was ist die Ausirchtung von dispositiven Daten?",
+          "a": "Meist verdichtet und transformiert"
+        },
+        "142": {
+          "q": "Was sind die Ziele von Data Warehouses?",
+          "a": "effiziente Bereitstellung der Daten; einfaches Zusammenführen der Daten zu Analysezwecken; Unterstützung der Geschäftsprozesse eines Unternehmens; Abschaffung von Insellösungen"
+        },
+        "143": {
+          "q": "Aus welchen Komponenten besteht ein Data Warehouse System?",
+          "a": "Basisdatenbank; Operational Data Store (ODS); Arbeitsbereich; Extraktion-Transformation-Laden (ETL-Komponente); Meta-Datenbanksystem; Analysekomponente"
+        },
+        "144": {
+          "q": "Was versteht man unter einem OLAP-Cube?",
+          "a": "Ein mehrdimensionaler Datenwürfel"
+        },
+        "145": {
+          "q": "Was sind die 4 Hauptoperationen im Kontext von OLAP (= Online Analytical Processing)?",
+          "a": "Slicing, Dicing, Pivoting, Drilldown"
+        },
+        "146": {
+          "q": "Was ist der Sinn der Operation Slicing im Kontext von OLAP?",
+          "a": "Das Ausschneiden von Scheiben aus dem Datenwürfel"
+        },
+        "147": {
+          "q": "Was ist der Sinn der Operation Dicing im Kontext von OLAP?",
+          "a": "Erzeugen eines kleineren Würfels, der ein Teilvolumen des Gesamtwürfels enthält"
+        },
+        "148": {
+          "q": "Was ist der Sinn der Operation Pivoting im Kontext von OLAP?",
+          "a": "Drehen des Datenwürfels, sodass mindestens eine andere Dimension sichtbar wird"
+        },
+        "149": {
+          "q": "Was ist der Sinn der Operation Drilldown im Kontext von OLAP?",
+          "a": "Hereinzoomen"
+        },
+        "150": {
+          "q": "Zwischen welchen 3 Handlungsebenen/ -dimensionen wird im Management bei klassischen Organisationsstrukturen differenziert?",
+          "a": "Strategisch; Taktisch; Operativ"
+        },
+        "151": {
+          "q": "Was ist der Zeitbezug im strategischen Management?",
+          "a": "Langfristig (> 3 Jahre)"
+        },
+        "152": {
+          "q": "Was ist der Zeitbezug im taktischen Management?",
+          "a": "Mittelfristig (1 bis 3 Jahre)"
+        },
+        "153": {
+          "q": "Was ist der Zeitbezug im operativen Management?",
+          "a": "< 1 Jahr"
+        },
+        "154": {
+          "q": "Was ist der überwiegende Wirkungsbereich im strategischen Management?",
+          "a": "Produktionsbereich(e) (Abteilung(en), gesamtes Unternehmen); Mitarbeitergruppen"
+        },
+        "155": {
+          "q": "Was ist der überwiegende Wirkungsbereich im taktischen Management?",
+          "a": "Produktgruppe(n) (Basiseinheit(en), übergeordnete Einheit); Mitarbeitergruppen"
+        },
+        "156": {
+          "q": "Was ist der überwiegende Wirkungsbereich im operativen Management?",
+          "a": "Leistung, Produkt (Stelle, Basiseinheit); Einzelne Mitarbeiter"
+        },
+        "157": {
+          "q": "Wer ist für das strategische Management verantwortlich?",
+          "a": "Oberste Leitung, d.h. das Top-Management (Präsident/ Vorstand)"
+        },
+        "158": {
+          "q": "Wer ist für das taktische Management verantwortlich?",
+          "a": "Mittlere Leitung, d.h. das Middle Management (Abteilungs-/ Referatsleiter)"
+        },
+        "159": {
+          "q": "Wer ist für das operative Management verantwortlich?",
+          "a": "Untere Leitung/ Basis, d.h. das Lower Management bzw. die Ausführungsebene, wie z.B. Sachgebiets-/ Referatsleiter"
+        },
+        "160": {
+          "q": "Welche Phasen gibt es bei der Teamfindung (chronologische Nennung)?",
+          "a": "1.) Forming -> 2.) Storming -> 3.) Norming -> 4.) Performing -> 5.) Adjourning"
+        },
+        "161": {
+          "q": "Was passiert bei der Teamfindungsphase Forming?",
+          "a": "Orientierung bzw. erstes Kennenlernen"
+        },
+        "162": {
+          "q": "Was passiert bei der Teamfindungsphase Storming?",
+          "a": "Herstellen einer Rangordnung sowie Konfrontation"
+        },
+        "163": {
+          "q": "Was passiert bei der Teamfindungsphase Norming?",
+          "a": "Organisation sowie Herstellen eines Konsens"
+        },
+        "164": {
+          "q": "Was passiert bei der Teamfindungsphase Performing?",
+          "a": "Kooperation und konstruktives Arbeiten"
+        },
+        "165": {
+          "q": "Was passiert bei der Teamfindungsphase Adjourning?",
+          "a": "Projektabschluss; Auseinandergehen des Teams"
+        },
+        "166": {
+          "q": "Was ist unter Business Rules zu verstehen?",
+          "a": "Regeln zur Steuerung und Organisation des Alltagsgeschäfts, d.h. Vorgabe des Wegs, wie ein Ziel erreicht werden soll"
+        },
+        "167": {
+          "q": "Was sollen Business Rules beeinflussen oder leiten?",
+          "a": "Das Verhalten eines Unternehmens"
+        },
+        "168": {
+          "q": "Welche 3 Kategorien von Business Rules gibt es?",
+          "a": "Ableitungsregeln (Ableitung aus bereits bestehenden Regeln und Informationen); Prozessregeln (z.B. Wenn xyz dann abc); Einschränkungen (z.B. Gebote und Verbote)"
+        },
+        "169": {
+          "q": "Was sind erforderliche Eigenschaften von Business Rules?",
+          "a": "präzise Formulierung; verständlich für Mitarbeiter; deklarativ"
+        },
+        "170": {
+          "q": "Wie sind Business Rules auszurichten?",
+          "a": "Immer im Kontext zur Gesamtunternehmensausrichtung"
+        },
+        "171": {
+          "q": "Was ist der Sinn des Business Motivation Model (BMM)?",
+          "a": "Erklärung des Zusammenhangs zwischen Geschäftsregeln, der Geschäftspolitik und der Unternehmensstrategie"
+        },
+        "172": {
+          "q": "Was ist das Cloud Computing aus technologischer Sicht?",
+          "a": "Eine Art von Service mit dynamisch skalierbaren Ressourcen (CPU Zeit, Speicher, Bandbreite etc.), der als Dienstleistung über das Internet geliefert wird"
+        },
+        "173": {
+          "q": "Zwischen welchen 4 Bereitstellungsmodellen wird im Cloud Computing differenziert?",
+          "a": "Private Cloud; Public Cloud; Hybrid Cloud; Community Cloud"
+        },
+        "174": {
+          "q": "Zwischen welchen 3 Service Modellen wird im Cloud Computing differenziert?",
+          "a": "Infratsructure as a Service (IaaS); Platform as a Service (PaaS); Software as a Service (SaaS)"
+        },
+        "175": {
+          "q": "Was sind die wesentlichen Charakteristika des Cloud Computing?",
+          "a": "Breiter Netzwerkzugriff; Self Service on-demand; Multitenancy; Schnelle Anpassungsfähigkeit; Messbarkeit der Dienstqualität"
+        },
+        "176": {
+          "q": "Welche Komponenten werden bei Infratsructure as a Service (IaaS) im Kontext des Cloud Computing bereitgestellt?",
+          "a": "Hardware (Netzwerk; Speicher; Server; Virtualisierung)"
+        },
+        "177": {
+          "q": "Welche Komponenten werden bei Platform as a Service (PaaS) im Kontext des Cloud Computing bereitgestellt?",
+          "a": "Hardware mit Betriebssystem (Netzwerk; Speicher; Server; Virtualisierung; Betriebssystem; Middleware; Laufzeit)"
+        },
+        "178": {
+          "q": "Welche Komponenten werden bei Software as a Service (SaaS) bereitgestellt?",
+          "a": "Vollpaket (Netzwerk; Speicher; Server; Virtualisierung; Betriebssystem; Middleware; Laufzeit; Daten; Anwendungen)"
+        },
+        "179": {
+          "q": "Zwischen welchen Computerklassen wird i.d.R. differenziert?",
+          "a": "Microcomputer; Minicomputer; Großrechner; Supercomputer"
+        },
+        "180": {
+          "q": "In welche 2 Kategorien wird Software klassifiziert?",
+          "a": "Systemsoftware (z.B. Steuerprogramme, Übersetzungsprogramme und Dienstprogramme) und Anwendungssoftware"
+        },
+        "181": {
+          "q": "Welche Kategorien gibt es innerhalb der Anwendungssoftware (mit Beispielen)?",
+          "a": "Standardsoftware (Persönliche Anwendung, z.B. Textverarbeitung, und Kommerzielle Anwendungen, z.B. Finanzbuchhaltung); Branchensoftware (Baugewerbe; Reisebüros; Speditionen); Individualsoftware (Vorgabe durch Auftraggeber)"
+        },
+        "182": {
+          "q": "Welche Kombinationen von Betriebssystem, Computern und Software gibt es?",
+          "a": "Einzelner Computer mit einem Nutzer; Einzelner Computer mit mehreren Nutzern; Mehrere Computer; Spezialcomputer"
+        },
+        "183": {
+          "q": "Zwischen welchen Datenbankmodellen ist zu differenzieren?",
+          "a": "Hierarchische Datenbank; Netzwerk Datenbank; Relationale Datenbank; Objektorientierte Datenbank; Verteilte Datenbanken"
+        },
+        "184": {
+          "q": "Wie erfolgt die Datenmodellierung bei hierarchischen Datenbanken?",
+          "a": "Als Baumstruktur"
+        },
+        "185": {
+          "q": "Welche Datenstruktur wird bei Netzwerk Datenbanken verwendet?",
+          "a": "Graphen"
+        },
+        "186": {
+          "q": "Wie werden Daten in relationalen Datenbanken geordnet?",
+          "a": "In Tabellen"
+        },
+        "187": {
+          "q": "Was ist bei objektorientierten Datenbanken zu beachten?",
+          "a": "dauerhafte Speicherung der Objekte"
+        },
+        "188": {
+          "q": "Wie funktionieren verteilte Datenbanken?",
+          "a": "Partitionierung logisch zusammengehöriger Daten in Fragmente und Verteilung dieser Fragmente auf Rechner"
+        },
+        "189": {
+          "q": "Was ist eine Datenbank?",
+          "a": "Organisierte Sammlung von Daten"
+        },
+        "190": {
+          "q": "Was ist ein Datenbankmanagementsystem (DBMS)?",
+          "a": "Verwaltungsprogramm zur Organisation der strukturierten Speicherung von Daten; Schnittstelle zwischen Datenbank und Benutzer"
+        },
+        "191": {
+          "q": "Was kontrolliert das Datenbankmanagementsystem?",
+          "a": "Alle lesenden und schreibenden Zugriffe auf die Datenbank"
+        },
+        "192": {
+          "q": "Was ist der Datenbankadministrator (DBA)?",
+          "a": "ausgebildeter ISler, der alle Aktivitäten auf die Verantwortung für die Unternehmensdatenbank hat"
+        },
+        "193": {
+          "q": "Was ist ein Bit (binary digit) im Kontext der Hierarchie von Daten?",
+          "a": "Kleinste Informationseinheit, die ein Computer darstellen kann"
+        },
+        "194": {
+          "q": "Was ist ein Byte im Kontext der Hierarchie von Daten?",
+          "a": "= 8 Bit"
+        },
+        "195": {
+          "q": "Was ist ein Charakter im Kontext der Hierarchie von Daten?",
+          "a": "Eine Eigenschaft (z.B. ein Großbuchstabe, ein Kleinbuchstabe, eine Zahl oder ein Symbol) repräsentiert durch ein Byte"
+        },
+        "196": {
+          "q": "Was ist ein Datenfeld im Kontext der Hierarchie von Daten?",
+          "a": "i.d.R. ein Name, eine Zahl oder eine Kombination von Charakteren, die einen Aspekt der Unternehmensziele/ -aktivitäten beschreibt"
+        },
+        "197": {
+          "q": "Was ist eine Record im Kontext der Hierarchie von Daten?",
+          "a": "Sammlung von ähnlichen Datenfeldern"
+        },
+        "198": {
+          "q": "Was ist eine Datei im Kontext der Hierarchie von Daten?",
+          "a": "Sammlung von ähnlichen Records"
+        },
+        "199": {
+          "q": "Was ist eine Entität im Kontext von Datenbanken?",
+          "a": "Objekt der Anschauung, dem bestimmte Eigenschaften zugeordnet werden (z.B. Mitarbeiter, Projekte)"
+        },
+        "200": {
+          "q": "Was sind Attribute im Kontext von Datenbanken?",
+          "a": "Eigenschaften einer Entität (z.B. Personalnummer eines Mitarbeiters)"
+        },
+        "201": {
+          "q": "Was ist ein Datenelement im Kontext von Datenbanken?",
+          "a": "Spezieller Wert einer Eigenschaft"
+        },
+        "202": {
+          "q": "Was ist ein Schlüssel im Kontext von Datenbanken?",
+          "a": "Ein Datenfeld in einer Record zur Bestimmung der Record"
+        },
+        "203": {
+          "q": "Was ist ein Primärschlüssel im Kontext von Datenbanken?",
+          "a": "Feld zur einzigartigen Bestimmung einer Record"
+        },
+        "204": {
+          "q": "Welche Vorteile bieten Netzwerke ggü. einem Stand-alone PC?",
+          "a": "u.a. Ressourcenteilung; Datenaustausch; Reduzierung von Übertragungsfehlern; Einheitliche Programmversionen; Kostenreduktion; Skalierbarkeit; Zentrale Datensicherung; erhöhte Zuverlässigkeit des Gesamtsystems"
+        },
+        "205": {
+          "q": "Was sind die Komponenten eines Rechnernetzwerks?",
+          "a": "Hardware und Software"
+        },
+        "206": {
+          "q": "Welche Kategorien bzgl. Rechnernetze existieren anhand des Kriteriums der Ausbreitung des Rechnernetzes?",
+          "a": "GAN; WAN; MAN; LAN; PAN "
+        },
+        "207": {
+          "q": "Was verstehen Sie unter dem GAN im Kontext von Rechnernetzen?",
+          "a": "= Global Area Network bzw. Internet"
+        },
+        "208": {
+          "q": "Was verstehen Sie unter dem WAN im Kontext ?",
+          "a": "Wide Area Network für Weitverkehrsnetze"
+        },
+        "209": {
+          "q": "Was verstehen Sie unter dem MAN im Kontext von Rechnernetzen?",
+          "a": "Metropolitan Area Network für Städte- und industriezntrenweite Netzwerke"
+        },
+        "210": {
+          "q": "Was verstehen Sie unter dem LAN im Kontext von Rechnernetzen?",
+          "a": "Local Area Network für räumlich begrenzte Netze"
+        },
+        "211": {
+          "q": "Was verstehen Sie unter dem PAN im Kontext von Rechnernetzen?",
+          "a": "Private Area Network für den privaten Verbraucher"
+        },
+        "212": {
+          "q": "Was sind die Distanz und die Lokation eines LAN?",
+          "a": "Distanz: 100-1000 m & Lokation: Gebäude bzw. Campus"
+        },
+        "213": {
+          "q": "Was sind die Distanz und die Lokation eines MAN?",
+          "a": "Distanz: 10 km & Lokation: Stadt"
+        },
+        "214": {
+          "q": "Was sind die Distanz und die Lokation eines WAN?",
+          "a": "Distanz: 100-1.000 km & Lokation: Land bzw. Kontinent"
+        },
+        "215": {
+          "q": "Was sind die Distanz und die Lokation des Internets?",
+          "a": "Distanz: 10.000 km & Lokation: Globus"
+        }
+      }
+    }
+  }
+}
