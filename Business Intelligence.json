@@ -1,0 +1,926 @@
+{
+    "meta": {
+        "author": "Tobias Lorenz",
+        "version": "1.1.1",
+        "uuid": "8e6d131b-8c79-44ec-848e-06ffc7f2e076"
+    },
+    "decks": {
+        "d1": {
+            "meta": {
+                "deck_name": "Business Intelligence",
+                "next_card_id": 1,
+                "description": "Kartendeck für das Fach Business Intelligence angelehnt an das Skriptum von Prof. Dr. Frank Hubert"
+            },
+            "cards": {
+                "0": {
+                    "q": "Was führt zu einer zunehmenden Datenflut/ Big Data??",
+                    "a": "Zunehmende Digitalisierung (Scannerkassen, Transaktionen im Internet, Social Media, Activity Tracker, Wearables, Smart-Home-Systeme)"
+                },
+                "1": {
+                    "q": "Wodurch wird ein Mehrwert generiert?",
+                    "a": "durch Analyse der Datenflut, d.h. Daten -> Informationen -> Wissen"
+                },
+                "2": {
+                    "q": "Was versteht man unter Business Intelligence (BI) (Lackes/ Siepermann)?",
+                    "a": "Sammelbegriff für den IT-gestützten Zugriff auf Informationen sowie die IT-gestützte Analyse und Aufbereitung dieser Informationen"
+                },
+                "3": {
+                    "q": "Was ist das Ziel von BI (Lackes/ Siepermann)?",
+                    "a": "Generierung von neuem Wissen aus dem bereits vorhandenem Wissen im Unternehmen"
+                },
+                "4": {
+                    "q": "Was ist bei dem neuen Wissen zu beachten (Lackes, Siepermann)?",
+                    "a": "Wissen sollte relevant und handlungsorientiert sein, d.h. Managemententscheidungen zur Steuerung des Unternehmens unterstützten"
+                },
+                "5": {
+                    "q": "Was versteht man unter BI(Hummeltenberg)?",
+                    "a": "Die auf eine Unterstützung, Durchführung und Kontrolle betrieblicher Aktivitäten ausgerichtete Intelligenz (Einsicht) sowie die zu ihrer Erzielung eingesetzten Konzepte, Methoden und Informationssysteme"
+                },
+                "6": {
+                    "q": "Wie werden Business Intelligence und Data Mining voneinander abgegrenzt?",
+                    "a": "nicht immer einheitliche Abgrenzung, aber i.d.R. Data Mining = Teilgebiet von BI"
+                },
+                "7": {
+                    "q": "Was sind Teilberreiche von BI?",
+                    "a": "Data Mining, Datenerfassung, Datenhaltung (z.B. Data Warehouse), Wissensmanagement"
+                },
+                "8": {
+                    "q": "Was versteht man unter Data Mining allgemein?",
+                    "a": "interdisziplinäre Wissenschaft mit Möglichkeit zur Entdeckung bisher unbekannter Informationen aus großen Datenbeständen in Datenbanken mittels verschiedener hochkomplexer Datenanalysemethoden- und verfahren  "
+                },
+                "9": {
+                    "q": "Was versteht man unter Data Mining im weiteren Sinne?",
+                    "a": "Gesamter Prozess der Wissensentdeckung in großen Datenbeständen"
+                },
+                "10": {
+                    "q": "Was versteht man unter Data Mining im engeren Sinne?",
+                    "a": "verschiedene Datenanalysemethoden (multivariate Verfahren aus der Statistik), Entscheidungsbaummodelle, Maschinelles Lernen, Neuronale Netze, Text Mining"
+                },
+                "11": {
+                    "q": "Nennen Sie verschiedene multivariate Verfahren aus der Statistik!",
+                    "a": "Regressionsanalyse, Varianzanalyse, Clusteranalye, Diskriminanzanalyse, Faktorenanalyse, Conjoint-Analyse etc."
+                },
+                "12": {
+                    "q": "Was ist ein Synonym für Data Mining?",
+                    "a": "Knowledge Discovery in Databases (KDD)"
+                },
+                "13": {
+                    "q": "Nennen Sie den Ablauf eines Datenanalyseprozesses!",
+                    "a": "1.) Aufgabendefinition 2.) Datenerhebung/Datenverständnis 3.) Datenaufbereitung 4.) Auswahl und Anwendung von Data Mining-Methoden 5.) Interpretation der Ergebnisse 6.) Anwendung der Ergebnisse"
+                },
+                "14": {
+                    "q": "Beschreiben Sie die Aufgabendefinition im Datenanalyseprozess näher!",
+                    "a": "Bestimmung der Problemstellung und Ableitung von Zielen"
+                },
+                "15": {
+                    "q": "Beschreiben Sie den Schritt Datenerhebung/ Datenverständnis im Datenanalyseprozess näher!",
+                    "a": "Auswahl der relevanten Datenbestände (Primärstatistik vs. Sekundärstatistik); Datengrundlage oft Data Warehouse"
+                },
+                "16": {
+                    "q": "Was ist bei der Datenaufbereitung im Datenanalyseprozess zu beachten?",
+                    "a": "geeignetes Format; Datenqualität mittels Datensichtung über Tabellen/ Grafiken; Behandlung fehlender/ falscher Merkmalswerte und von Ausreißern"
+                },
+                "17": {
+                    "q": "Was ist bei der Auswahl und der Anwendung von Data Mining-Methoden im Datenanalyseprozess zu beachten?",
+                    "a": "Abhängigkeit von inhaltlicher Fragestellung, Datenmenge und Skalierung -> i.d.R. multivariate statistische Methoden"
+                },
+                "18": {
+                    "q": "Beschreiben Sie die Interpretation der Ergebnisse im Datenanalyseprozess!",
+                    "a": "Ausfiltern handlungsrelevanter Ergebnisse"
+                },
+                "19": {
+                    "q": "Beschreiben Sie die Anwendung der Ergebnisse im Datenanalyseprozess!",
+                    "a": "Bewertung und Umsetzung für Problemstellung"
+                },
+                "20": {
+                    "q": "Woran orientiert sich die Vorgehensweise des Datenanalyseprozesses?",
+                    "a": "Am Standardmodell für Data Mining, dem CRISP-DM (Cross-industry standard process for data mining)"
+                },
+                "21": {
+                    "q": "Wie gestaltet sich die Zeitaufteilung des Datenanalyseprozesses?",
+                    "a": "Verwendung Großteil der Zeit für Datenerhebung, Datenauswahl und Datenaufbereitung; eigentliches Rechnen nur ca. 10% der Zeit in der Praxis"
+                },
+                "22": {
+                    "q": "Was sind die häufigsten Fehlerquellen im Datenanalyseprozess?",
+                    "a": "Unzureichende Datenqualität (v.a. keine repräsentativen Daten) & oft falsche Anwendung/ Interpretation der Methoden in Zeiten einfach zu bedienender Softwareprogramme"
+                },
+                "23": {
+                    "q": "Nennen Sie die wichtigen Anwendungsgebiete des Data Mining!",
+                    "a": "Handel (CRM); Banken (Kreditvergabe); Versicherungen (Risikoanalyse); Pharmaindustrie (Medikamentenwirkungsforschung); Industrie (Fehleranalyse bei Fertigungsprozessen); Markt- und Meinungsforschung (politische Umfragen); Kriminalitätsbekämpfung (Rasterfahndung); Stadt-, Regional- und Länderanalysen in der VWL"
+                },
+                "24": {
+                    "q": "Wie wird eine statistische Einheit/ Merkmalsträger definiert?",
+                    "a": "Objekt, dessen Eigenschaften festgestellt werden sollen"
+                },
+                "25": {
+                    "q": "Definieren Sie die statistische Masse/ Grundgesamtheit!",
+                    "a": "Gesamtheit der Merkmalsträger"
+                },
+                "26": {
+                    "q": "Was ist eine Stichprobe/ Teilgesamtheit?",
+                    "a": "Teil der Elemente der Grundgesamtheit"
+                },
+                "27": {
+                    "q": "Was ist ein Panel?",
+                    "a": "regelmäßige Datenerhebung bei der gleichen Stichprobe zwecks Längsschnittanalysen"
+                },
+                "28": {
+                    "q": "Was ist ein Merkmal?",
+                    "a": "bestimmte messbare Eigenschaft eines Merkmalsträgers"
+                },
+                "29": {
+                    "q": "Beschreiben Sie qualitative Merkmale!",
+                    "a": "nur kategoriale Merkmalsausprägung"
+                },
+                "30": {
+                    "q": "Beschreiben Sie quantitative Merkmale!",
+                    "a": "Möglichkeit der sinnvollen Zuordnung reeller Zahlen; Unterscheidung zwischen diskret und stetig"
+                },
+                "31": {
+                    "q": "Nennen Sie verschiedene Skalen!",
+                    "a": "Nominalskala, Ordinalskala, Kardinalskala/ metrische Skala (Intervallskala und Verhältnisskala/Ratio-Skala)"
+                },
+                "32": {
+                    "q": "Was ist das Merkmal der Nominalskala?",
+                    "a": "nur Ausdruck der Verschiedenartigkeit"
+                },
+                "33": {
+                    "q": "Was sind die Merkmale der ORdinalskala?",
+                    "a": "Verschiedenartigkeit sowie Rangordnung -> in der Praxis oft Behandlung als kardinal, d.h. quantitativ"
+                },
+                "34": {
+                    "q": "Was sind Merkmale der Kardinalskala/ metrischen Skala?",
+                    "a": "Verschiedenartigkeit, Rangordnung und Quantifizierbarkeit der Unterschiede"
+                },
+                "35": {
+                    "q": "Wie unterscheiden sich Intervallskala und Verhältnisskala?",
+                    "a": "Intervallskala -> willkürlicher Nullpunkt; Verhältnisskala -> absoluter Nullpunkt"
+                },
+                "36": {
+                    "q": "Worauf beruhen Test- oder Prüfverfahren?",
+                    "a": "Stichprobentheorie"
+                },
+                "37": {
+                    "q": "Was wird bei Test- oder Prüfverfahren gemacht?",
+                    "a": "Prüfen mittels Zufallsstichprobe, ob bestimmte Hypothesen über die Grundgesamtheit richtig oder falsch sind."
+                },
+                "38": {
+                    "q": "Welche Hypothesen werden bei Test- oder Prüfverfahren aufgestellt?",
+                    "a": "Nullhypothese (H0) und Alternativhypothese (H1)"
+                },
+                "39": {
+                    "q": "Welche 4 Fälle sind bei Test- oder Prüfverfahren möglich",
+                    "a": "2 mal richtige Entscheidung; Alpha-Fehler (Fehler 1. Art); Beta-Fehler (Fehler 2. Art)"
+                },
+                "40": {
+                    "q": "Wann wird die richtige Entscheidung bei Test- oder Prüfverfahren getroffen?",
+                    "a": "Annahme H0 nach Stichprobenentscheidung sowie Zutreffen H0 nach wahrem Zustand der Grundgesamtheit bzw. Ablehnen H0 nach Stichprobenentscheidung sowie kein Zutreffen der Nullhypothese nach wahrem Zustand der Grundgesamtheit"
+                },
+                "41": {
+                    "q": "Wann kommt es zu einem Alpha-Fehler bei Test- oder Prüfverfahren?",
+                    "a": "Ablehnung H0 nach Stichprobenentscheidung und Zutreffen H0 nach wahrem Zustand der Grundgesamtheit"
+                },
+                "42": {
+                    "q": "Wann kommt es zu einem Beta-Fehler bei Test- oder Prüfverfahren?",
+                    "a": "Annahme H0 nach Stichprobenentscheidung und kein Zutreffen H0 nach wahrem Zustand der Grundgesamtheit"
+                },
+                "43": {
+                    "q": "Ist der wahre Zustand der Grundgesamtheit bei Test- oder Prüfverfahren bekannt oder unbekannt?",
+                    "a": "unbekannt"
+                },
+                "44": {
+                    "q": "Was ist bei statistischen Tests zu vermeiden?",
+                    "a": "Das Treffen falscher Entscheidungen, v.a. der Alpha-Fehler "
+                },
+                "45": {
+                    "q": "Was wird bei Test- oder Prüfverfahren festgelegt?",
+                    "a": "geeignete Prüfgrößen"
+                },
+                "46": {
+                    "q": "Was wird bei Test- oder Prüfverfahren vorgegeben?",
+                    "a": "Signifikanzniveaus (meist 1%, 5%, 10%)"
+                },
+                "47": {
+                    "q": "Was wird bei Test- oder Prüfverfahren berechnet?",
+                    "a": "Berechnung, ob die Prüfgrößen bestimmte, tabellierte Werte überschreiten"
+                },
+                "48": {
+                    "q": "Was wird in den meisten Statistikprogrammen (SPSS) zur Vereinfachung bei Test- oder Prüfverfahren direkt berechnet?",
+                    "a": "Wahrscheinlichkeit für den Fehler 1. Art (Alpha-Fehler) -> Synonym für dieses Signifikanzniveau: p-value"
+                },
+                "49": {
+                    "q": "Welche Möglichkeiten bestehen bei der Entscheidung von Test- oder Prüfverfahren?",
+                    "a": "Ablehnung H0 und Annahme H0"
+                },
+                "50": {
+                    "q": "Wann wird die Nullhypothese abgelehnt?",
+                    "a": "von SPSS berechnetes Signifikanzniveau (z.B. 2%) < vom Nutzer festgelegtes Signifikanzniveau (z.B. 5%)"
+                },
+                "51": {
+                    "q": "Wann wird die Nullhypothese angenommen?",
+                    "a": "von SPSS berechnetes Signifikanzniveau (z.B. 12%) > vom Nutzer festgelegtes Signifikanzniveau (z.B. 5%)"
+                },
+                "52": {
+                    "q": "Wann müssen Primärdaten erhoben werden?",
+                    "a": "Bei Vorliegen der Sekundärdaten in nicht ausreichendem Maße und in nicht ausreichender Qualität"
+                },
+                "53": {
+                    "q": "Auf welche Weise kann die Erhebung von Primärdaten erfolgen?",
+                    "a": "Über eine Vollerhebung oder Teilerhebung (= Stichprobe)"
+                },
+                "54": {
+                    "q": "Was sind die Vorteile einer Vollerhebung?",
+                    "a": "Erfassung aller statistischen Einheiten mit großer regionaler und fachlicher Vielfalt und sehr umfangreichen Auswertungsmöglichkeiten; kein Stichprobenfehler; Basis für Stichproben in der Folgeezit"
+                },
+                "55": {
+                    "q": "Was sind die Nachteile einer Vollerhebung?",
+                    "a": "hoher Zeit- und Kostenaufwand; Datenverarbeitungsproblematik trotz EDV; in manchen Fällen nicht durchführbar; Ergebnisse ggf. schlechter als bei Stichprobe aufgrund der Notwendigkeit sehr vieler Interviewer, die dann oft nicht ausreichend geschult sind"
+                },
+                "56": {
+                    "q": "Zu welchen statistischen Fehlern kommt es bei der Datenerhebung häufig?",
+                    "a": "systematische (stichprobenfremde) Fehler, deren Auftreten in jeder Stichprobe und Vollerhebung möglich ist & Stichprobenfehler aufgrund fehlender Repräsentativität der Stichprobe (nicht bei Vollerhebung) -> Minimierung durch geeignete Auswahlverfahren"
+                },
+                "57": {
+                    "q": "Was ist das Ziel eines Stichprobenverfahrens?",
+                    "a": "Herstellen einer möglichst großen Repräsentativität zur Übertragung der Ergebnisse auf die Grundgesamtheit"
+                },
+                "58": {
+                    "q": "Mit welchen Verfahren wird eine möglichst große Repräsentativität hergestellt?",
+                    "a": "Verfahren der Zufallsauswahl und mit Einschränkungen Verfahren der bewussten Auswahl"
+                },
+                "59": {
+                    "q": "Welche Verfahren sind unter statistischen Gesichtspunkten sehr problematisch?",
+                    "a": "willkürliche Auswahl (Befragung des Mannes auf der Straße)"
+                },
+                "60": {
+                    "q": "Was erlauben Verfahren der Zufallsauswahl im Gegensatz zu Verfahren der bewussten Auswahl?",
+                    "a": "Einsatz des gesamten wahrscheinlichkeitstheoretischen Instrumentariums der Statistik (z.B. Bestimmung von Konfidenzintervallen)"
+                },
+                "61": {
+                    "q": "Warum ist eine Zufallsauswahl oft nicht durchführbar?",
+                    "a": "aus prktischen Gründen"
+                },
+                "62": {
+                    "q": "Wie werden Stichprobenverfahren klassifiziert (2 Oberkategorien)?",
+                    "a": "Zufallsauswahl und keine Zufallsauswahl"
+                },
+                "63": {
+                    "q": "Wie werden Verfahren der Zufallsauswahl klassifiziert?",
+                    "a": "einfache Zufallsauswahl und komplexe Zufallsauswahl"
+                },
+                "64": {
+                    "q": "Was sind keine Zufallsauswahlverfahren?",
+                    "a": "willkürliche Auswahl und bewuste Auswahl"
+                },
+                "65": {
+                    "q": "Was sind Verfahren der bewussten Auswahl?",
+                    "a": "Konzentrationsprinzip & Quotenauswahl"
+                },
+                "66": {
+                    "q": "Was sind Verfahren der komplexen Zufallsauswahl?",
+                    "a": "Schichtenauswahl; mehrstufige Auswahl; Klumpenauswahl"
+                },
+                "67": {
+                    "q": "Beschreiben Sie die einfache Zufallsauswahl!",
+                    "a": "Gleiche Chance für jeden Merkmalsträger der Grundgesamtheit des Einbeziehens in die Stichprobe entsprechend dem Urnenmodell"
+                },
+                "68": {
+                    "q": "Beschreiben Sie die Schichtenauswahl (Stichprobenverfahren)!",
+                    "a": "1.) Zerlegung der Grundgesamtheit in in sich möglichst homogene und untereinander heterogene Schichten 2.) Ziehen einer Zufallsstichprobe aus jeder Stichprobe 3.) Zusammensetzen der Ergebnisse"
+                },
+                "69": {
+                    "q": "Beschreiben Sie die mehrstufige Auswahl (Stichprobenverfahren)!",
+                    "a": "1.) Zerlegung der Grundgesamtheit in einzelne in sich heterogene Klumpen (verkleinertes Abbild der Grundgesamtheit) 2.) Bestimmung eines oder mehrerer Klumpen mittels Zufallsauswahl 3.) Durchführung Zufallswauswahl innerhalb des Klumpens"
+                },
+                "70": {
+                    "q": "Beschreiben Sie die Klumpenauswahl (Stichprobenverfahren)!",
+                    "a": "Verlaufen dieses Verfahrens zunächst äquivalent zur mehrstufigen Auswahl, jedoch Befragung/ Untersuchung aller Objekte innerhalb eines Klumpens"
+                },
+                "71": {
+                    "q": "Woran scheitern Verfahren der Zufallsauswahl häufig?",
+                    "a": "kein Vorliegen vollständiger Listen aller Objekte"
+                },
+                "72": {
+                    "q": "Beschreiben Sie die Auswahl nach dem Konzentrationsprinzip (Abschneideverfahren)!",
+                    "a": "Beschränkung der Stichprobe auf besonders ins Gewicht fallende Fälle"
+                },
+                "73": {
+                    "q": "Beschreiben Sie die Quotenauswahl!",
+                    "a": "Festlegung bestimmter Auflagen/ Quoten bei der Befragung hinsichtlich der zu Befragendenden in einem Quotenplan für möglichst hohe Repräsentativität; Auswahl der Erhebungseinheiten durch den Interviewer selbst"
+                },
+                "74": {
+                    "q": "Was ist ein Vorteil der bewussten Auswahl im Vergleich zu Verfahren der Zufallsauswahl?",
+                    "a": "einfachere Anwendung"
+                },
+                "75": {
+                    "q": "Warum ist die willkürliche Auswahl völlig ungeeignet?",
+                    "a": "Befragung irgendwelcher, meist einfach zu erreichender Personen ohne jede Vorüberlegungen"
+                },
+                "76": {
+                    "q": "Was ist ein Nachteil der bewussten Auswahl im Vergleich zur Zufallsauswahl?",
+                    "a": "strenggenommen kein Erlauben des Einsatzes des wahrscheinlichkeitstheoretischen Instrumentariums der Statistik, jedoch unter bestimmten Anwendungsvoraussetzungen trotzdem gute Ergebnisse"
+                },
+                "77": {
+                    "q": "Welche Möglichkeiten bestehen für die Datengewinnung?",
+                    "a": "Beobachtungen; Experimente; automatische Erfassung (Internet & Scannerkassen); Befragung (große Bedeutung)"
+                },
+                "78": {
+                    "q": "Welche Befragungsformen werden je nach Thematik eingesetzt?",
+                    "a": "mündliche Befragung; telefonische Befragung (Spezialform der mündlichen Befragung); schriftliche Befragung; Befragung über das Internet (E-Mail/ Fragebögen) als Spezialform der schriftlichen Befragung"
+                },
+                "79": {
+                    "q": "Was ist das Nichtbeantwortungsproblem?",
+                    "a": "Verweigern der Antwort i.d.R. durch einen beachtlichen Teil der Befragten"
+                },
+                "80": {
+                    "q": "Wann ist das Nichtbeantwortungsproblem problematisch?",
+                    "a": "bei bestehendem Zusammenhang zwischen der Fragestellung und denjenigen, die die Antwort verweigern -> fehlende Repräsentativität"
+                },
+                "81": {
+                    "q": "Was sind Gegenmaßnahmen bzgl. des Nichtbeantwortungsproblems?",
+                    "a": "Pilotstudien; Umformulieren/ Weglassen bestimmter Fragen; WEchseln der Befragungstechnik; Erhöhung des Stichprobenumfangs; Befragung von Ersatzpersonen (bei Quotenauswahl)"
+                },
+                "82": {
+                    "q": "Wovon hängt die Größe des Stichprobenumfangs ab?",
+                    "a": "gewünschte Genauigkeit; Streuung des gesuchten Merkmals in der Grundgesamtheit; und Größe der Grundgesamtheit"
+                },
+                "83": {
+                    "q": "Welche Regel gilt für den Stichprobenumfang?",
+                    "a": "Je genauer das Ergebnis sein soll, je mehr das Merkmal streut und je größer die Grundgesamtheit ist, desto größer muss der Stichprobenumfang sein."
+                },
+                "84": {
+                    "q": "Wie kann der Stichprobenumfang berechnet werden?",
+                    "a": "Über wahrscheinlichkeitstheoretische Berechnungen für die Verfahren der Zufallsauswahl; bei der bewussten Auswahl nicht möglich"
+                },
+                "85": {
+                    "q": "Wodurch wird der Stichprobenumfang in der Praxis bestimmt?",
+                    "a": "Durch Zeit und Kosten"
+                },
+                "86": {
+                    "q": "Was ist eine Faustregel für den Stichprobenumfang?",
+                    "a": "auf keinen Fall unter 30; bei seriösen Analysen und großen Grundgesamtheiten zumindest im hohen dreistelligen Bereich"
+                },
+                "87": {
+                    "q": "Welche Fragetypen enthält ein Fragebogen i.d.R.?",
+                    "a": "Identifikationsfragen (z.B. Geschlecht, Alter); Informationsfragen (Gegenstand der Erhebung), Kontrollfragen (Überprüfung Konsistenz der Antworten)"
+                },
+                "88": {
+                    "q": "Was sind Überlegungen bei der Fragebogenerstellung?",
+                    "a": "Länge des Fragebogens (Zusammenhang Nichtbeantwortungsproblem); optische Aufmachung des Fragebogens (übersichtlich und seriös); Reihenfolge der Fragen (systematisch und möglichst zunächst einfache Fragen); Formulierung der Fragen (kurz und gut verständlich); Neutralität der Fragen und Antwortmöglichkeiten; offene, geschlossene oder als Kompromiss halboffene Fragen; Pilotstudie mit Testpersonen; Hinweise auf Anonymität/ rechtliche Grundlagen/ Untersuchungsziel im Begleitschreiben"
+                },
+                "89": {
+                    "q": "Was ist die Vorgehensweise bei der Datenaufbereitung?",
+                    "a": "1.) Erstellung Standarddatenformat 2.) Datensichtung 3.) Behandlung fehlender Merkmalswerte 4.) Behandlung falscher Merkmalswerte 5.) Datentransformation"
+                },
+                "90": {
+                    "q": "Beschreiben Sie die Erstellung des Standarddatenformats im Zuge der Datenaufbereitung!",
+                    "a": "Erstellung von Datentabellen für Querschnittsanalysen oder Längsschnittanalysen"
+                },
+                "91": {
+                    "q": "Was ist der Unterschied zwischen Querschnittanalysen und Längsschnittanalysen?",
+                    "a": "Querschnittsanalysen -> verschiedene Merkmalsträger zu einem Zeitpunkt; Längsschnittanalysen -> ein Merkmalsträger zu unterschiedlichen Zeitpunkten"
+                },
+                "92": {
+                    "q": "Beschreiben Sie den Prozess der Datensichtung im Zuge der Datenaufbereitung!",
+                    "a": "Datenanreicherung oder Datenreduktion notwendig?; deskriptive Analysen (Häufigkeitstabellen, Lageparameter, einfache Grafiken) zur Beurteilung der Datenqualität"
+                },
+                "93": {
+                    "q": "Wie werden fehlende Merkmalswerte im Zuge der Datenaufbereitung behandelt?",
+                    "a": "Weglassen (Datensätze oder Merkmale?) oder Auffüllen (durch Nacherhebung oder Schätzung) oder Codierung als unbekannt"
+                },
+                "94": {
+                    "q": "Wie werden falsche Merkmalswerte im Zuge der Datenaufbereitung behandelt?",
+                    "a": "Welche Werte sind tatsächlich falsch und welche Werte sind Ausreißer?; Orientierung an Wertebereichen, Plausibilitätsüberlegungen und Standardabweichungen; Korrigieren oder Ausschließen?"
+                },
+                "95": {
+                    "q": "Was sind Varianten der Datentransformationen im Zuge der Datenaufbereitung?",
+                    "a": "Umskalierung; Klassenbildung; Normierung und Standardisierung (z.B. z-Transformation)"
+                },
+                "96": {
+                    "q": "Was ist der Sinn der Umskalierung im Zuge der Datenaufbereitung?",
+                    "a": "Durchführung bestimmter statistischer Verfahren"
+                },
+                "97": {
+                    "q": "Was ist der Sinn der Klassenbildung im Zuge der Datenaufbereitung?",
+                    "a": "Verhindern unzureichender Besetzung einzelner Werte und Erhalten aussagekräftigerer Werte"
+                },
+                "98": {
+                    "q": "Was ist der Sinn der Normierung und Standardisierung im Zuge der Datenaufbereitung?",
+                    "a": "Herstellen der Vergleichbarkeit unterschiedlicher Merkmale"
+                },
+                "99": {
+                    "q": "Was ist der Unterschied zwischen der einfachen und der multiplen Regressionsanalyse?",
+                    "a": "einfache Regressionsanalyse -> nur eine erklärende (= unabhängige Variable); multiple Regressionsanalyse -> mehrere erklärende Variablen"
+                },
+                "100": {
+                    "q": "Was ist der Unterschied zwischen der Korrelationsanalyse und der Regressionsanalyse?",
+                    "a": "Korrelationsanalyse -> Überprüfung Stärke des Zusammenhangs zwischen unterschiedlichen Merkmalen; Regressionsanalyse -> Berücksichtigung zusätzlich Art der funktionalen Abhängigkeit und bei nicht eindeutigen Abhängigkeiten lag-Strukturen"
+                },
+                "101": {
+                    "q": "Welches Skalenniveau ist bei der Regressionsanalyse erforderlich?",
+                    "a": "metrisches Skalenniveau für die abhängigen und unabhängigen Variablen"
+                },
+                "102": {
+                    "q": "Von welchen Abhängigkeiten wird in den meisten Fällen ausgegangen?",
+                    "a": "lineare Abhängigkeiten"
+                },
+                "103": {
+                    "q": "Wie erfolgt die Schätzung der Regressionsfunktion?",
+                    "a": "meist mit der Methode der kleinsten Quadrate (KQ-Methode)"
+                },
+                "104": {
+                    "q": "Was ist das Ziel bei der Schätzung der Regressionsfunktion?",
+                    "a": "Minimierung der quadrierten Abstände bzw. Restgrößen (=Residuen) zwischen den realisierten Werten und den geschätzten Werten -> Je kleiner die Abweichungen, desto besser die Regressionsgerade"
+                },
+                "105": {
+                    "q": "Was sind die wichtigsten Ursachen für große Residuen?",
+                    "a": "Fehlende Berücksichtigung wichtiger Einflussgrößen; Existenz nicht-linearer Zusammenhänge; Mess- und Auswertfehler (fehlende Repräsentativität der Daten)"
+                },
+                "106": {
+                    "q": "Wie sieht eine Regressionsgerade aus?",
+                    "a": "Abhängige Variable = ß0 + ß1 * unabhängige Variable 1 + ß2 * unabhängige Variable 2..."
+                },
+                "107": {
+                    "q": "Was ist die Vorgehensweise bei einer Regressionsfunktion?",
+                    "a": "1.) Modellformulierung 2.) Schätzung der Regressionsfunktion 3.) Prüfung der Regressionsfunktion 4.) Prüfung der Regressionskoeffizienten 5.) Prüfung der Modellprämissen"
+                },
+                "108": {
+                    "q": "Was ist bei der Modellformulierung einer Regressionsanalyse zu beachten?",
+                    "a": "(ökonomisch) plausibler Ursache-Wirkungs-Zusammenhang; Streudiagramme als Entscheidungshilfe; Berücksichtigung nicht zuvieler Variablen"
+                },
+                "109": {
+                    "q": "Was ist bei der Schätzung der Regressionsfunktion zu beachten??",
+                    "a": "KQ-Methode; mehrere Schätzdurchgänge mit Berücksichtigung verschiedener Variablenkombinationen; plausible Koeffizienten (Vorzeichen, absolute Größe)"
+                },
+                "110": {
+                    "q": "Welche Kenngrößen sind bei der Prüfung der Regressionsfunktion zu berücksichtigen?",
+                    "a": "Determinationskoeffizient bzw. Bestimmtheitsmaß (R-Quadrat); F-Statistik; Standardfehler der Schätzung"
+                },
+                "111": {
+                    "q": "Was ist die Aussagekraft des Bestimmtheitsmaß?",
+                    "a": "Maßzahl für die Qualität einer Regression, bei der zwischen erklärten und nicht-erklärten Abweichungen getrennt wird; Wertebereich zw. 0 und 1; bei 1 perfekte Erklärung; bei multipler Regression zum Vergleich korrigiertes R-Quadrat"
+                },
+                "112": {
+                    "q": "Was ist die Aussagekraft der F-Statistik?",
+                    "a": "Aussage, ob das geschätzte Modell allg. auf die Grundgesamtheit übertraggbar, d.h. signifikant ist durch Test der Nullhypothese: ß1 = ß2 = ...ßi = 0 (keinerlei Zusammenhang bzw. alle Variablen haben keinen Einfluss); Ausweis eines Signifikanzniveaus"
+                },
+                "113": {
+                    "q": "Wann ist bei der F-Statistik das geschätzte Modell signifikant?",
+                    "a": "Bei Ablehnung der Nullhypothese, d.h. von SPSS berechnetes Signifikanzniveau (z.B. 0,02 bzw. 2%) < vom Nutzer festgelegtes Signifikanzniveau (z.B. 0,05 bzw. 5%)"
+                },
+                "114": {
+                    "q": "Wie ist ein R-Quadrat von 0,96 zu interpretieren?",
+                    "a": "96% der Streuung der y-Variable werden durch die Regressionsgerade erklärt"
+                },
+                "115": {
+                    "q": "Was ist die Aussagekraft des Standardfehlers der Schätzung?",
+                    "a": "Messung des mittleren Fehlers der berechneten Regressionsfunktion; Entsprechung der Stndardabweichung der Residuen (Differenz aus Beobachtungswerten zu Prognosewerten); im Optimalfall deutlich unter 20% der zu schätzenden y-Werte"
+                },
+                "116": {
+                    "q": "Welche statistischen Größen sind bei der Prüfung der Regressionskoeffizienten zu berücksichtigen?",
+                    "a": "t-Test; Konfidenzintervall für die Regressionskoeffizienten; standardisierte Regressionskoeffizienten"
+                },
+                "117": {
+                    "q": "Was ist die Aussagekraft des t-Test?",
+                    "a": "ähnlich F-Test, aber Prüfung der einzelnen Koeffizienten; Nullhypothese ßj = 0 (kein Zusammenhang zwischen der getesteten unabhängigen Größe und der abhängigen Größe); Ausweis eines Signifikanzniveaus"
+                },
+                "118": {
+                    "q": "Was ist die Aussagekraft des Konfidenzintervalls für die Regressionskoeffizienten?",
+                    "a": "Mit einer Wahrscheinlichkeit von x % liegt der entsprechende Regressionskoeffizient für die Grundgesamtheit in einem bestimmten Intervall?"
+                },
+                "119": {
+                    "q": "Was ist bzgl. des Konfidenzintervalls für die Regressionskoeffizienten besonders problematisch?",
+                    "a": "Überdecken des Werts 0 durch das Intervall -> keine eindeutige Richtung des Einflusses, d.h. x-Variable kann positiven, negativen oder gar keinen Einfluss auf y-Variable haben"
+                },
+                "120": {
+                    "q": "Was gilt in Bezug auf das Konfidenzintervalls für die Regressionskoeffizienten?",
+                    "a": "Je enger das Intervall, desto besser, weil genauere Prognose, welchen Einfluss x-Variable auf y-Variable hat"
+                },
+                "121": {
+                    "q": "Was ist die Aussagekraft der standardisierten Regressionskoeffizienten?",
+                    "a": "Die Variable mit dem größten absoluten Wert hat den stärksten Einfluss auf die zu erklärende Größe."
+                },
+                "122": {
+                    "q": "Unter welcher Voraussetzung liefert die KQ-Methode gute Schätzergebnisse?",
+                    "a": "Nur bei Erfüllung der Modellprämissen des linearen Regressionsmodells"
+                },
+                "123": {
+                    "q": "Nennen Sie die zu erfüllenden Modellprämissen des linearen Regressionsmodells!",
+                    "a": "keine Multikollinearität; keine Autokorrelation"
+                },
+                "124": {
+                    "q": "Was bedeutet keine Multikollinearität?",
+                    "a": "keine bestehenden linearen Abhängigkeiten zwischen den erklärenden Variablen"
+                },
+                "125": {
+                    "q": "Was ist die Folge von Multikollinearität?",
+                    "a": "unplausible Schätzwerte"
+                },
+                "126": {
+                    "q": "Wie wird die Multikollinearität gemessen und was ist die Faustregel?",
+                    "a": "Über den Varianzinflationsfaktor (VIF) << 10 (in allen Fällen)"
+                },
+                "127": {
+                    "q": "Wie wird das Multikollinearitätsproblem gelöst?",
+                    "a": "Entfernen von Variablen aus dem Modell"
+                },
+                "128": {
+                    "q": "Was bedeutet keine Autokorrelation?",
+                    "a": "keine Korrelation der Residuen miteinander (v.a. bei Zeitreihendaten relevant; bei Querschnittsdaten Notwendigkeit einer systematischen Ordnung für Überprüfung)"
+                },
+                "129": {
+                    "q": "Was ist die Folge von Autokorrelation?",
+                    "a": "Tests und Konfidenzintervalle nicht mehr vernünftig interpretierbar"
+                },
+                "130": {
+                    "q": "Wie wird Autokorrelation gemessen?",
+                    "a": "Über den Durbin-Watson-Test (Wertebereich 0 bis 4)"
+                },
+                "131": {
+                    "q": "Was ist die Faustregel bzgl. des Durbin-Watson-Tests?",
+                    "a": "zw. 1,5 und 2,5 in Ordnung (<< 1,5: positive Autokorrelation; >>2,5: negative Autokorrelation)"
+                },
+                "132": {
+                    "q": "Wie wird das Autokorrelationsproblem gelöst?",
+                    "a": "Berüksichtigung zusätzlicher Variablen oder andere funktionale Form der Regressionsgleichung"
+                },
+                "133": {
+                    "q": "Was ist eine Dummy-Variable?",
+                    "a": "binäre Variable, die nur die Werte 0 und 1 annimmt"
+                },
+                "134": {
+                    "q": "Was sind Anwendungsgebiete für Dummy-Variablen?",
+                    "a": "Aufnahme nominal skalierter Merkmale als erklärende Größen in die Regressionsanalyse & Modellierung von Niveau- und Steigungsänderungen , da viele Probleme bei den Modellannahmen durch Strukturbrüche bedingt sind"
+                },
+                "135": {
+                    "q": "Was ist das Problem bei Strukturbrüchen?",
+                    "a": "lineare Regressionsgerade -> unbefriedigende Ergebnisse"
+                },
+                "136": {
+                    "q": "Wieviele Dummy-Variablen müssen bei Aufnahme nominal skalierter Merkmale als erklärende Größen verwendet werden?",
+                    "a": "m-1 Dummy-Variablen bei einer nominal skalierten Variable mit m unterschiedlichen Ausprägungen"
+                },
+                "137": {
+                    "q": "Was ist unter der Diskriminanzanalyse zu verstehen?",
+                    "a": "multivariates Verfahren zur Analyse von Gruppenunterschieden (z.B. bei Kreditwürdigkeitsprüfungen)"
+                },
+                "138": {
+                    "q": "Was ist die Ausgangssituation bei der Diskriminanzanalyse?",
+                    "a": "gegeben: zumindest 2 Gruppen (z.B. diejenigen, die Kredit zurückgezahlt und Kredit nicht zurückgezahlt haben)"
+                },
+                "139": {
+                    "q": "Was ist das Ziel bei der Diskriminanzanalyse?",
+                    "a": "Anhand historischer Datenbestände wissen, ob sich diese Gruppen signifikant voneinander unterscheiden und welche Variablen zur Unterscheidung zwischen den Gruppen am besten geeignet sind"
+                },
+                "140": {
+                    "q": "Was ist in Folge einer gelungenen klaren Unterscheidung der Gruppen bei der Diskriminanzanalyse möglich?",
+                    "a": "Zuordnen neuer Elemente (hier: Kreditnehmer) zu den Gruppen"
+                },
+                "141": {
+                    "q": "Was sind die Skalenniveaus bei der Diskriminanzanalyse?",
+                    "a": "Gruppen -> nominale Skalierung; Merkmalsvariablen -> metrische Skalierung"
+                },
+                "142": {
+                    "q": "Inwiefern unterscheidet sich die Diskriminanazanalyse bzgl. der Skalierung von der Regressions- und Varianzanalyse?",
+                    "a": "Betrachtung der Abhängigkeit einer nominal skalierten Variablen (= Gruppen) von metrisch skalierten Variablen"
+                },
+                "143": {
+                    "q": "Was ist der Unterschied der Diskriminanzanalyse zur Clusteranalyse?",
+                    "a": "vorgegebene Gruppen (aus dem Sachzusammenhang oder einer vorgeschalteten Clusteranalyse)"
+                },
+                "144": {
+                    "q": "Welche Anforderungen sollten bei der Durchführung einer Diskriminanzanalyse berücksichtigt werden?",
+                    "a": "Zahl der Objekte/ Fälle >> (Soll) Zahl der Variablen > (Soll) Zahl der Gruppen > (Muss) Zahl der Diskriminanzfunktionen"
+                },
+                "145": {
+                    "q": "Was ist die Vorgehensweise bei einer Diskriminanzanalyse?",
+                    "a": "1.) Definition der Gruppen 2.) Formulierung der Diskriminanzfunktion(en) 3.) Schätzung der Diskriminanzfunktion(en) 4.) Prüfung der Diskriminanzfunktion(en) 5.) Prüfung der Merkmalsvariablen 6.) Klassifikation neuer Elemente"
+                },
+                "146": {
+                    "q": "Was ist bei der Formulierung der Diskriminanzfunktion(en) zu beachten?",
+                    "a": "Auswahl geeigneter metrisch skalierter Variablen nach (ökonomischen) Plausibilitätsüberlegungen"
+                },
+                "147": {
+                    "q": "Wie findet die Prüfung der Diskriminanzfunktion(en) statt?",
+                    "a": "Mittels Klassifikationsmatrix (Trefferquote muss besser sein als bei zufälliger Zuordnung) sowie mittels Kennzahlen wie Eigenwert oder Wilks Lambda"
+                },
+                "148": {
+                    "q": "Was ist bei der Prüfung der Merkmalsvariablen im Kontext der Diskriminanzanalyse zu beachten?",
+                    "a": "Welche Variablen sind besonders wichtig für die Gruppen?"
+                },
+                "149": {
+                    "q": "Wann ist die Klassifikation neuer Elemente im Kontext der Diskriminanzanalyse sinnvoll?",
+                    "a": "nur sinnvoll, wenn Diskriminanzfunktion(en) ausreichend Erklärungswert haben"
+                },
+                "150": {
+                    "q": "Was ist die Faktorenanalyse?",
+                    "a": "Reihe von Verfahren zur Datenreduktion (z.B. Hauptkomponentenanalyse, Hauptachsenanalyse) -> Verdichtung vieler einzelner (i.d.R. metrisch skalierter) Beobachtungswerte zu einer kleinen Zahl hypothetischer Variablen"
+                },
+                "151": {
+                    "q": "Worum geht es de-facto bei der Faktorenanalyse?",
+                    "a": "Erzeugung aus sehr vielen Variablen Xi einiger weniger fiktiver Variablen Zi mittels Linearkombination zum Erklären einer Variable Y"
+                },
+                "152": {
+                    "q": "Was ist der Grund für die Datenreduktion bei der Faktorenanalyse?",
+                    "a": "übersichtlichere Darstellung der Zusammenhänge, da zuviele Xi zu unübersichtlich für weitere Analysen"
+                },
+                "153": {
+                    "q": "Was ist die konkrete Vorgehensweise bei der Faktorenanalyse?",
+                    "a": "Herleiten jeweils einer gemeinsamen Hintergrundsvariable Z (= Faktor) für stark korrelierte X-Variablen, die die verschiedenen X-Variablen repräsentiert"
+                },
+                "154": {
+                    "q": "Was ist die mathematische Darstellung der Datenreduktion bei der Faktorenanalyse?",
+                    "a": "Z1 = a1 * X1 + a2 * X2 + a3 * X3; Z2 = a4 * X4 + a5 * X5 + a6 * X6 "
+                },
+                "155": {
+                    "q": "Was sind Probleme bei der Faktorenanalyse?",
+                    "a": "Informationsverlust durch das Konstruieren einer fiktiven Variable aus mehreren Variablen; Interpretation der fiktiven Faktoren teilweise problematisch; sehr unterschiedliche Methoden der Faktorenanalyse -> d.h. nur für sehr erfahrene Anwender geeignet"
+                },
+                "156": {
+                    "q": "Was sind Beispiele der Faktorenanalyse?",
+                    "a": "Intelligenzmessung & Länderanalyse/ Regionalanalyse/ Städteanalyse (z.B. für Förderprogramme oder Standortentscheidungen)"
+                },
+                "157": {
+                    "q": "Erklären Sie das Beispiel der Intelligenzmessung im Kontext der Faktorenanalyse konkreter!",
+                    "a": "Bewertung Personen anhand vieler Tests zu unterschiedlichen Fragestellungen (z.B. Gruppierung von Symbolen, Erkennung von Ähnlichkeiten, Wortschatz,Satzbau, mathematisches Grundverständnis etc.) -> Reduzieren dieser Vielzahl von Variablen auf 3 fiktive Variablen bidliche, mathematische und verbale Fähigkeiten -> Erklärung des IQ durch diese drei fiktiven Variablen"
+                },
+                "158": {
+                    "q": "Erklären Sie das Beispiel der Länderanalyse/ Regionalanalyse/ Städteanalyse im Kontext der Faktorenanalyse konkreter!",
+                    "a": "Erhebung zahlreicher Daten (z.B. BIP/Kopf, Einkommen/Kopf, Steuereinnahmen, Zahl der Arbeitsplätze, Arbeitslosenquote, Ausbildungsquote, Alphabetisierung, Internetdichte, Kinderbetreuungsmöglichkeiten, Säuglingssterblichkeit) -> Reduzieren dieser Variablen auf wenige fiktive Variablen wie wirtschaftliche Leistungsfähigkeit, soziales Umfeld etc. "
+                },
+                "159": {
+                    "q": "Was ist eine Conjoint-Analyse?",
+                    "a": "verschiedene Verfahren, die v.a. im Marketing bei der Produktgestaltung, der Planung neuer Produkte sowie der Preisgestaltung eingesetzt werden -> Bestimmung des Einflusses einzelner Merkmale auf den Gesamtnutzen"
+                },
+                "160": {
+                    "q": "Nennen Sie Beispiele einer Conjoint-Analyse!",
+                    "a": "Neues PKW-Modell (Farbe, Sitzheizung, Airbag, Schiebedach, Bezug Sitze); Neuer Laptop (Leistungsfähigkeit, Ausstattung mit Laufwerken, Anschlüssen, Garantieleistungen)"
+                },
+                "161": {
+                    "q": "Was ist die Vorgehensweise bei der Conjoint-Analyse?",
+                    "a": "1.) Auswahl der relevanten Eigenschaften 2.) Festlegung eines Erhebungsdesigns 3.) Bewertung der Stimuli 4.) Ermittlung der Teilnutzenwerte 5.) Aggregation der Nutzenwerte"
+                },
+                "162": {
+                    "q": "Was ist bei der Auswahl der relevanten Eigenschaftenim Kontext der Conjoint-Analyse zu beachten?",
+                    "a": "Müssen realisierbar und keine KO-Kriterien sein"
+                },
+                "163": {
+                    "q": "Was ist bei der Festlegung eines Erhebungsdesigns im Kontext der Conjoint-Analyse zu beachten?",
+                    "a": "Definieren von Stimuli (Kombination verschiedener Eigenschaftsausprägungen) -> möglichst realistische Kombinationen und Begrenzung auf max. 20 (reduziertes Design)"
+                },
+                "164": {
+                    "q": "Wie erfolgt die Bewertung der Stimuli im Kontext der Conjoint-Analyse?",
+                    "a": "Bringen der Stimuli von Testpersonen/ potenziellen Kunden in eine Reihenfolge/ ordinale Reihung"
+                },
+                "165": {
+                    "q": "Wie erfolgt die Ermittlung der Teilnutzenwerte im Kontext der Conjoint-Analyse?",
+                    "a": "Ermittlung der kardinalen Teilnutzenwerte für die verschiedenen Eigenschaftsausprägungen aus den ordinalen Reihung -> Ermittlung Gesamtnutzenwerte für alle Stimuli"
+                },
+                "166": {
+                    "q": "Wie erfolgt die Aggregation der Nutzenwerte im Kontext der Conjoint-Analyse?",
+                    "a": "Zusammenfassung der Bewertung aller Befragungsteilnehmer"
+                },
+                "167": {
+                    "q": "Was sind Probleme bei der Conjoint-Analyse?",
+                    "a": "Notwendigkeit des Arbeitens mit einem reduzierten Design in Folge der problematischen Beurteilung durch die Befragungs-TN bei sehr vielen Merkmalskombinationen; Umrechnung ordinaler Reihenfolgen in kardinale Teilnutzenwerte unter mathematisch-statistischen Gesichtspunkte problematisch -> verbotene Umskalierung von unten nach oben nur bei gleichen Abständen bei der Reihenfolge zulässig"
+                },
+                "168": {
+                    "q": "Was versteht man unter einer Zeitreihenanalyse?",
+                    "a": "Vielzahl von Verfahren zur Analyse der historischen Entwicklung von Variablen im Zeitablauf und ihrer Prognose"
+                },
+                "169": {
+                    "q": "Was sind Beispiele für eine Zeitreihenanalyse?",
+                    "a": "Wetter- bzw. Temperaturentwicklung in den letzten 100 Jahren; Herzschlagentwicklung eines Komapatienten über 24h; Entwicklung des Umsatzes/ Gewinns/ eines Unternehmens oder Verkaufszahlen eines Produkts über 40 Quartale; Entwicklung von Aktienkursen, Aktienindizes oder Wechselkursen über 52 Wochen (-> Charttechnik)"
+                },
+                "170": {
+                    "q": "Was sind Komponenten von ökonomischen Zeitreihen?",
+                    "a": "Trendkomponenten (sehr langfristig); Konjunkturkomponente (mehrjährig); Saisonkomponente (unterjährig); Zufallskomponente (singuläre Einflüsse)"
+                },
+                "171": {
+                    "q": "Wie wird das Erkennen der relevanten Komponenten und das Auswählen des richtigen Zeitreihenmodells (z.B. linear oder exponentiell) vereinfacht?",
+                    "a": "zunächst grafische Darstellung der Zeitreihe"
+                },
+                "172": {
+                    "q": "Nennen Sie ausgewählte Verfahren der reinen Zeitreihenanalyse!",
+                    "a": "Regressionsanalyse mit Zeit als erklärende Variable; Methode der gleitenden Durchschnitte; Exponentielles Glätten; Box-Jenkins-Modelle (ARIMA-Modelle)"
+                },
+                "173": {
+                    "q": "Beschreiben Sie die Regresionsanalyse mit Zeit als erklärende Variable als Verfahren der reinen Zeitreihenanalyse näher!",
+                    "a": "Yt = ß0 + ß1 * t; Erweiterung des Regressionsmodells um weitere Variablen möglich; Prognose = möglich"
+                },
+                "174": {
+                    "q": "Beschreiben Sie die Methode der gleitenden Durchschnitte als Verfahren der reinen Zeitreihenanalyse näher!",
+                    "a": "rein vergangenheitsbezogene Durchschnittsbildung, d.h. Glättung über mehrere Perioden"
+                },
+                "175": {
+                    "q": "Beschreiben Sie das Exponentielle Glätten als Verfahren der reinen Zeitreihenanalyse näher!",
+                    "a": "Erhalten der Vergangenheitsdaten eines höheren Gewichts mit zunehmender Aktualität; Prognose = möglich"
+                },
+                "176": {
+                    "q": "Beschreiben Sie die Box-Jenkins-Modelle als Verfahren der reinen Zeitreihenanalyse näher!",
+                    "a": "Erklärung der Zeitreihe aus sich selbst; Prognose = möglich"
+                },
+                "177": {
+                    "q": "Was ist bei der reinen Zeitreihenanalyse problematisch?",
+                    "a": "Erklärung der Entwicklung der Zeitreihe nur aus ihrer historischen Entwicklung, aber Nicht-Berücksichtigung anderer Einflussfaktoren -> aus ökonomischer Sicht oft unbefriedigend, da keine Ableitung von Hanldungsempfehlungen möglich"
+                },
+                "178": {
+                    "q": "Was untersucht die Varianzanalyse?",
+                    "a": "Einfluss von unabhängigen Variablen auf abhängige Variablen äquivalent zur Regressionsanalyse"
+                },
+                "179": {
+                    "q": "Welches Skalenniveau besitzen die Variablen bei der Varianzanalyse?",
+                    "a": "Unabhängige Variablen (Faktoren) -> nominales Skalenniveau; abhängige Variablen -> metrisches Skalenniveau"
+                },
+                "180": {
+                    "q": "Was ist der Unterschied zwischen einer einfaktoriellen und mehrfaktoriellen Varianzanalyse?",
+                    "a": "Einfaktorielle Varianzanalyse: Untersuchung des Einflusses eines Faktors (z.B. Geschlecht) auf die Lebenserwartung; Mehrfaktorielle Varianzanalyse -> mehrere Faktoren (z.B. Geschlecht, Raucher, Vegetarier)"
+                },
+                "181": {
+                    "q": "Was ist der Grundgedanke einer Varianzanalyse?",
+                    "a": "Zerlegung der Gesamtstreuung in eine Streuung innerhalb der Gruppen und in eine Streuung zwischen den Gruppen (= Faktorkombinationen); Zerlegung der Streuung zwischen den Gruppen in Streuung durch Faktor A, Streuung durch Faktor B, Streuung durch Wechselwirkungen"
+                },
+                "182": {
+                    "q": "Wie werden die Streuungen gemessen?",
+                    "a": "Über Varianzen"
+                },
+                "183": {
+                    "q": "Bei welcher Varianzanalyse können zusätzlich noch Wechselwirkungen zwischen den erklärenden Größen auftreten?",
+                    "a": "Bei der mehrfaktoriellen Varianzanalyse"
+                },
+                "184": {
+                    "q": "Was sind die Modellannahmen bei der Varianzanalyse?",
+                    "a": "Normalverteilung der Ausgangswerte & Varianzhomogenität in den verschiedenen Gruppen"
+                },
+                "185": {
+                    "q": "Unter welcher Voraussetzung müssen die Modellprämissen der Varianzanalyse überprüft werden?",
+                    "a": "Nur bei unterschiedlicher Besetzung der Faktorkombinationen <-> bei gleich häufiger Besetzung der unterschiedlichen Faktorkombinationen Anwendbarkeit auch bei Verletzung der Modellannahmen"
+                },
+                "186": {
+                    "q": "Wie wird die Modellprämisse Normalverteilung bei der Varianzanalyse überprüft?",
+                    "a": "Histogramm mit Normalverteilungskurve; Kolmogorov-Smirnov-Test (Nullhypothese: Normalverteilung)"
+                },
+                "187": {
+                    "q": "Wie wird die Modellprämisse Varianzhomogenität bei der Varianzanalyse überprüft?",
+                    "a": "Levene-Test (Nullhypothese: Gleichheit der Fehlervarianzen der abhängigen Variable über alle Gruppen = Homogenität)"
+                },
+                "188": {
+                    "q": "Was ist die Vorgehensweise bei der Varianzanalyse?",
+                    "a": "1.) Problemfomulierung 2.) Analyse der Abweichungsquadrate 3.) Prüfung der statistischen Unabhängigkeit"
+                },
+                "189": {
+                    "q": "Was ist bei der Problemformulierung im Kontext der Varianzanalyse zu beachten?",
+                    "a": "sinnvoller ökonomischer Zusammenhang unter Berücksichtigung des Skalenniveaus und der Modellannahmen; Nur Haupteffekte oder auch Wechselwirkungen zwischen den erklärenden Größen?"
+                },
+                "190": {
+                    "q": "Was ist bei der Analyse der Abweichungsquadrate im Kontext der Abweichungsquadrate zu beachten?",
+                    "a": "Streuungszerlegung -> Welcher Anteil der Gesamtstreuung wird durch die einzelnen Faktoren bzw. durch ihre Wechselwirkung erklärt?; Bestimmtheitsmaß/ Determinationskoeffizient/ R-Quadrat"
+                },
+                "191": {
+                    "q": "Was ist die Aussagekraft des Bestimmtheitsmaß im Kontext der Varianzanalyse?",
+                    "a": "Maßzahl für die Qualität der Varianzanalyse, bei der zwischen erklärten und nicht-erklärten Abweichungen getrennt wird; Wertebereich zw. 0 und 1; -> bei 1 perfekte Erklärung"
+                },
+                "192": {
+                    "q": "Welche statistischen Werte werden für die Prüfung der statistischen Unabhängigkeit im Kontext der Varianzanalyse berücksichtigt?",
+                    "a": "F-Tests & Scheffe-Test"
+                },
+                "193": {
+                    "q": "Was sagen die F-Tests im Kontext der Varianzanalyse aus?",
+                    "a": "Test, der Nullhypothese, dass der untersuchte Faktor keinen Einfluss auf die abhängige Variable hat; Ausweis eines Signifikanzniveaus"
+                },
+                "194": {
+                    "q": "Was sagt der Scheffe-Test im Kontext der Varianzanalyse aus?",
+                    "a": "paarweiser Mittelwertvergleich zur Feststellung, welche Faktorkategorien tatsächlich signifikant unterschiedliche Ergebnisse für das Untersuchungsmerkmal liefern: Nullhypothese jeweils: keine Unterschiede; Ausweis von Signifikanzniveau und Konfidenzintervall"
+                },
+                "195": {
+                    "q": "Was ermöglicht eine Kovarianzanalyse im Vergleich zur Varianzanalyse?",
+                    "a": "Berücksichtigung zu den nominal skalierten Faktoren von metrisch skalierten unabhängigen Variablen (= Kovariaten)"
+                },
+                "196": {
+                    "q": "Was ist unter einer Clusteranalyse zu verstehen?",
+                    "a": "verschiedene Verfahren zur Gruppenbildung"
+                },
+                "197": {
+                    "q": "Was ist das Ziel einer Clusteranalyse?",
+                    "a": "Bilden homogener Teilmengen aus einer heterogenen Gesamtheit von Objekten oder Personen, d.h. möglichst ähnliche Mitglieder einer Gruppe, aber deutliche Unterschiede zwischen den Gruppen"
+                },
+                "198": {
+                    "q": "Zwischen welchen Verfahren der Clusteranalyse wird differenziert?",
+                    "a": "Partitionierende Clusterverfahren; Hierarchisch-Divisive Clusterverfahren; Hierarchisch-Agglomerative Clusterverfahren"
+                },
+                "199": {
+                    "q": "Beschreiben Sie die partitionierenden Clusterverfahren näher!",
+                    "a": "Vorgabe bestimmter Clusterzahl und Gruppierung und dann Umgruppierung"
+                },
+                "200": {
+                    "q": "Beschreiben Sie die hierarchisch-divisiven Clusterverfahren näher!!",
+                    "a": "beim Start des Verfahrens: alle Objekte = in einem Cluster -> dann: Zerlegung"
+                },
+                "201": {
+                    "q": "Beschreiben Sie die hierarchisch-agglomerativen Clusterverfahren näher!",
+                    "a": "beim Start des Verfahrens: Bildung eines eigenen Clusters durch jedes Objekt -> dann: Zusammenfassen"
+                },
+                "202": {
+                    "q": "Was ist der Unterschied der Clusteranalyse zur Diskriminanzanalyse?",
+                    "a": "Bildung der Gruppen erst im Laufe des Verfahrens aus den Merkmalsausprägungen der betrachteten Variablen"
+                },
+                "203": {
+                    "q": "Welches Skalenniveau ist für die Durchführung einer Clusteranalyse erforderlich?",
+                    "a": "Durchführbarkeit bei unterschiedlichen Skalenniveaus, jedoch Unterscheidung der Vorgehensweise je nach Skalenniveau"
+                },
+                "204": {
+                    "q": "Was ist die Vorgehensweise bei der Clusteranalyse?",
+                    "a": "1.) Variablenauswahl 2.) Bestimmung der Ähnlichkeiten bzw. Unterschiede 3.) Auswahl des Fusionierungsalgorithmus 4.) Bestimmung der Clusterzahl 5.) Interpretation der Cluster"
+                },
+                "205": {
+                    "q": "Wie erfolgt die Variablenauswahl bei der Clusteranalyse?",
+                    "a": "hohe Relevanz für die Fragestellung; Korrelationskoeffizient <= 0,9, andernfalls Ausschließen der Variablen aus dem Modell"
+                },
+                "206": {
+                    "q": "Wie erfolgt die Bestimmung der Ähnlichkeiten bzw. Unterschiede bei der Clusteranalyse?",
+                    "a": "Quantifizierung der Ähnlichkeit (Ähnlichkeitsmaß) bzw. der Distanz (Distanzmaß) zwischen den Objekten bzgl. der ausgewählten Variablen -> unterschiedliche Maße je nach Skalenniveau"
+                },
+                "207": {
+                    "q": "Was ist bei gemischter Skalierung bei der Clusteranalyse maßgeblich?",
+                    "a": "Niedrigstes Skalenniveau, d.h. Abstufung der höher skalierten Variablen => Informationsverlust"
+                },
+                "208": {
+                    "q": "Was ist ein Ähnlichkeitsmaß für binäre/ nominal skalierte Merkmale im Kontext der Clusteranalyse?",
+                    "a": "M-Koeffizient (= Simple Matching Koeffizient)"
+                },
+                "209": {
+                    "q": "Was ist die Aussagekraft des M-Koeffizienten im Kontext der Clusteranalyse?",
+                    "a": "Vergleich binärer Variablen und ihrer Ausprägungen für die einzelnen Objekte -> Setzen der Zahl der Übereinstimmungen in Relation zu allen betrachteten Variablen"
+                },
+                "210": {
+                    "q": "Was ist ein wichtiges Distanzmaß für metrisch skalierte Variablen im Kontext der Clusteranalyse?",
+                    "a": "Quadrierte Eukludische Distanz"
+                },
+                "211": {
+                    "q": "Was gewichtet die quadrierte Euklidische Distanz im Unterschied zu vielen anderen Distanzmaßen besonders stark?",
+                    "a": "Große Unterschiede zwischen den Objekten bei einzelnen Variablen"
+                },
+                "212": {
+                    "q": "Worauf ist bei Bestimmung der Proximitätsmaße im Kontext der Clusteranalyse zu achten?",
+                    "a": "Vorliegen der Daten in vergleichbaren Maßeinheiten (evtl. Notwendigkeit der Standardisierung in z-Werte)"
+                },
+                "213": {
+                    "q": "Was ist die Fragestellung bei der Auswahl des Fusionierungsalgorithmus im Kontext der Clusteranalyse?",
+                    "a": "Nach welcher Methode sollen die verschiedenen Objekte zu Gruppen zusammengefasst werden?"
+                },
+                "214": {
+                    "q": "Welche Fusionierungsalgorithmen im Bereich der hierarchisch-agglomerativen Verfahren gibt es im Kontext der Clusteranalyse?",
+                    "a": "Single-Linkage-Verfahren; Complete-Linkage-Verfahren; Average-Linkage-Verfahren; Ward-Verfahren"
+                },
+                "215": {
+                    "q": "Was sind Merkmale von Single-Linkage-Verfahren im Kontext der Clusteranalyse?",
+                    "a": "Kleinste Distanz bei Gruppenbildung relevant, d.h. Nearest-Neighbour-Verfahren; sehr gutes Entdecken von Ausreißern"
+                },
+                "216": {
+                    "q": "Was sind Merkmale von Complete-Linkage-Verfahren im Kontext der Clusteranalyse?",
+                    "a": "Größte Distanz bei Gruppenbildung relevant, d.h. Furthest-Neighbour-Verfahren"
+                },
+                "217": {
+                    "q": "Was sind Merkmale von Average-Linkage-Verfahren im Kontext der Clusteranalyse?",
+                    "a": "Durchschnittliche Entfernung aller möglichen Fallpaare aus 2 Clustern für Gruppenbildung relevant"
+                },
+                "218": {
+                    "q": "Was sind Merkmale des Ward-Verfahrens im Kontext der Clusteranalyse?",
+                    "a": "Vereinigung der Objekte so zu Gruppen, dass sich die Varianzen innerhalb der Gruppen möglichst wenig erhöhen; nur bei Distanzmaßen verwendbar; problematisch bei Ausreißern"
+                },
+                "219": {
+                    "q": "Was ist in Bezug auf die Auswahl des Fusionierungsalgorithmus im Kontext der Clusteranalyse zu beachten?",
+                    "a": "Entstehung unterschiedlicher Gruppen je nach Fusionierungsalgorithmus beim Ablauf des Clusterverfahrens"
+                },
+                "220": {
+                    "q": "Wie wird die Clusterzahl bei hierarchisch-agglomerativen Verfahren im Kontext der Clusteranalyse?",
+                    "a": "Anfangs n Objekte = n Cluster -> Reduzierung der Clusterzahl nach n-1 Schritten bis hin zu einem Cluster"
+                },
+                "221": {
+                    "q": "Wovon ist die Bestimmung der optimalen Clusterzahl im Kontext der Clusteranalyse abhängig?",
+                    "a": "mathematisch-statistische Kriterien & konkrete ökonomische Fragestellung (z.B. bei Marketingaktivitäten)"
+                },
+                "222": {
+                    "q": "Was ist bei der Bildung von sehr wenigen Clustern im Kontext der Clusteranalyse zu beachten?",
+                    "a": "Zwar überschaubare Gruppenzahl, aber Gruppen in sich sehr heterogen"
+                },
+                "223": {
+                    "q": "Was ist bei der Bildung von sehr vielen Clustern im Kontext der Clusteranalyse zu beachten?",
+                    "a": "Gruppen in sich sehr homogen, aber Gruppenanzahl zu unüberschaubar"
+                },
+                "224": {
+                    "q": "Was ist unter statistischen Gesichtspunkten bei der Frage der Clusterzahl im Kontext der Clusteranalyse zu berücksichtigen?",
+                    "a": "Entwicklung der Heterogenitätsmaße beim Fortschreiten des Fusionierungsalgorithmus -> Hinweis großer Sprünge auf starke Zunahme der Heterogenität mit weiterer Fusionierung (= abnehmender Clusterzahl)"
+                },
+                "225": {
+                    "q": "Was bietet SPSS als Hilfestellung für die Bestimmung der optimalen Clusterzahl im Kontext der Clusteranalyse an?",
+                    "a": "Dendrogramm (grafische Lösung) mit normiertem Heterogenitätsmaß"
+                },
+                "226": {
+                    "q": "Wie erfolgt die Interpretation der Cluster im Kontext der Clusteranalyse?",
+                    "a": "Mittels deskriptiver Statistiken zur Auswahl geeigneter Maßnahmen für die jeweilige Fragestellung"
+                }
+            }
+        }
+    }
+}
