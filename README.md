@@ -2,8 +2,10 @@
 
 ## Projekte
 Flexrent: siehe Issue for Feedback  
+
 Find your Buddy: siehe Issue for Feedback -> mindestens eine 1,1 für Tobias Jansen, Calogero Meli (Code + Technologieentscheidungen dokumentieren für die 1,0)  
-Smart Supervisor Zwischenfeedback vom 12.03.2021: Aktuell wäre es mindestens eine 1,5 - Super Onboarding, Super Backup Lösung, Rechtschreibfehler korrigieren - Frage: Wann deployed ihr das wo?
+
+Smart Supervisor Zwischenfeedback vom 12.03.2021: 1,0  - Super Onboarding, Super Backup Lösung, Rechtschreibfehler korrigieren - Frage: Wann deployed ihr das wo?
 
 Zum Ende des Studiums ist es für Studierende oft wertvoll die gelernten Inhalte häufig revue passieren zu lassen und sich dadurch auch auf die Abschlussprüfung (z.B. Bachelorprüfung) vorzubereiten. 
 
