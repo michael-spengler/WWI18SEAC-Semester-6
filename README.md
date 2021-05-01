@@ -1,5 +1,49 @@
 # WWI18SEAC-Semester-6
 
+## Ergebnisse & Benotung 
+
+| Teilnehmer | Entwickelte Web App | Note |
+|----------------------|----------|----------|
+| Kevin Krempels | Klopapier.Exchange  | 1,6  | 
+| Rouven Krinke | Klopapier.Exchange | 1,8  | 
+| Nicolas Fürhaupter | [FitnessHub](https://fitnesshub.app/) [Video](https://www.youtube.com/watch?v=5BLDFXKyVsQ)  | 1,0  | 
+| Jeannine Bertrand | [FitnessHub](https://fitnesshub.app/) [Video](https://www.youtube.com/watch?v=5BLDFXKyVsQ) | 1,0  | 
+| Velichka Popp | [FitnessHub](https://fitnesshub.app/) [Video](https://www.youtube.com/watch?v=5BLDFXKyVsQ) |  1,0 | 
+| Jan Eger | [FitnessHub](https://fitnesshub.app/) [Video](https://www.youtube.com/watch?v=5BLDFXKyVsQ) | 1,0  | 
+| Timo Scheuermann | [FitnessHub](https://fitnesshub.app/) [Video](https://www.youtube.com/watch?v=5BLDFXKyVsQ) | 1,0  | 
+| Tobias Jansen | Find your Buddy | 1,0 | 
+| Calogero Meli | Find your Buddy | 1,0  | 
+| Marleen Benner | [Flexrent (Multiflex)](https://github.com/Multiflexxx/FlexRent) | 1,0  | 
+| Tristan Emig | [Flexrent (Multiflex)](https://github.com/Multiflexxx/FlexRent)  | 1,0  | 
+| Benno Grimm | [Flexrent (Multiflex)](https://github.com/Multiflexxx/FlexRent) | 1,0  | 
+| Tizian Groß | [Flexrent (Multiflex)](https://github.com/Multiflexxx/FlexRent)  |  1,0 | 
+| Marcel Mertens | [Flexrent (Multiflex)](https://github.com/Multiflexxx/FlexRent) | 1,0  | 
+| Anton Ochel | [Flexrent (Multiflex)](https://github.com/Multiflexxx/FlexRent) | 1,0  | 
+| Anna-Lena Richert | [Flexrent (Multiflex)](https://github.com/Multiflexxx/FlexRent) |  1,0 | 
+| Jan Zecevic | SmartSupervisor [Repo](https://git.tjbn.de/schuelerverwaltung) | ?  | 
+| Mohammad Ali Alnaser | SmartSupervisor [Repo](https://git.tjbn.de/schuelerverwaltung) | ?  | 
+| Mahmoud Almahdi | SmartSupervisor [Repo](https://git.tjbn.de/schuelerverwaltung) | ?  | 
+| Aaron Schweig | [Trading Bot](https://github.com/michael-spengler/ml-server) | ? | 
+| Troy Kessler | [Trading Bot](https://github.com/michael-spengler/ml-server) | ?  | 
+| Jan Grübener | [Trading Bot](https://github.com/michael-spengler/ml-server) | ?  | 
+| Matthias Vonend | [Trading Bot](https://github.com/michael-spengler/ml-server) | ?  | 
+| Michael Angermeier | [Trading Bot](https://github.com/michael-spengler/ml-server) | ?  | 
+| Patrick Mischka | [Trading Bot](https://github.com/michael-spengler/ml-server) | ?  |
+| Arthur Siebert | FFC Content + Pump Exploit | 1,0 | 
+| Lilli Michaelis | EasyInsta & Easy-Universum | ? | 
+| Lukas Ganß | EasyInsta & Easy-Universum | ?  | 
+| Timon Pitz | EasyInsta & Easy-Universum | ?  | 
+| Gian-Luca Beck | EasyInsta & Easy-Universum | ?  | 
+| Andrei Berbescu |  |   | 
+| Florian Klinke |  |   | 
+| Nina Meffert |  |   | 
+| Daniel Kossack |  |   | 
+| Lukas Blank |  |  | 
+| Dennis Neumann |  |  | 
+| Julie Pines |  |  | 
+| Tobias Lorenz |  |  |
+| Moritz Jürgens |  |   | 
+
 ## Projekte
 Flexrent: siehe Issue for Feedback  
 
