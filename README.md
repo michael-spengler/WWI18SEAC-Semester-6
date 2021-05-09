@@ -20,9 +20,9 @@
 | Marcel Mertens | [Flexrent (Multiflex)](https://github.com/Multiflexxx/FlexRent) | 1,0  | 
 | Anton Ochel | [Flexrent (Multiflex)](https://github.com/Multiflexxx/FlexRent) | 1,0  | 
 | Anna-Lena Richert | [Flexrent (Multiflex)](https://github.com/Multiflexxx/FlexRent) |  1,0 | 
-| Jan Zecevic | SmartSupervisor [Repo](https://git.tjbn.de/schuelerverwaltung) | ?  | 
-| Mohammad Ali Alnaser | SmartSupervisor [Repo](https://git.tjbn.de/schuelerverwaltung) | ?  | 
-| Mahmoud Almahdi | SmartSupervisor [Repo](https://git.tjbn.de/schuelerverwaltung) | ?  | 
+| Jan Zecevic | [SmartSupervisor](https://git.tjbn.de/schuelerverwaltung) [Download Apk](https://sap-my.sharepoint.com/:u:/p/mohammad_ali_alnaser/ESg9QJBfWvNNjB497qP1aTABCnDcT4f0MFRHPpnZHm9xxA?e=FctOA7)| 1,0  | 
+| Mohammad Ali Alnaser | [SmartSupervisor](https://git.tjbn.de/schuelerverwaltung) [Download Apk](https://sap-my.sharepoint.com/:u:/p/mohammad_ali_alnaser/ESg9QJBfWvNNjB497qP1aTABCnDcT4f0MFRHPpnZHm9xxA?e=FctOA7)| 1,0  | 
+| Mahmoud Almahdi |  [SmartSupervisor](https://git.tjbn.de/schuelerverwaltung) [Download Apk](https://sap-my.sharepoint.com/:u:/p/mohammad_ali_alnaser/ESg9QJBfWvNNjB497qP1aTABCnDcT4f0MFRHPpnZHm9xxA?e=FctOA7)  | 1,0  | 
 | Aaron Schweig | [Trading Bot](https://github.com/michael-spengler/ml-server) | ? | 
 | Troy Kessler | [Trading Bot](https://github.com/michael-spengler/ml-server) | ?  | 
 | Jan Grübener | [Trading Bot](https://github.com/michael-spengler/ml-server) | ?  | 
