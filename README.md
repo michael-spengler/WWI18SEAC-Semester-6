@@ -11,8 +11,8 @@
 | Velichka Popp | [FitnessHub](https://fitnesshub.app/) [Video](https://www.youtube.com/watch?v=5BLDFXKyVsQ) |  1,0 | 
 | Jan Eger | [FitnessHub](https://fitnesshub.app/) [Video](https://www.youtube.com/watch?v=5BLDFXKyVsQ) | 1,0  | 
 | Timo Scheuermann | [FitnessHub](https://fitnesshub.app/) [Video](https://www.youtube.com/watch?v=5BLDFXKyVsQ) | 1,0  | 
-| Tobias Jansen | Find your Buddy | 1,0 | 
-| Calogero Meli | Find your Buddy | 1,0  | 
+| Tobias Jansen | [Find your Buddy](https://findyourbuddy.tjbn.de/) | 1,0 | 
+| Calogero Meli | [Find your Buddy](https://findyourbuddy.tjbn.de/) | 1,0  | 
 | Marleen Benner | [Flexrent (Multiflex)](https://github.com/Multiflexxx/FlexRent) | 1,0  | 
 | Tristan Emig | [Flexrent (Multiflex)](https://github.com/Multiflexxx/FlexRent)  | 1,0  | 
 | Benno Grimm | [Flexrent (Multiflex)](https://github.com/Multiflexxx/FlexRent) | 1,0  | 
