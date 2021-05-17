@@ -23,12 +23,12 @@
 | Jan Zecevic | [SmartSupervisor](https://git.tjbn.de/schuelerverwaltung) [Download Apk](https://sap-my.sharepoint.com/:u:/p/mohammad_ali_alnaser/ESg9QJBfWvNNjB497qP1aTABCnDcT4f0MFRHPpnZHm9xxA?e=FctOA7)| 1,0  | 
 | Mohammad Ali Alnaser | [SmartSupervisor](https://git.tjbn.de/schuelerverwaltung) [Download Apk](https://sap-my.sharepoint.com/:u:/p/mohammad_ali_alnaser/ESg9QJBfWvNNjB497qP1aTABCnDcT4f0MFRHPpnZHm9xxA?e=FctOA7)| 1,0  | 
 | Mahmoud Almahdi |  [SmartSupervisor](https://git.tjbn.de/schuelerverwaltung) [Download Apk](https://sap-my.sharepoint.com/:u:/p/mohammad_ali_alnaser/ESg9QJBfWvNNjB497qP1aTABCnDcT4f0MFRHPpnZHm9xxA?e=FctOA7)  | 1,0  | 
-| Aaron Schweig | [Trading Bot](https://github.com/michael-spengler/ml-server) | ? | 
-| Troy Kessler | [Trading Bot](https://github.com/michael-spengler/ml-server) | ?  | 
-| Jan Grübener | [Trading Bot](https://github.com/michael-spengler/ml-server) | ?  | 
-| Matthias Vonend | [Trading Bot](https://github.com/michael-spengler/ml-server) | ?  | 
-| Michael Angermeier | [Trading Bot](https://github.com/michael-spengler/ml-server) | ?  | 
-| Patrick Mischka | [Trading Bot](https://github.com/michael-spengler/ml-server) | ?  |
+| Aaron Schweig | [Trading Bot](https://github.com/michael-spengler/ml-server) | 1,0 | 
+| Troy Kessler | [Trading Bot](https://github.com/michael-spengler/ml-server) | 1,0  | 
+| Jan Grübener | [Trading Bot](https://github.com/michael-spengler/ml-server) | 1,0  | 
+| Matthias Vonend | [Trading Bot](https://github.com/michael-spengler/ml-server) | 1,0  | 
+| Michael Angermeier | [Trading Bot](https://github.com/michael-spengler/ml-server) | 1,0  | 
+| Patrick Mischka | [Trading Bot](https://github.com/michael-spengler/ml-server) | 1,0  |
 | Arthur Siebert | FFC Content + Pump Exploit | 1,0 | 
 | Lilli Michaelis | EasyInsta & Easy-Universum | ? | 
 | Lukas Ganß | EasyInsta & Easy-Universum | ?  | 
