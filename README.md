@@ -29,7 +29,6 @@
 | Matthias Vonend | [Trading Bot](https://github.com/michael-spengler/ml-server) | 1,0  | 
 | Michael Angermeier | [Trading Bot](https://github.com/michael-spengler/ml-server) | 1,0  | 
 | Patrick Mischka | [Trading Bot](https://github.com/michael-spengler/ml-server) | 1,0  |
-| Arthur Siebert | FFC Content + Pump Exploit | 1,0 | 
 | Lilli Michaelis | EasyInsta & Easy-Universum | ? | 
 | Lukas Ganß | EasyInsta & Easy-Universum | ?  | 
 | Timon Pitz | EasyInsta & Easy-Universum | ?  | 
@@ -38,10 +37,11 @@
 | Florian Klinke |  |   | 
 | Nina Meffert |  |   | 
 | Daniel Kossack |  |   | 
-| Lukas Blank |  |  | 
-| Dennis Neumann |  |  | 
-| Julie Pines |  |  | 
-| Tobias Lorenz |  |  |
+| Lukas Blank | Fancy FlashCard Improvements | ? | 
+| Dennis Neumann | Fancy FlashCard Improvements | 1,0  | 
+| Julie Pines | Fancy FlashCard Improvements | 1,0 | 
+| Tobias Lorenz | Fancy FlashCard Improvements | 1,0 |
+| Arthur Siebert | FFC + FFC Content + Pump Exploit | 1,0 | 
 | Moritz Jürgens |  |   | 
 
 ## Projekte
