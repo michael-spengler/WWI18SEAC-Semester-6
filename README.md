@@ -29,10 +29,10 @@
 | Matthias Vonend | [Trading Bot](https://github.com/michael-spengler/ml-server) | 1,0  | 
 | Michael Angermeier | [Trading Bot](https://github.com/michael-spengler/ml-server) | 1,0  | 
 | Patrick Mischka | [Trading Bot](https://github.com/michael-spengler/ml-server) | 1,0  |
-| Lilli Michaelis | EasyInsta & Easy-Universum | ? | 
-| Lukas Ganß | EasyInsta & Easy-Universum | ?  | 
-| Timon Pitz | EasyInsta & Easy-Universum | ?  | 
-| Gian-Luca Beck | EasyInsta & Easy-Universum | ?  | 
+| Lilli Michaelis | EasyInsta & [Easy-Universum](https://github.com/timonpitz/EasyInsta) | 1,0 | 
+| Lukas Ganß | EasyInsta & [Easy-Universum](https://github.com/timonpitz/EasyInsta) | 1,0  | 
+| Timon Pitz | EasyInsta & [Easy-Universum](https://github.com/timonpitz/EasyInsta) | 1,0  | 
+| Gian-Luca Beck | EasyInsta & [Easy-Universum](https://github.com/timonpitz/EasyInsta) | 1,0  | 
 | Andrei Berbescu |  |   | 
 | Florian Klinke |  |   | 
 | Nina Meffert |  |   | 
