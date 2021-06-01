@@ -35,7 +35,7 @@
 | Gian-Luca Beck | [EasyInsta](https://youtu.be/joys6F5tcio) & [Easy-Universum](https://github.com/timonpitz/EasyInsta) | 1,0  | 
 | Andrei Berbescu |  |   | 
 | Florian Klinke |  |   | 
-| Nina Meffert |  |   | 
+| Nina Meffert | FFC Content | 1,7  | 
 | Daniel Kossack |  |   | 
 | Lukas Blank | Fancy FlashCard Improvements | ? | 
 | Dennis Neumann | Fancy FlashCard Improvements | 1,0  | 
