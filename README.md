@@ -42,7 +42,6 @@
 | Julie Pines | Fancy FlashCard Improvements | 1,0 | 
 | Tobias Lorenz | Fancy FlashCard Improvements | 1,0 |
 | Arthur Siebert | FFC + FFC Content + Pump Exploit | 1,0 | 
-| Moritz Jürgens |  |   | 
 
 ## Projekte
 Flexrent: siehe Issue for Feedback  
