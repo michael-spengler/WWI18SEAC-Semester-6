@@ -6,6 +6,10 @@
 |----------------------|----------|----------|
 | Kevin Krempels | Klopapier.Exchange  | 1,6  | 
 | Rouven Krinke | Klopapier.Exchange | 1,8  | 
+| Andrei Berbescu | FFC Content | 1,6  | 
+| Florian Klinke | FFC Content | 1,5  | 
+| Nina Meffert | FFC Content | 1,3  | 
+| Daniel Kossack | FFC Content | 1,4  | 
 | Nicolas Fürhaupter | [FitnessHub](https://fitnesshub.app/) [Video](https://www.youtube.com/watch?v=5BLDFXKyVsQ)  | 1,0  | 
 | Jeannine Bertrand | [FitnessHub](https://fitnesshub.app/) [Video](https://www.youtube.com/watch?v=5BLDFXKyVsQ) | 1,0  | 
 | Velichka Popp | [FitnessHub](https://fitnesshub.app/) [Video](https://www.youtube.com/watch?v=5BLDFXKyVsQ) |  1,0 | 
@@ -33,10 +37,6 @@
 | Lukas Ganß | [EasyInsta](https://youtu.be/joys6F5tcio) & [Easy-Universum](https://github.com/timonpitz/EasyInsta) | 1,0  | 
 | Timon Pitz | [EasyInsta](https://youtu.be/joys6F5tcio) & [Easy-Universum](https://github.com/timonpitz/EasyInsta) | 1,0  | 
 | Gian-Luca Beck | [EasyInsta](https://youtu.be/joys6F5tcio) & [Easy-Universum](https://github.com/timonpitz/EasyInsta) | 1,0  | 
-| Andrei Berbescu | FFC Content | 1,6  | 
-| Florian Klinke | FFC Content | 1,5  | 
-| Nina Meffert | FFC Content | 1,3  | 
-| Daniel Kossack | FFC Content | 1,4  | 
 | Lukas Blank | Fancy FlashCard Improvements | ? | 
 | Dennis Neumann | Fancy FlashCard Improvements | 1,0  | 
 | Julie Pines | Fancy FlashCard Improvements | 1,0 | 
