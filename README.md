@@ -36,7 +36,7 @@
 | Andrei Berbescu | FFC Content | 1,6  | 
 | Florian Klinke | FFC Content | 1,5  | 
 | Nina Meffert | FFC Content | 1,7  | 
-| Daniel Kossack |  |   | 
+| Daniel Kossack | FFC Content | 1,4  | 
 | Lukas Blank | Fancy FlashCard Improvements | ? | 
 | Dennis Neumann | Fancy FlashCard Improvements | 1,0  | 
 | Julie Pines | Fancy FlashCard Improvements | 1,0 | 
