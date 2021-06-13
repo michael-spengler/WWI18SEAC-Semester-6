@@ -49,7 +49,7 @@ Welche Beiträge hat jeder einzelne von Euch erbracht? Welchen Content (welche K
 | Lukas Ganß | [EasyInsta](https://youtu.be/joys6F5tcio) & [Easy-Universum](https://github.com/timonpitz/EasyInsta) | 1,0  | 
 | Timon Pitz | [EasyInsta](https://youtu.be/joys6F5tcio) & [Easy-Universum](https://github.com/timonpitz/EasyInsta) | 1,0  | 
 | Gian-Luca Beck | [EasyInsta](https://youtu.be/joys6F5tcio) & [Easy-Universum](https://github.com/timonpitz/EasyInsta) | 1,0  | 
-| Lukas Blank | Fancy FlashCard Improvements | ? | 
+| Lukas Blank | Fancy FlashCard Improvements | 1,0 | 
 | Dennis Neumann | Fancy FlashCard Improvements | 1,0  | 
 | Julie Pines | Fancy FlashCard Improvements | 1,0 | 
 | Tobias Lorenz | Fancy FlashCard Improvements | 1,0 |
